@@ -10,3 +10,4 @@ Sprawozdanie z ćwiczenia laboratoryjnego nr 1
  oraz plik, w którym miało pojawić się sprawozdanie.
 5. Wykonałem commita i push brancha na remote'a.
 6. Dodałem zrzuty ekranu o odpowiednich nazwach oraz zrobiłem commita i pusha.
+7. Wykonałem merge.
