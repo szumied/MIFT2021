@@ -1,0 +1,5 @@
+instalacja gita - sudo apt-get install git
+klonowanie repozytorium - git clone [linkDoGithuba]
+tworzenie brancha - git branch [nazwaBrancha]
+"chodzenie" po branchach - git checkout [nazwaBrancha]
+tworzenie pliku - touch sprawozdanie.txt
