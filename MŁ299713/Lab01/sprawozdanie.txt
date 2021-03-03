@@ -7,3 +7,4 @@
 	c) utworzyłem nowy folder 'mkdir Lab01'
 	d) w nowym folderze 'touch sprawozdanie.txt'
 	e) dodałem do brancha folder 'git add Lab01'
+5. merge
