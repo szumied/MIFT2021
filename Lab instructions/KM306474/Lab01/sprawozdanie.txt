@@ -1,0 +1,11 @@
+git checkout -b KM306474 - utworzenie nowego brancha 'KM306474' i zmiana na niego
+
+git add . - dodanie aktualnego folderu do gita
+
+git commit - zapisuje zmiany w repozytorium
+
+
+git config --global user.email krzysztofmarcinek98@gmail.com
+git config --global user.nam "Krzysztof"     - ustawienie potrzebnych parametrów w git
+
+git add sprawozdanie.txt  - dodaje podany plik do repozytorium
