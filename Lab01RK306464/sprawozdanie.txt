@@ -1,5 +1,0 @@
-Sklonowałem repozytorium poleceniem git clone https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021.git
-Następnie stworzyłem nową gałąź poleceniem branch git branch RK306464, a następnie przełącznie się na niego poleceniem git checkout RK306464,
-można to było również zrobić jednym poleceniem git checkout -b RK306464.
-Utworzyłem plik sprawozdanie.txt poleceniem touch sprawozdanie.txt we wcześniej utworzonym folderze Lab01.
-Zrobilem scrreny poszczególnych podpunktów, a następnie dodałem wszystkei untracked files do stage poleceniem git add -A zrobiłem commit poleceniem git commit -am "message"
