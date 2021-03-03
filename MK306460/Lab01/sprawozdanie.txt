@@ -9,7 +9,29 @@
 	mkdir Lab01
 	touch sprawozdanie.txt
 	
-5.git push origin MK306460
+5.
+git add sprawozdanie.txt
+git config --global user.email "mkocurek7@ubuntu.com"
+git config --global user.name "mkocurek7"
+git commmit -m "probny commit zad4 lab1"
+git status
+git push
+
+
 wpisanie nazwy uzytkownika oraz hasla do swojego githuba
+
+6.
+git add grafy.png
+ git add grafy_lab1.odg
+ git add zadanie01.png
+ git add zadanie02.png
+ git add zadanie03.png
+ git add zadanie04.png
+ git add zadanie04_2.png
+ git add zadanie05.png
+ git add zadanie05_2.png
+ git commit -m "dodanie zrzutow ekranu"
+git push
+
 
 	
