@@ -1,0 +1,6 @@
+sudo apt-get install git  <- instalowanie git'a
+git clone https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021 <- klonowanie repozytorium
+git branch AL306471 <- utworzenbie nowego branch'a
+git checkout AL306471 <- przełącznie się na branch o podanej nazwie
+git add Lab01/sprawozdanie.txt <- dodanie pliku do śledzenia przez git'a
+git commit <- dodajemy do repozytorium
