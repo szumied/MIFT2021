@@ -10,4 +10,4 @@
 
 6.Wykonałem commit'a przy użyciu polecenia "git commit". Zapisało to dokonane zmiany w lokalnym repozytorium. Zapisałem zmiany w repozytorium internetowym przy użyciu "git push".
 
-7.
+7.Zmieniłem branch'a na master'a przy użyciu "git checkout master". Następnie wykorzystałem komende "git merge BK300113" do połączenia branch'y.
