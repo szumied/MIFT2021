@@ -17,5 +17,5 @@ Zmiana nazw na #A i #B- to do
 7. Marge wykonano za pomocą kolejnych poleceń:
     - "git checkout master" (przełączenie się na mastera)
     - "git merge AK306463"
-    - "git pull" (update repo lokalnego)
+    - "git pull"
     - "git push" 
