@@ -8,4 +8,6 @@
 
 5.Napisałem sprawozdanie ,które Pan teraz czyta.
 
-6.
+6.Wykonałem commit'a przy użyciu polecenia "git commit". Zapisało to dokonane zmiany w lokalnym repozytorium. Zapisałem zmiany w repozytorium internetowym przy użyciu "git push".
+
+7.
