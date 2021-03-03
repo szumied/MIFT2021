@@ -1,0 +1,9 @@
+1. Zainstalowałem gita komenda 'apt install git'
+2. 'git clone https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021.git #B'
+3. 'nano Lab 01 - Git.txt'
+4.Utworzenie brancha  
+	a) utworzyłem brancha 'git branch MŁ297713'
+	b) przełączyłem się na brancha 'git checkout MŁ299713'
+	c) utworzyłem nowy folder 'mkdir Lab01'
+	d) w nowym folderze 'touch sprawozdanie.txt'
+	e) dodałem do brancha folder 'git add Lab01'
