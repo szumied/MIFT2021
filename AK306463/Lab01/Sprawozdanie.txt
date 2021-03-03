@@ -10,3 +10,12 @@ Zmiana nazw na #A i #B- to do
 4. Do utworzenia i przełączenia się na tego brancha użyto polecenia "git checkout -b AK306463" (zadanie4).
 
 5. Dodanie nowego folderu z plikem ze sprawozdania poleceniami "git add Lab01", "git commit" oraz "git push origin AK306463".
+    - Zmiana nazwy folderu Lab01 na AK306463 w którym stworzono folder Lab01 w którym umieszczono sprawozdanie.
+
+6. Dodane zrzuty wypchnięto na repozytorium analogicznie jak w punkcie nr 5.
+
+7. Marge wykonano za pomocą kolejnych poleceń:
+    - "git checkout master" (przełączenie się na mastera)
+    - "git merge AK306463"
+    - "git pull" (update repo lokalnego)
+    - "git push" 
