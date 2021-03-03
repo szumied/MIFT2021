@@ -1,0 +1,12 @@
+Metodyki DevOps, lab01, 03.03.2021
+
+1. Klient git już był na mojej maszynce wirtualnej.
+
+2. Sklonowanie repozytorium git za pomoca polecenia w konsoli: "git clone https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021.git"
+Zmiana nazw na #A i #B- to do
+
+3. Otwiarcie poleceń ze sklonowanego repozytorium (zadanie3).
+
+4. Do utworzenia i przełączenia się na tego brancha użyto polecenia "git checkout -b AK306463" (zadanie4).
+
+5. Dodanie nowego folderu z plikem ze sprawozdania poleceniami "git commit" oraz "git push".
