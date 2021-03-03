@@ -18,7 +18,8 @@ Narysuj graf zależności między repozytoriami #A i #B (na ten moment graf ten 
 Przełącz się na własnie stworzonego brancha.
 Na tym branchu stwórz folder "Lab01".
 W ww. folderze, stworz plik sprawozdanie.txt.
-Dodaj ten plik do repozytorium git'a.
+Dodaj ten plik do repozytorium git'a i wykonaj commita.
+Dodaj plik z grafem z pkt. 2. i wykonaj commita.
 
 5. W pliku "sprawozdanie.txt" krótko, ale dokładnie opisz jakich poleceń użyłeś do wykonania poszczególnych zadań.
 Po wykonaniu każdego nastęnego numerowanego zadania (które czytasz teraz), umieść w "sprawozdanie.txt" krótki opis. 
