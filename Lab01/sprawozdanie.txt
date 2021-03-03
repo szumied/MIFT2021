@@ -3,3 +3,4 @@
 	a) stworzenie w nowej gałęzi folderu Lab01 komendą mkdir
 	b) stworzenie pliku sprawozdanie.txt komendą touch
 	c) dodanie pliku do repozytorium komendą - git add sprawozdanie.txt
+3. Napisanie tego co jest w tym pliki i wrzucanie kolejnych commitów za pomocą poelecenia - git commit -m "WIADOMOSC"
