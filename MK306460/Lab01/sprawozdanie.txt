@@ -1,0 +1,15 @@
+1. sudo apt install git
+
+2. git clone http://github.com/InzynieriaOprogramowaniaAGH/MIFT2021.git
+
+3. cd MIFT2021
+
+4. git branch MK306460
+	git checkout MK306460
+	mkdir Lab01
+	touch sprawozdanie.txt
+	
+5.git push origin MK306460
+wpisanie nazwy uzytkownika oraz hasla do swojego githuba
+
+	
