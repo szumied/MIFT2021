@@ -9,3 +9,7 @@ git checkout az306527
 git add .
 6. utworzenie commita
 git commit -m commit1
+7. pushowanie nowego brancha z jego commitami 
+git push --set-upstream origin az306527
+8. pushowanie do brancha istniejącego w remocie
+git push
