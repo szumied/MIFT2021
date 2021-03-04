@@ -34,3 +34,7 @@ git commit -m "Added folder, file and screenshots"
 git push origin IK297101
 // pushuje commita do remote
 
+git checkout master
+git merge IK297101 
+// przechodze do branch master a potem łacze branch master oraz branch IK297101
+
