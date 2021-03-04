@@ -19,7 +19,7 @@ Przełącz się na własnie stworzonego brancha.
 Na tym branchu stwórz folder "inicjały+nr indexu" (np.: KM123456).
 W powyższym folderze stwórz folder "Lab01".
 W ww. folderze, stworz plik sprawozdanie.txt. (czyli ścieżka będzie np.: KM123456/Lab01/spawozdanie.txt).
-Dodaj ten plik do repozytorium git'a i wykonaj commita.
+Dodaj ten plik do repozytorium git'a i 	commita.
 Dodaj plik z grafem z pkt. 2. i wykonaj commita.
 
 5. W pliku "sprawozdanie.txt" krótko, ale dokładnie opisz jakich poleceń użyłeś do wykonania poszczególnych zadań.
