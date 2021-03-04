@@ -1,0 +1,6 @@
+2.Zklonowanie repo - gitclone
+3.Otwarcie dokumentu - nano/cat 'Lab 01 - Git.txt'
+4.Nowy branch - git checkout -b RW306514
+  Nowy folder - mkdir
+  Nowy plik - touch
+5.Edycja tekstu - nano/cat 'sprawozdanie.txt'
