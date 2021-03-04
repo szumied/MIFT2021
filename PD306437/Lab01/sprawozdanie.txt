@@ -8,4 +8,5 @@ mkdir PD306437 , mkdir Lab01 - utworzenie nowego folderu
 touch sprawozdanie.txt - utworzenie pliku
 git add sprawozdanie.txt - powoduje śledzenie pliku przez gita
 git commit -m "add sprawozdanie.txt" - utworzenie commitu z komentarzem
-
+5.
+git push --set-upstream origin PD306437 - push commitów na nowy zdalny branch
