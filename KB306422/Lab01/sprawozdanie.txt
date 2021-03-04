@@ -17,4 +17,10 @@ Dodanie go do repozytorium git add sprawozdanie.txt oraz wykonanie commita git c
 Dodanie grafu i ponowne wykonanie czynności jak z plikiem
 
 5)Skończono opis czynności oraz dodano pliki PNG
-wykonano git add, git commit oraz push orgin KB306422
+wykonano git add, git commit oraz push origin KB306422
+
+6)Dodano brakujące zrzuty ekranu
+
+7)wykonano merge brancha do mastera
+git checkout master
+git merge KB306422
