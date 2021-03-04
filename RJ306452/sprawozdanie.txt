@@ -1,1 +1,2 @@
 0. git był zainstalowany przed laboratorium.
+1. Sklonowanie repozytorium przy użyciu polecenia git clone <link_do_repo>
