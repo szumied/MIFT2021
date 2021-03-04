@@ -12,3 +12,7 @@ git commit
 5) uzupełnienie pliku sprawozdanie.txt
 6)dodanie screenshotów z zajęć
 7)merge brancha do mastera
+git checkout master
+git pull <link> master
+git merge FZ298973
+git push
