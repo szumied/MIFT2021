@@ -16,7 +16,7 @@
 
 9. Wyslanie plikow na GitHub za pomoca komendy: git push
 
-10. Dodanie zrzutow ekranu do repozytorium poprzez: commit oraz push
+10. Dodanie zrzutow ekranu do repozytorium poprzez: add, commit oraz push
 
 11. Przejsce na branch master poprzez: git checkout master
 
