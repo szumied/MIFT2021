@@ -1,0 +1,13 @@
+1.) Zainstalowanie klienta git:
+	sudo apt install git
+2.) Sklonowanie repo:
+	git clone <link>
+3.) Otwarcie i zapoznanie sie z dokumentem Lab01-Git
+4.) Stworzenie nowego brancha w lokalnym repo i przelaczenie na niego, nastpnie
+stworzenie struktury folderow SS306502/Lab01, utworzenie tam pliku tektstowego, dodanie go
+do repozytorium i jego commit, a na koniec to samo z plikiem graph.png:
+	git checkout -b SS306502 - do brancha
+	mkdir, touch - do folderow i pliku
+	git add - dodanie
+	git commit - zrobienie commita
+5.) Uzupenienie pliku sprawozdanie.txt oraz commit i push
