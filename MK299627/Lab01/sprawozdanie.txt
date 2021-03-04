@@ -1,0 +1,11 @@
+1. Klient git bash był już zainstalowany na moim komputerze
+
+2. Sklonowałem repozytorium git za pomocą komendy "git clone https:github.com/InzynieriaOprogramowaniaAGH/MIFT2021.git"
+
+3. Otwarłem i zapoznałem się z dokumentem opisującym wykonywane przeze mnie ćwiczenie.
+
+4. Za pomocą komendy git checkout -b MK299627 utworzyłem i przełączyłem się na nowego brancha.
+
+5. 
+
+
