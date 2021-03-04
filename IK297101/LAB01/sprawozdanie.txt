@@ -38,3 +38,10 @@ git checkout master
 git merge IK297101 
 // przechodze do branch master a potem łacze branch master oraz branch IK297101
 
+git pull
+//pobranie wszystkie zmiany
+
+git push origin master
+//zpushowanie zmian do repozytorium
+
+
