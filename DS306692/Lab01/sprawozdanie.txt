@@ -1,0 +1,19 @@
+1. Przed zajeciami uzylem komend do instalacji gita
+   sudo dnf update-y
+   sudo dnf install git -y
+2. git clone
+   utworzylem graf
+3. Zapoznalem sie z instrukcją
+4.Utworzylem nowy branch instrukcja
+   git checkout -b DS306692
+  Stworzyłem foldery
+   mkdir DS306692/Lab01
+  Stworzylem plik   
+   touch sprawozdanie.txt
+  Dodalem plik do repozytorium
+   git add sprawozdanie.txt
+   git commit -m "opis"
+Tak samo plik z grafem
+
+5.Napisalem sprawozdanie.
+
