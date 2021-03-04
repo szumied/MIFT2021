@@ -5,7 +5,7 @@
 
 3. zapoznanie się z cwiczeniem
 
-4. stworzenie nowego bancha 
+4. stworzenie nowego brancha 
    git branch GS306504
    git checkout GS306504
 
@@ -13,7 +13,9 @@
 
 5. opisano wszystko w tymzepliku
 
-6. wykonano zrzuty ekranu. 
+6. wykonano zrzuty ekranu commity i pusha na remote
+git commit -m "Dodano plik sprawozdania.txt"
+git push -u origin GS306504
 
 7. wykonano merge mojego brancha do mastera
 git checkout master
