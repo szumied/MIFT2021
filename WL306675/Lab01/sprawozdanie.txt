@@ -30,6 +30,6 @@ git checkout master
 10. merge branchy WL306675 -> master
 git merge WL306675
 
-11. update sprawozdania
+11. update
 git pull
 git push
