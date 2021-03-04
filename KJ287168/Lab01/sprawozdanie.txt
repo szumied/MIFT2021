@@ -1,1 +1,4 @@
 1. Klienta git nie instalowałem, gdyż już posiadałem oprogramowanie.
+2. Sklonowałem repozytorium z podanego adresu, przeszedłem do zawartości repo i narysowałem graf:
+git clone https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021.git
+cd MIFT2021/
