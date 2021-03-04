@@ -13,3 +13,7 @@ git commit -m commit1
 git push --set-upstream origin az306527
 8. pushowanie do brancha istniejącego w remocie
 git push
+9. zmiana brancha na master 
+git checkout master
+10. zmergowanie branchy (przeniesienie wszystkich zmian z brancha az306527 to brancha master)
+git merge az306527
