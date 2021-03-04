@@ -17,3 +17,6 @@ git push
 git checkout master
 10. zmergowanie branchy (przeniesienie wszystkich zmian z brancha az306527 to brancha master)
 git merge az306527
+11. wprowadzenie ostatnich zmian w sprawozdaniu (pobrano przy tym zmiany innych studentów)
+git pull
+git push
