@@ -10,3 +10,5 @@ git commit -m "Initial commit"
 Dodano plik z grafem i wykonano commita:
 git commit -m "add graph"
 5. Krotko opisano polecenia
+6. Zrzuty ekranu umieszczono w folderze Lab01
+Dodano je do repozytorium wykonano commita i push branch na remote
