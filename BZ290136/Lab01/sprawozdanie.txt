@@ -1,3 +1,4 @@
 1. Zainstalowano klient git.
-2. 2. Po uruchomieniu konsoli skolonowano zadane repozytorium poleceniem:
-	git clone https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021.git - sklonowanie repozytorium
+2. Po uruchomieniu konsoli skolonowano zadane repozytorium poleceniem:
+	git clone https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021.git - sklonowanie repozytorium 
+3. Zapoznano się z instrukcją do laboratorium.
