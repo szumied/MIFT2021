@@ -31,4 +31,6 @@ git add IK297101/
 git commit -m "Added folder, file and screenshots"
 // commit dodanych plików, flaga -m zapewnia że mozna nadać danemu commitowi nazwe.
 
+git push origin IK297101
+// pushuje commita do remote
 
