@@ -16,3 +16,5 @@ git status - z pomoca niego można sprawdzić gdzie znajduje się dany plik: sta
 zad2. - sklonowanie repozytorium
 
 zad3. - zapoznanie się z instrukcją
+
+zad4. - stworzenie nowego brancha, przełączenie się na niego, dodanie commitów grafu i pliku sprawozdanie.txt
