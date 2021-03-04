@@ -15,3 +15,10 @@ Aby dodać commita:
 	$ git add .
 	$ git status
 	$ git commit -m '...'
+5. Następnie przełączam się na branch master:
+	$ git checkout master
+Robie merga z moim stworzonym branchem na któreym pracowałam:
+	$ git merge AD306658
+Następnnie żeby mojej zmiany było dostępny dla innych:
+	$ git pull (bardzo istotne inaczej push nie zadziała bo inni dodają swoje zmiany)
+	$ git push 
