@@ -1,0 +1,9 @@
+Polecenia:
+
+1. gita miałem już zainstalowanego, ale użyłbym sudo apt install git
+2. git clone - kopiuje zawartość wskazanego zdalnego repozytorium na lokalną maszynę, tworzy wszystkie branche obecne w sklonowanym repozytorium, ustawia je jako śledzące swoje zdalne odpowiedniki oraz przełącza na główny branch sklonowanego repozytorium
+4. git status - wyświetla status obecnego folderu roboczego - wszystkie zmienione, utworzone lub usunięte pliki oraz zawartość staging area
+   git checkout - pozwala na przełaczanie się między branchami (i nie tylko). Użyta opcja -b powoduje, że przed przełączeniem git tworzy nowy branch o podanej nazwie
+   git add - dodaje pliki do staging area
+   git commit - tworzy nowego commita. Opcja -m pozawala na edycje wiadomości commita prosto z linii polecenia, bez otwierania edytora tekstu
+
