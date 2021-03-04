@@ -1,7 +1,12 @@
-Na początku zainstalowałam klienta git.
+a początku zainstalowałam klienta git.
 Uruchomiłam konsolę Git Bash i wpisałam polecenie git clone https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021.
-Utworzyłam brancha za pomocą polecenia git branch NŻ299653.
+Utworzyłam brancha za pomocą polecenia git branch NŻ299653 i przełączyłam się na niego za pomocą checkout. 
 
-Za pomocą mkdir: mkdir NŻ299653 i następnie przeszłam do niego za pomocą polecenia cd NŻ299653.
+Za pomocą mkdir utowrzyłam katalog: mkdir NŻ299653 i następnie przeszłam do niego za pomocą polecenia cd NŻ299653.
 Tam utworzyłam folder Lab01 za pomocą polecenia mkdir Lab01.
 Później przeszłam do tego folderu i utworzyłam plik txt za pomocą polecenia touch sprawozdanie.txt
+Dodałam plik za pomocą git add.
+Wykonałam commita.
+
+Wrzuciłam zrzuty ekranu do folderu i dodałam je do repozytorium.
+Wykonałam commita i push brancha na remot'a.
