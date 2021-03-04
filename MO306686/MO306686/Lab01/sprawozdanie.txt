@@ -47,5 +47,38 @@ git add --all
 
 git commit -m "graph added"
 
+Po uzupełnieniu sprawozdania wykonałem commita i push brancha na remote'a
+
+git add --all
+
+git commit -m "report completed"
+
+git pull
+
+git push --set-upstream origin MO306686
+
+Następnie dodałem screenshoty wykonane w trakcie zajęć, wykonałem commita i push na remote'a
+
+git add --all
+
+git commit -m "screenshots added"
+
+git pull
+ 
+git push
+
+Zmieniłem nazwy sceenshotów wykonałem commita i push na remote'a
+
+git add --all
+
+git commit -m "screenshots renamed'
+
+git pull git push
+
+Wykonałem merge i push na remote'a
+
+git merge origin/MO306686
+
+git push
 
 
