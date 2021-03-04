@@ -14,3 +14,4 @@
    git commit -m "add file sprawozdanie.txt" - wykonanie commita z zadaną wiadomością
    git add graf.png - dodanie do aktualnego brancha pliku o nazwie "graf.png"
    git commit -m "add file graf.png" - wykonanie commita z zadaną wiadomością
+5. Dodano screenshoty z wykonywania zadań, wykonano commity i pushe, zmieniono nazwy screenshotów i ponownie wykonano commity i pushe.
