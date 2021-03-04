@@ -14,3 +14,7 @@
 5. opisano wszystko w tymzepliku
 
 6. wykonano zrzuty ekranu. 
+
+7. wykonano merge mojego brancha do mastera
+git checkout master
+git merge GS306504
