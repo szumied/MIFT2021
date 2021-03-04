@@ -7,3 +7,4 @@ Dodanie wszystkiego na stage za pomocą "git add ."
 Przeniesienie ze stage do repozytorium za pomocą polecenia "git commit -m "Sprawozdanie"".
 Opcja -m pozwala na dodanie komentarza.
 Podobnie przeniesiono do stage i do repozytorium screeny i graf.
+Push brancha na remote wykonano za pomoca "git push origin KB306424".
