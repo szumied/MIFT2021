@@ -10,3 +10,5 @@ git add sprawozdanie.txt - powoduje śledzenie pliku przez gita
 git commit -m "add sprawozdanie.txt" - utworzenie commitu z komentarzem
 5.
 git push --set-upstream origin PD306437 - push commitów na nowy zdalny branch
+6.
+git rm 1.png - usunięcie z brancha pliku
