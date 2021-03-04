@@ -1,0 +1,8 @@
+git clone https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021.git
+sklonowanie repozytorium zdalnego
+git branch KK306457	- utworzenie brancha
+git checkout KK306457	- przelaczenie sie na branch KK306457
+utworzenie folderow za pomoca mkdir i pliku za pomoca touch
+git add . 	- dodanie do poczekalni pliku ze sprawozdaniem 
+git commit 	- wprowadzenie commitu 
+git status	- sprawdzenie statusu plikow
