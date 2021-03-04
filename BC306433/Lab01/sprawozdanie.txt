@@ -1,0 +1,13 @@
+Metodyki DevOps, Lab01 Bartek Ciesiński
+
+zad1. Nie musiałem instalować clienta gita, ponieważ miałem już wcześniej zainstalowane oprogramowanie.
+
+zad2. Sklonowałem repozozytorium z githuba wykorzystując polecenie:
+git clone <adres gitowego repozytorium>, następnie narysowałem prosty graf obrazujący zależności między repozytorium lokalnym a zdalnym.
+
+zad3. W Katalogu MIFT/Lab Instructions/ znajduje się plik Lab01.txt, Zktóry jest potrzebną instrukcją.
+
+zad4. Stworzyłem nowego brancha poleceniem git branch <nazwa brancha>, w moim przypadku była to nazwa BC306433
+	Dzięki samemu poleceniu git branch wyświetlana jest lista wszystkich dostępnych dla użytkownika branchy oraz aktywny branch podświetlany jest na zielono.
+	Przeszedłem, na swojego brancha poleceniem: git checkout <nazwa brancha> i stworzyłem w nim odpowiednio katalogi BC306433/Lab01 oraz w katalogu Lab01 plik sprawozdanie.txt
+	wykonałem polecenie git add sprawozdanie.txt , git add graf.png i następnie wykonałem commit poleceniem git commit - m 'message'
