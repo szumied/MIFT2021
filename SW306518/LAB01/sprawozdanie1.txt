@@ -8,3 +8,12 @@ git add -all - dodanie wszystkich plików w odpowiednim folderze, dodaje te plik
 git commit -m 'init commit' - zatwierdzenie zmian i nadanie jej nazwy 'init commit', flaga -m pozwala nadać nazwe
 Zadanie 5:
 git push origin SW306518 - wypycha zmiany na remote(origin), od tego momentu zmiany z commita są dostępne na githubie w branchy o nazwie SW306518
+Zadanie 6
+git commit -m 'initial commit'
+git push origin SW306518 
+Opis taki jak powyżej
+Zadanie 7
+git checkout master - zmienienie brancha na mastera
+git merge SW306518 - dodanie brancha SW306518 do mastera
+git pull - pobranie zmian(różnic miedzy wersja lokalna a ta na githubie)
+git push origin master - wypchanie zmergowanego mastera
