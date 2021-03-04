@@ -15,3 +15,6 @@ Utworzenie folderu mkdir nazwa oraz w nim kolejnego mkdir Lab01
 Utworzenie pliku sprawozdanie.txt (touch sprawozdanie.txt)
 Dodanie go do repozytorium git add sprawozdanie.txt oraz wykonanie commita git commit
 Dodanie grafu i ponowne wykonanie czynności jak z plikiem
+
+5)Skończono opis czynności oraz dodano pliki PNG
+wykonano git add, git commit oraz push orgin KB306422
