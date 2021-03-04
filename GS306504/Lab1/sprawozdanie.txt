@@ -1,0 +1,16 @@
+1. Miałem już zainstalowanego gita
+
+2. git clone https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021.git
+2b narysowanie grafu graf_zaleznosci.png 
+
+3. zapoznanie się z cwiczeniem
+
+4. stworzenie nowego bancha 
+   git branch GS306504
+   git checkout GS306504
+
+   //mozna git checkout -b GS306504 
+
+5. opisano wszystko w tymzepliku
+
+6. wykonano zrzuty ekranu. 
