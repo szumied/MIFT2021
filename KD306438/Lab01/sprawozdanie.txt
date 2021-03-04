@@ -2,3 +2,4 @@
 2. Otwarcie konsoli naciskając prawym przyciskiem myszy w odpowiednim folderze i wybieranie "Git Bash Here".
    Wykonanie w teerminalu polecenia: 'git clone https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021.git'
    Narysowanie w programie Word grafu zależności między repozytoriami lokalnym oraz źródłowym.
+3. Szczegołowe zaznajomienie się z instrukcją do realizowanego laboratorium.
