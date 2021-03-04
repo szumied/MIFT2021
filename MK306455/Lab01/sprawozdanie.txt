@@ -5,4 +5,5 @@ Utworzono katalog MK306455 - mkdir MK306455
 W katalogu MK306455 (przejscie - cd MK306455)  utworzono katalog Lab01 - mkdir Lab01
 W katalogu Lab01 utworzono pliksprawozdanie.txt - touch sprawozdanie.txt
 dodano plik za pomoc git add . a nastepnie wykonano commit - git commit. Poprawnosc wykonanego commitu wykonano za pomoca git status. Analogicznie dokonano commitu z plikiem graf.png.
+Wykonano zrzuty ekranu poprzednich zadan, a nastepnie dodano je do katalogu Lab01. zrobiono commit komendami "git add ." oraz "git commit". Nastepnie zmieniono nazwy plikow i wykonano znowu commit. Pojawil sie komunikat o zmianie nazwy (Rename). 
 merge - jestesmy w main i robimy git merge MK306455
