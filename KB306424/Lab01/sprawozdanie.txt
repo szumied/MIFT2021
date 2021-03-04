@@ -6,5 +6,4 @@ Utworzenie w katalogach sprawozdania.txt za pomocą "touch sprawozdanie.txt".
 Dodanie wszystkiego na stage za pomocą "git add ."
 Przeniesienie ze stage do repozytorium za pomocą polecenia "git commit -m "Sprawozdanie"".
 Opcja -m pozwala na dodanie komentarza.
-
-
+Podobnie przeniesiono do stage i do repozytorium screeny i graf.
