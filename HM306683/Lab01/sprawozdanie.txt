@@ -35,3 +35,6 @@ Zatwierdzenie zmian wszystkich śledzonych plików.
 5.
 Stworzenie krótkiego opisu komend użytych w zadaniach 1-4.
 
+git push --set-upstream origin [branch]
+Wykonanie pierwszego pushu, ustawienie upstream brancha.
+
