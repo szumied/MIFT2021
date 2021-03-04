@@ -8,3 +8,6 @@ Przeniesienie ze stage do repozytorium za pomocą polecenia "git commit -m "Spra
 Opcja -m pozwala na dodanie komentarza.
 Podobnie przeniesiono do stage i do repozytorium screeny i graf.
 Push brancha na remote wykonano za pomoca "git push origin KB306424".
+Przelaczenie sie na branch master za pomoca "git checkout master".
+Nastepnie polaczono brancha z masterem za pomoca "git merge KB306424".
+Potem wykonano "git push" po to, aby dokonac zmian na masterze. W przypadku niepowodzenia uzyto "git pull" i ponownie "git push".
