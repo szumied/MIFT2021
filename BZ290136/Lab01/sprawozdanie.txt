@@ -15,3 +15,6 @@
    git add graf.png - dodanie do aktualnego brancha pliku o nazwie "graf.png"
    git commit -m "add file graf.png" - wykonanie commita z zadaną wiadomością
 5. Dodano screenshoty z wykonywania zadań, wykonano commity i pushe, zmieniono nazwy screenshotów i ponownie wykonano commity i pushe.
+6. Zmieniono na brancha na brancha "master":
+   git checkout master
+7. Wykonano merge'a brancha BZ290136 do brancha master i wykonano push.
