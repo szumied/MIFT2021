@@ -1,22 +1,32 @@
 1. sklonowanie repozytorium
-git clone "adres"
+git clone <adres>
+
 2. stworzenie wlasnego brancha
 git branch WL306675
+
 3. przelaczenie na moj branch
 git checkout WL306675
+
 4. utworzenie plików (screeny i sprawozdanie) 
-5. dodanie do staging area
+
+5. dodanie wszystkich zmian 
 git add .
+
 6. utworzenie commita
-git commit -m commit1
-7. pushowanie nowego brancha z jego commitami 
-git push --set-upstream origin az306527
+git commit -m "LAB 01 update"
+
+7. pushowanie nowego brancha 
+git push --set-upstream origin WL306675
+
 8. pushowanie do brancha istniejącego w remocie
 git push
+
 9. zmiana brancha na master 
 git checkout master
-10. zmergowanie branchy (przeniesienie wszystkich zmian z brancha az306527 to brancha master)
-git merge az306527
-11. wprowadzenie ostatnich zmian w sprawozdaniu (pobrano przy tym zmiany innych studentów)
+
+10. merge branchy WL306675 -> master
+git merge WL306675
+
+11. update sprawozdania
 git pull
 git push
