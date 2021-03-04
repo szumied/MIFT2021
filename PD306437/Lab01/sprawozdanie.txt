@@ -12,3 +12,5 @@ git commit -m "add sprawozdanie.txt" - utworzenie commitu z komentarzem
 git push --set-upstream origin PD306437 - push commitów na nowy zdalny branch
 6.
 git rm 1.png - usunięcie z brancha pliku
+7.
+git merge PD306437 - merge brancha PD306437 do mastera
