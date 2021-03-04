@@ -1,0 +1,1 @@
+1. Zainstalowano klient git.
