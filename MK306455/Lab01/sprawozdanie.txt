@@ -1,0 +1,8 @@
+Github mialem juz wczesniej zainstalowany. gdyby go nie bylo mozna dokonac instalacji za pomoca sudo apt install git
+Najpierw nalezalo sklonowac repozytorium do repo lokalnego za pomoca git clone 
+Nastepnie po przejsciu do katalogu MIFT2021 uzyto git branch MK306455 w celu utworzenia nowego brancha. Aby sie na niego przeloczyc wywolano git checkout MK306455.
+Utworzono katalog MK306455 - mkdir MK306455
+W katalogu MK306455 (przejscie - cd MK306455)  utworzono katalog Lab01 - mkdir Lab01
+W katalogu Lab01 utworzono pliksprawozdanie.txt - touch sprawozdanie.txt
+dodano plik za pomoc git add . a nastepnie wykonano commit - git commit. Poprawnosc wykonanego commitu wykonano za pomoca git status. Analogicznie dokonano commitu z plikiem graf.png.
+merge - jestesmy w main i robimy git merge MK306455
