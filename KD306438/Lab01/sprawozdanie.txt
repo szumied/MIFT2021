@@ -12,3 +12,6 @@
 5. Uzupełnianie pliku tekstowego zawierającego opis poszczególnych punktów.
    Wykonywanie po każdym opisanym punkcie poleceń 'git commit -m "adding description of part *" '
    Wykonanie pusha brancha na remot'a poleceniem 'git push origin KD306438'.
+6. W analogiczny sposób dodanie zrzutów ekranów dokumentujących wykonanie każdej częścia zadania w folderze Lab01: 'git add .','git commit -m "adding screenshots"', 'git push origin KD306438'.
+   Odpowiednia zmiana nazwy plików oraz ponowne zacommitowanie i spushowanie.  
+7. Wyknanie merge swojego brancha do głównego brancha, pushowanie na remota poprzez realizację poleceń: 'git checkout master', 'git merge KD306438', 'git pull', 'git push'.
