@@ -15,3 +15,4 @@ git add sprawozdanie.txt
 commit -m "Added sprawozdanie.txt"
 git add graf.png
 git commit -m "Added graf.png"
+5. Potem wszystkie wykonane kroki opisałem w sprawozdaniu, za każdym razem osobno wykonując commita i push brancha na remot'a.
