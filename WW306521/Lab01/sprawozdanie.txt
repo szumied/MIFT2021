@@ -1,0 +1,7 @@
+git clone - do sklonowania remote repository
+git checkout -b "WW306521" - stworzenie i przeskoczenie na nowego brancha
+git branch - sprawdzenie na jakim branchu obecnei sie znajduje
+git add sprawozdanie.txt - dodanie pliku  sprawozdanie.txt do sledzenia
+git commit -m "lab01-stworzenie-pliku-sprawozdanie.txt" - zacommitowanie pliku sprawozdanie.txt
+git commit -m "dodanie grafu z pkt2" - zacommitowanie grafu z pkt2
+git status - sprawdzenie statusu repozytorium
