@@ -11,3 +11,4 @@
    Analogiczne dodanie pliku przedstawiającego utworzony wcześniej graf 'git commit -m "adding graph graf.jpg"'.  (Co jakiś czas kontrola działań z użyciem komendy 'git status'.
 5. Uzupełnianie pliku tekstowego zawierającego opis poszczególnych punktów.
    Wykonywanie po każdym opisanym punkcie poleceń 'git commit -m "adding description of part *" '
+   Wykonanie pusha brancha na remot'a poleceniem 'git push origin KD306438'.
