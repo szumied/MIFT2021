@@ -1,1 +1,2 @@
 1) sudo apt install git
+2) git clone https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021.git
