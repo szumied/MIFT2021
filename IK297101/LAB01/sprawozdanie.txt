@@ -1,0 +1,10 @@
+sudo apt-get install git
+git clone https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021.git
+git branch IK297101
+git checkout IK297101
+mkdir IK297101
+cd IK297101/
+mkdir LAB01
+cd LAB01/
+touch sprawozdanie.txt
+
