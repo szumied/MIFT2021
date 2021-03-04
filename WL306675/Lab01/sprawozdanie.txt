@@ -7,7 +7,10 @@ git branch WL306675
 3. przelaczenie na moj branch
 git checkout WL306675
 
-4. utworzenie plików (screeny i sprawozdanie) 
+4. dodanie plików
+- zrzuty ekranu oraz
+- sprawozdanie.txt
+- plik z grafem
 
 5. dodanie wszystkich zmian 
 git add .
