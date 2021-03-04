@@ -12,3 +12,4 @@ Dodano do folderu zrzuty ekranu wykonane podczas realizacji ćwiczenia.
 Każdą zmiane commitowano i pushowano.
 Aby wykonać merge utworzonej gałęzi z gałęzią master należało za pomocą polecenia "git checkout master" przełączyć się na gałąź master i za pomocą polecenia "git merge KJ306450" dokonano złączenia.
 Na koniec wykonano "git push", aby dokonać zmian na masterze.
+Gdy nie udało sie wykonać "git push" (nie posiadano aktualnej wersji repozytorium) należało najpierw wykonać "git pull" a następnie ponownie "git push"
