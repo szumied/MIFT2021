@@ -1,0 +1,11 @@
+1. sklonowanie repozytorium
+git clone adres
+2. stworzenie wlasnego brancha
+git branch az306527
+3. przelaczenie na moj branch
+git checkout az306527
+4. utworzenie plików (screeny i sprawozdanie) 
+5. dodanie do staging area
+git add .
+6. utworzenie commita
+git commit -m commit1
