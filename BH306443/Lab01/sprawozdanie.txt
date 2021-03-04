@@ -7,3 +7,4 @@ Dodanie wszystkich plików do śledzenia - git add .
 Sprawdzenie statusu zmian - git status
 Commitowanie z wiadomością - git commit -m "message"
 Edycja .txt - nano sprawozdanie.txt
+Wysłanie zmian do zdalnego repozytoriu - git push 
