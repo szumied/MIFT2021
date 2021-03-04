@@ -15,3 +15,7 @@ touch <nazwa> - stworzenie pliku o podanej nazwie
 git add <nazwa> - dodanie do repozytorium pliku o podanej nazwie
 
 git commit - polecenie zapisuje zmiany w repozytorium (-m "komentarz commita")
+
+git merge <nazwa brancha> - polecenie łączy historię podanego brancha do brancha na którym użytkownik wykonuje polecenie
+
+git push - polecenie przesyła pliki z lokalnego repozytorum do repozytorium zdalnego
