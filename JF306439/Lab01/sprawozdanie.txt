@@ -1,0 +1,13 @@
+1. Uruchomienie maszyny wirtualnej Linux Ubuntu
+
+2. Pobranie gita za pomoca komendy: sudo apt install git
+
+3. Pobranie repozytorium za pomoca komendy: git clone https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021.git
+
+4. Otworzenie instrukcji do danych zajec, zapoznanie sie z nimi
+
+5. Stworzenie nowego brancha o nazwie JF306439
+
+6. Stworzenie w nowym branchu folderu o nazwie JF306439 oraz podfolderu Lab01
+
+7. Stworzenie pliku sprawozdanie.txt, opisanie w nim wykonanych czynnosci
