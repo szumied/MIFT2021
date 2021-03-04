@@ -4,4 +4,4 @@ Wykonanie:
 2. stworzenie nowego branch'a - git checkout -b MS307688
 3. stworznie folderow - mkdir
 4. stworzenie commita - git add . , nastepnie git commit -m "komentarz"
-
+5. zpushowanie commitow - git push origin MS307688
