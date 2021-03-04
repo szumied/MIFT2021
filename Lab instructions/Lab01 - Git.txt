@@ -12,7 +12,7 @@ Repozytorium pod zdalnym adresem zapamiętajmy (umownie, nie trzeba zmieniać na
 Twoje nowe sklonowane lokalne repozytorium zapamiętajmy jako #B.
 Narysuj graf zależności między repozytoriami #A i #B (na ten moment graf ten będzie trywialny).
 
-3. Otwarcie i zapoznanie się z dokumentem na pierwsze ćwiczenia laboratoryjne, które znajduje się w lokalizacji "<repo>/Lab instructions/Lab 01 - Git.txt"
+mkdir 
 
 4. Stwórzy nowy branch w repozytorium lokalnym #B, niech jego nazwa ma postać - "inicjały+nr indexu", np.: "KM123456"
 Przełącz się na własnie stworzonego brancha.
