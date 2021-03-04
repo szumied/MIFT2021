@@ -5,7 +5,8 @@ mkdir KK306458 - utworzenie nowego folderu
 cd KK306458 - przejscie do folderu
 mkdir Lab01 - utworzenie nowego folderu
 touch sprawozdanie.txt - utworzenie pliku
-git add - 
+git add sprawozdanie.txt - dodanie pliku do stage
 git commit - stworzenie commita
 git push - wrzucenie commita na zdalne repozytorium
-
+git checkout master - przelaczenie brancha
+git merge KK306458 - polaczenie dwoch branchy
