@@ -21,3 +21,11 @@
 
 6.Umiescilem zrzuty ekranu w odpowiednim katalogu a takze dodalem je do repozytorium wykonuje commita i push
 
+7.Przejscie na branch master przy uzyciu 
+	git checkout master
+  Merge:
+	git merge DS306692
+	
+  Push na remote:
+	git pull (git wymagał)
+	git push
