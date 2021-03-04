@@ -1,0 +1,7 @@
+1. Instalacja git.
+
+2. Utworzenie i przełączenie się na brancha: git checkout -b LB299663
+
+3. Utworzenie folderu (mkdir) i dodanie go (git add)
+
+4. Zacommitowano plik: git commit.
