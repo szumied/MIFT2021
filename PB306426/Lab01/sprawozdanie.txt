@@ -1,0 +1,25 @@
+1. 	instalowanie: 	
+		sudo apt-get install git
+   	konfiguracja: 	
+   		git config --global user.name "pazindorb"
+   		git config --global user.email "xxpazindorxx@gmail.com"
+   			
+2.	klonowanie: 	
+		git clone https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021.git
+
+4.	nowy branch: 	
+		git branch "PB306426"
+    	przeskoczenie na brancha:	
+    		git checkout "PB306426"
+    	
+    	stworznienie folderów:	
+    		mkdir PB306426, mkdir Lab01
+    	stworznieie pliku txt:	
+    		touch sprawozdanie.txt
+    	
+    	dodanie folderu do repozytorium lokalnego:
+    		git add PB306426
+    	wykonanie commita:
+    		git commit
+    		
+5.	
