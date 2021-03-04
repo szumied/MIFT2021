@@ -5,3 +5,4 @@ git add sprawozdanie.txt - dodanie pliku  sprawozdanie.txt do sledzenia
 git commit -m "lab01-stworzenie-pliku-sprawozdanie.txt" - zacommitowanie pliku sprawozdanie.txt
 git commit -m "dodanie grafu z pkt2" - zacommitowanie grafu z pkt2
 git status - sprawdzenie statusu repozytorium
+git push origin WW306521 - zpushowanie na remote repo na brancha WW306521
