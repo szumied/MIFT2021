@@ -3,3 +3,15 @@
 git clone https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021.git
 cd MIFT2021/
 3. Otworzyłem w edytorze graficznym instrukcję Lab 01.
+4. Następnie utworzyłem nowego branch'a, wskazane foldery, plik sprawozdanie.txt i tenże wraz z graf.png skomitowałem:
+git branch KJ287168
+git checkout KJ287168
+mkdir KJ287168
+cd KJ287168/
+mkdir Lab01
+cd Lab01/
+vim
+git add sprawozdanie.txt
+commit -m "Added sprawozdanie.txt"
+git add graf.png
+git commit -m "Added graf.png"
