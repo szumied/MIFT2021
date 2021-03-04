@@ -2,3 +2,4 @@
 1. Sklonowanie repozytorium przy użyciu polecenia git clone <link_do_repo>
 2. Utworzenie branch'a, polecenie git branch <nazwa_brancha>
 3. Przełączenie się na utworzonego brancha, polecenie git checkout <nazwa_brancha>
+4. Utworzenie pliku sprawozdanie.txt poleceniem type nul > sprawozdanie.txt
