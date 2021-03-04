@@ -19,4 +19,6 @@ zad3. - zapoznanie się z instrukcją
 
 zad4. - stworzenie nowego brancha, przełączenie się na niego, dodanie commitów grafu i pliku sprawozdanie.txt
 
-zad4. - krótki opis użytych poleceń
+zad5. - krótki opis użytych poleceń
+
+zad6. - wykonanie merge do mastera
