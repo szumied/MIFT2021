@@ -10,3 +10,5 @@ Wykonałam commita.
 
 Wrzuciłam zrzuty ekranu do folderu i dodałam je do repozytorium.
 Wykonałam commita i push brancha na remot'a.
+
+Jeśli wszystko było poprawnie trzeba było wykonać merge swojego brancha do głównego brancha (master/main) i zrobić push'a na remota.
