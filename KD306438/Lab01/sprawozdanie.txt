@@ -1,0 +1,2 @@
+1. Instalacja klienta git została już wcześniej zrealizowana na moim komputerze - nie było potrzeby ponownej instalacji.
+
