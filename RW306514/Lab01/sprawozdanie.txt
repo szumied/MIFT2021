@@ -3,7 +3,7 @@
 4.Tworzenie brancha - git checkout -b RW306514
   Tworzenie folderu-mkdir 306514
   Tworzenie pliku- touch sprawozdanie.txt
-5.Wykonanie commita:
+5,6.Wykonanie commita:
   git add RW306514
   git commit -m 'Lab1-5'
-6 
+7.Zpushowanie branchagit push origin RW306514
