@@ -1,7 +1,5 @@
-Zadanie 2.
 git clone - za pomoca tej instrukcji klonuje repo
 
-Zadanie 4.
 mkdir - tworzenie nowego folderu
 touch - tworzenie nowego pliku
 
@@ -9,4 +7,8 @@ git checkout -b DK306669 - tworze nowy branch. aby na niego przejsc uzywam tej s
 git add sprawozdanie.txt - dodaje pliki
 git commit -m "1 commit - sprawozdanie" - zatwierdzam zmiany i nadaje jej opis dzieki -m
 
+git push origin DK306669 - wypchniecie zmian
+git pull - pobranie zmian z mastera
 
+git merge master
+git merge DK306669 - scalanie branchow
