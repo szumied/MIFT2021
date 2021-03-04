@@ -6,4 +6,4 @@
 5. Utworzenie pliku sprawozdanie.txt poleceniem type nul > sprawozdanie.txt
 6. Dodawanie plików do "working tree" - polecenie git add <plik>
 7. Pushowanie, poleceniem git push
-8. 
+8. Scalenie branchów - git merge
