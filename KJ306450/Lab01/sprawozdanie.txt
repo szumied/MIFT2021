@@ -1,5 +1,5 @@
 . W konsoli za pomocą polecenia "sudo apt-get install git" zainstalowano klienta gita.
-. Sklonowano do lokalnego folderu repozytorium gita za pomocą polecenia "git clone" na repozytorium: https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021.git"
+. Sklonowano do lokalnego folderu repozytorium gita za pomocą polecenia "git clone https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021.git"
 . Zmieniono lokalizację na folder MIFT2021, który powstał po sklonowaniu repozytorium, a następnie stworzono własnego bruncha (nazwa składa się z inicjałów i numeru indeksu) za pomocą polecenia "git branch KJ306450".
 . Poleceniem "git checkout KJ306450" przeniesiono się na własnego bruncha.
 . Na tym branchu stworzono folder KJ306450 (polecenie "mkdir KJ306450"), zmieniono lokalizację na nowo utworzony folder i w tej lokalizacji utworzono kolejny folder poleceniem "mkdir Lab01".
