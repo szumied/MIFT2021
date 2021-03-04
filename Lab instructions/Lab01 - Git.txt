@@ -16,8 +16,9 @@ Narysuj graf zależności między repozytoriami #A i #B (na ten moment graf ten 
 
 4. Stwórzy nowy branch w repozytorium lokalnym #B, niech jego nazwa ma postać - "inicjały+nr indexu", np.: "KM123456"
 Przełącz się na własnie stworzonego brancha.
-Na tym branchu stwórz folder "inicjały+nr indexu/Lab01", czyli np.: KM123456/Lab01.
-W ww. folderze, stworz plik sprawozdanie.txt.
+Na tym branchu stwórz folder "inicjały+nr indexu" (np.: KM123456).
+W powyższym folderze stwórz folder "Lab01".
+W ww. folderze, stworz plik sprawozdanie.txt. (czyli ścieżka będzie np.: KM123456/Lab01/spawozdanie.txt).
 Dodaj ten plik do repozytorium git'a i wykonaj commita.
 Dodaj plik z grafem z pkt. 2. i wykonaj commita.
 
