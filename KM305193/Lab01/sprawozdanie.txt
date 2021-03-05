@@ -26,6 +26,17 @@ Dodano plik z grafem i wykonano commita.
 	git add pn1.png
 	git commit -m "..."
 
+Użyto poleceń
+
+	git reflog 
+	history
+
+aby dać pełną informację na temat użytych komand, zmian branchy.
+
+Wykonano potrzebne zrzuty ekranu oraz upakowano je w poszczególnego foldery (zadanie2, zadanie4).
+
+
+
 
 
 
