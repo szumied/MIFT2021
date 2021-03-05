@@ -1,0 +1,14 @@
+1. Instalacja klienta git:
+	sudo apt-get install git
+2. Sklonowanie repozytorium
+	git clone https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021.git
+4. - Tworzenie nowego brancha:
+	git branch WS299754
+- Przejście do innego brancha:
+	git checkout WS299754
+- Dodanie pliku do repozytorium:
+	git add sprawozdanie.txt
+	git add graf.png
+- Commit:
+	git commit
+
