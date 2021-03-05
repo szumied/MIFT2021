@@ -7,4 +7,4 @@
 5. Wykonane zadania opisalam w pliku 'sprawozdanie.txt, a nastepnie uzylam komend 'commit' i 'push'.
 6. Dodalam do repo do Lab01 screeny z wykonania kazdego zadania, uzylam 'commit' i 'push'.
 7. Zmergowalam swojego brancha z masterem i wykonalam push na remote'a.
-8. Uzupelnilam zadanie na teams.
+8. Uzupelnilam zadanie na MS Teams.
