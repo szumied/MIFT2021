@@ -24,3 +24,7 @@
     		
 5.	push na brancha:
 		git push origin PB306426
+		
+6.	Dodałem zrzuty ekranu zadniań i pushnąłem je na brancha tak jak wcześniej (add, commit, 			push), następnie zmieniłem ich nazwę i powtórzyłem operację.
+
+7.	
