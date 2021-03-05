@@ -4,3 +4,8 @@
 
 3. Zapoznałem się z plikiem git.txt
 
+4. Utworzyłem nowy branch przy wykorzystaniu git branch i się na niego przełączyłem używając git checkout.
+   Alterntywnie można użyć jednej komendy: git checkout -b <nazwa>.
+   Następnie utworzyłem odpowiednie foldery komendą mkdir i w lab01 używając touch stworzyłem sprawozdanie które modyfikuję programem nano.
+
+ 
