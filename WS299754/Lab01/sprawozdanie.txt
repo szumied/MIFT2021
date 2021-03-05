@@ -9,9 +9,14 @@
 - Dodanie pliku do repozytorium:
 	git add sprawozdanie.txt
 	git add graf.png
+- Konfiguracja użytkownika:
+	git config --global user.email "wsmieja@student.agh.edu.pl"
 - Commit:
 	git commit
 5. Push brancha:
 	git push origin WS299754 
-
+6. - Dodanie wszystkich zmian do repozytorium:
+	git add -A
+- Zmiana nazwy pliku
+	mv 4.a.png zadanie4a.png
 
