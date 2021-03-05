@@ -20,7 +20,7 @@ Zadanie 6. W folderze Lab1 umieszczono wszystkie screeny przedstawiające wykona
 oraz tak samo jak poprzednio utworzono commita i umieszczono zmiany na zndalnym repozytorium.
 'git add .'
 'git commit -m "komentarz"'
-'git psuh origin MW306517'
+'git push origin MW306517'
 
 Zadanie 7. Wykonano merge utworzonego brancha MW306517 do master'a korzystając z poleceń:
 'git checkout master'
