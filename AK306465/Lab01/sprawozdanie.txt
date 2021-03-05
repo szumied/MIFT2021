@@ -7,4 +7,13 @@ Dodalam pliki na repozytorium :
 git add .
 git commit -m "Zadanie 4"
 git push origin AK306465
- 
+
+5. Wprowadzilam zmiany w pliku sprawozdanie.txt po czym ponownie wykonalam pusha na repozytorium.
+
+6.Dodalam wszystkie wykonane zrzuty ekranu. Ponownie :
+git add .
+git commit -m "Zadanie 6"
+git push origin AK306465
+
+7.Zmerge'owalam brancha z masterem za pomoca komendy:
+git merge master 
