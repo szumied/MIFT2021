@@ -1,2 +1,5 @@
 1. Zainstalowanie repozytorium git przeprowadziłem już jakiś czas temu toteż nie posiadam screena. Odbyło się to przy wykorzystaniu linuxowej komendy apt-get. 
 
+2. Sklonowalem repozytorium za pomocą komendy git clone 
+
+3. 
