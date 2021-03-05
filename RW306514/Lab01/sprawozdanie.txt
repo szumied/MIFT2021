@@ -1,0 +1,9 @@
+2.Klonowanie githuba - gitclone
+3.Otwieranie intrukcji - cat/nano 'Lab01 - Git.txt'
+4.Tworzenie brancha - git checkout -b RW306514
+  Tworzenie folderu-mkdir 306514
+  Tworzenie pliku- touch sprawozdanie.txt
+5,6.Wykonanie commita:
+  git add RW306514
+  git commit -m 'Lab1-5'
+7.Zpushowanie branchagit push origin RW306514
