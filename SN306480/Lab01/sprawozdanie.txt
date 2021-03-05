@@ -15,5 +15,8 @@ Stworzono oraz przełączono się na nowy branch o nazwie SN306480 za pomocą ko
 
 Zadanie 5
 
-Zamieszczenie krótkiego opisu wykonanych dotychczas podpunktów w pliku sprawozdanie.txt
+Zamieszczenie krótkiego opisu wykonanych dotychczas podpunktów w pliku sprawozdanie.txt. Oraz wykonano pusha brancha na remot'a za pomocą komendy git push. 
 
+Zadanie 6
+
+Umieszczeno zrzuty ekranu poszczególnych podpunktów w folderze Lab01. Dodano je do repozytorium. Wykonano commita i push na brancha remot'a.
