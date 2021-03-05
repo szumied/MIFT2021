@@ -6,3 +6,4 @@
 - Po czym utworzono nowy folder i plik według wytycznych z instrukcji: `mkdir -p JS283683/Lab01; touch JS283683/Lab01/sprawozdanie.txt`. 
 - Do dodawania commitów wykorzystano zlepek poleceń: `git add --all; git commit -m "<OPIS>"`
 5. Napisano wstępną wersję opisu, który jest właśnie czytany (w programie Vim, btw, bardzo sprytny program).
+5.1. `git push --set-upstream origin JS283683` + update pliku sprawozdanie.txt
