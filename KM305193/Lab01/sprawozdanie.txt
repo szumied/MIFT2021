@@ -1,1 +1,33 @@
-Na początku przystąpiłem do wykonania instrukcji git clone alby sklonować repozytorium (zadanie nr 2).
+Na początku przystąpiono do wykonania instrukcji git clone alby sklonować repozytorium (zadanie nr 2). 
+
+Następnie stworzono nowy branch.
+
+	git branch KM305193
+	
+Kolejno przełączono się na nowo stworzonego brancha.
+
+	git checkout KM305193
+
+Na tymże branchu stworzyłem folder KM305193.
+
+	mkdir KM305193
+
+W tym folderze stworzono plik "sprawozdanie.txt"
+
+	echo "" >> sprawozdanie.txt
+
+Dodano plik do repozytorium git'a i wykonałem commita.
+
+	git add sprawozdanie.txt
+	git commit -m "..."
+
+Dodano plik z grafem i wykonano commita.
+
+	git add pn1.png
+	git commit -m "..."
+
+
+
+
+
+
