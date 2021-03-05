@@ -1,0 +1,6 @@
+git clone nazwa repo - klonowanie repozytorium zdalnego - utworzenie repozytorium lokalnego 
+git branch nazwa - utworzenie nowego brancha - nazwa: EM297029
+git checkout nazwa - przełączenie się na istniejący już branch (mogłam użyć git checkout -b nazwa - żeby automatycznie stworzyło się nowe repo i żebym się przełączyła ale nie zrobiłam tego)
+
+git add . - dodanie zmian do stage
+git commit -m nazwa_commita - dodanie commita do naszego repo lokalnego - wszystko co jest w stage zostaje zakomitowane
