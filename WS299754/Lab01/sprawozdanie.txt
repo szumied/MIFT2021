@@ -19,4 +19,14 @@
 	git add -A
 - Zmiana nazwy pliku
 	mv 4.a.png zadanie4a.png
-
+7. - Pull z remote'a w branchu master:
+	git checkout master
+	git pull
+- Merge brancha master wykonany z brancha WS299754:
+	git checkout WS299754
+	git merge master 
+- Merge brancha WS299754 wykonany z brancha master:
+	git checkout master
+	git merge WS299754
+- Push brancha master do remote'a:
+	git push origin master
