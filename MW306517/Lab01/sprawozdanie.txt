@@ -13,4 +13,17 @@ Następnie utworzono folder o takiej samej nazwie oraz podfolder Lab1. Wykorzyst
 W tak przygotowanych folderach utworzono plik sprawozdanie.txt, który następnie dodano do repozytorium poleceniem 'git add sprawozdanie.txt'. 
 Wykonano commita poleceniem 'git commit -m "komentarz"', po czym dodano jeszcze graf z polecenia 2 i również wykonano commita.
 
-Zadanie 5. W przygotowanym pliku tekstowym umieszczono krótki opis wykonywanych zadań.
+Zadanie 5. W przygotowanym pliku tekstowym umieszczono krótki opis wykonywanych zadań, po czym komendą 'git push origin MW306517' umieszczono dytchczas wykonaną pracę 
+na repozytorium zdalnym upewniając się przy tym, że znajdujemy się na odpowienim branchu poleceniem 'git checkout MW306517'.
+
+Zadanie 6. W folderze Lab1 umieszczono wszystkie screeny przedstawiające wykonanie zadań z instrukcji 
+oraz tak samo jak poprzednio utworzono commita i umieszczono zmiany na zndalnym repozytorium.
+'git add .'
+'git commit -m "komentarz"'
+'git psuh origin MW306517'
+
+Zadanie 7. Wykonano merge utworzonego brancha MW306517 do master'a korzystając z poleceń:
+'git checkout master'
+'git merge MW306517'
+'git pull'
+'git push'
