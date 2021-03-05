@@ -15,5 +15,7 @@ git add .
 git commit -m "Zadanie 6"
 git push origin AK306465
 
-7.Zmerge'owalam brancha z masterem za pomoca komendy:
+7.Zmerge'owalam brancha do mastera za pomoca komendy:
 git merge master 
+git checkout master
+git merge AK306465
