@@ -1,1 +1,1 @@
-
+Na początku przystąpiłem do wykonania instrukcji git clone alby sklonować repozytorium (zadanie nr 2).
