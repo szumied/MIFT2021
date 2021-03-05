@@ -22,7 +22,7 @@ oraz tak samo jak poprzednio utworzono commita i umieszczono zmiany na zndalnym 
 'git commit -m "komentarz"'
 'git push origin MW306517'
 
-Zadanie 7. Wykonano merge utworzonego brancha MW306517 do master'a korzystając z poleceń:
+Zadanie 7. Wykonano merge utworzonego brancha MW306517 do master'a korzystając następujących z poleceń:
 'git checkout master'
 'git merge MW306517'
 'git pull'
