@@ -11,4 +11,7 @@
 	git add graf.png
 - Commit:
 	git commit
+5. Push brancha:
+	git push origin WS299754 
+
 
