@@ -8,6 +8,6 @@
 
 5. W katalogu lab01 poleceniem touch utworzyłam plik sprawozdanie.txt(tj. ten plik). Poleceniem git add plik dodałam plik do repo, a następnie poleceniem git commit -m plik commitowałam go. 
 
-6. Następnie po dokonaniu zmian w sprawozdaniu oraz zrobieniu skrinów dodałam wszystkie potrzebne pliki do repo(git add .), a później commitowałam je za pomocą git commit. Później pushowałam poleceniem git push. 
+6. Następnie po dokonaniu zmian w sprawozdaniu oraz zrobieniu skrinów dodałam wszystkie potrzebne pliki dodałam do repo(git add .), a później commitowałam je za pomocą git commit. Później pushowałam poleceniem git push. 
 
-7. 
+7. Na koniec zmergowałam mastera z moim branchem poleceniem git merge nazwa. Później próbowałam pullować, ale niestety wyskakiwał błąd więc użyłam komendy git stash. Następnie git pull(z sukcesem). Na koniec git push. Ponieważ w trakcie pracy pojawiały się pewne problemy, dodaje do repozytorium także skrin historii z basha, na którym widoczne są wszystkie użyte przeze mnie komendy. 
