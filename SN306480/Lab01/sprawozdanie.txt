@@ -20,3 +20,7 @@ Zamieszczenie krótkiego opisu wykonanych dotychczas podpunktów w pliku sprawoz
 Zadanie 6
 
 Umieszczeno zrzuty ekranu poszczególnych podpunktów w folderze Lab01. Dodano je do repozytorium. Wykonano commita i push na brancha remot'a.
+
+zadanie 7
+
+Wykoano merge swojego brancha na brancha glownego. Aby to wykonać użyto kolejno odpowiednich komend: git checkout master, git merge SN306480, git pull, git push
