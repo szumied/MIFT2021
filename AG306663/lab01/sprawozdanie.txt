@@ -10,4 +10,4 @@
 
 6. Następnie po dokonaniu zmian w sprawozdaniu oraz zrobieniu skrinów dodałam wszystkie potrzebne pliki do repo(git add .), a później commitowałam je za pomocą git commit. Później pushowałam poleceniem git push. 
 
-7. 
+7. Następnie przeszłam na mastera poleceniem git checkout master, później mergowałam mastera z moim branchem poleceniem git merge nazwa_brancha, następnie pobrałam zmiany za pomocą git pull i pushowałam git push. W trakcie robienia zadania napotkałam na pewne problemy dlatego dodaje po prostu skrina z historią komend w GIT BASH, na któym widnieją wszystkie wykonane przeze mnie akcje. 
