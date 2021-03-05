@@ -1,0 +1,19 @@
+Zadanie 1
+Instalacja git'a za pomocą komendy 'sudo apt-get install git'
+
+Zadanie 2
+
+Sklonowanie repozytorium https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021.git za pomocą komendy git clone, oraz narysowanie grafu przedstawiającego zależność pomiędzy repozytoriami #A i #B
+
+Zadanie 3
+
+Zapoznainie się z instrukcją ćwiczenia
+
+Zadanie 4
+
+Stworzono oraz przełączono się na nowy branch o nazwie SN306480 za pomocą komendy 'git checkout -b SN306480'. Na tym branchu stworzono folder o tej samej nazwie, a w nim folder Lab01. W folderze Lab01 stworzono plik sprawozdanie.txt. Na koniec podpunktu dodano do repozytorium pliki sprawozdanie.txt i graf.png za pomocą komendy git commit -m 'trest komentarza'
+
+Zadanie 5
+
+Zamieszczenie krótkiego opisu wykonanych dotychczas podpunktów w pliku sprawozdanie.txt
+
