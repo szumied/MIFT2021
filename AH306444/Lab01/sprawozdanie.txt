@@ -29,3 +29,9 @@ git push
 git add
 git commit -m
 git push
+
+7.  Wyknano merge swojego brancha do głównego brancha (master/main). Zrobiono push'a na remota.
+
+git checkout master
+git merge AH306444
+git push
