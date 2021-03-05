@@ -7,5 +7,7 @@
 4. Utworzyłem nowy branch przy wykorzystaniu git branch i się na niego przełączyłem używając git checkout.
    Alterntywnie można użyć jednej komendy: git checkout -b <nazwa>.
    Następnie utworzyłem odpowiednie foldery komendą mkdir i w lab01 używając touch stworzyłem sprawozdanie które modyfikuję programem nano.
-
+   Dodałem i scommitowałem zmiany. Robię to za pomocą git add . czyli dodając od razu wszystkie zmiany.
+   Zmiany w konkretnym pliku można dodać zamieniając kropkę na naazwę pliku.
+   Dodałem plik z grafem i scommitowałem analogicznie jak z plikiem sprawozdania.
  
