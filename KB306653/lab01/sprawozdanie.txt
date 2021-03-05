@@ -2,4 +2,5 @@
 
 2. Sklonowalem repozytorium za pomocą komendy git clone 
 
-3. 
+3. Zapoznałem się z plikiem git.txt
+
