@@ -1,0 +1,23 @@
+zadanie 1
+Pobranie clienta gita ze strony GitHuba
+
+zadanie 2
+Sklonowanie repozytorium za pomocą polecenia git clone <adres repozytorium>
+Pobranie najnowaszej wersji za pomocą git pull
+
+zadanie 3
+Znalezienie pliku Lab001 w directory pobranego repozytorium. Otworzenie pliku edytorem tekstowym.
+
+zadanie 4
+Stworzenie repozytorium za pomocą git branch <nazwa brancha>
+Przejscie do stworzonego brancha za pomocą git checkout <nazwa brancha>
+Weryfikacja przejścia na branch za pomocą git status
+Stworzenie folderu za pomocą polecenia mkdir <nazwa folderu>
+
+zadanie 5
+Dodanie pliku sprawozdanie.txt do repozytorium za pomocą git add .
+Wykonanie commita, przy użyciu polecenia git commit -m '<opis commita>'
+
+zadanie 6
+Dodanie pozostałych plików za pomocą git add .
+Wykonanie commita analogicznie do drugiej linii zadania 5
