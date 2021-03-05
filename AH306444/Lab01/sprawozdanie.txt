@@ -1,0 +1,21 @@
+Artur Hamerski 306444
+
+1. Instalacja gita i podstawowa konfiguracja
+
+sudo apt-get install git 
+git config --global user.name "Artur Hamerski"
+git config --global.user.email "Izargot@gmail.com"
+
+2. Uruchomienie terminala i wykonanie operacji "git clone na repozytorium oraz narysowanie grafu:
+
+git clone https://github.com/InzynieriaoprogramowaniaAGH.MIFT2021.git
+
+
+3. Zapoznano się z dokumentem
+
+4.Stwórzono nowy branch w repozytorium lokalnym #B o nazwie AH306444
+
+git branch AH306444 -utworzenie brancha
+git checkout AH306444 -przełączenie się na niego
+git add - dodanie sprawozdania i grafu do plików "śledzonych"
+git commit -m - wykonanie commita z opisem jako argumentem
