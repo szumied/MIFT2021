@@ -12,3 +12,4 @@ Wykonanie pushy na remota  "git push --set-upstream orgin MW306701" (zad5, zad6)
 
 Dokonanie merge'a swojego brancha z masterem "git checkout master"  "git merge MW306701" "git pull" "git push"(zad7)
 
+
