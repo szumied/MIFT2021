@@ -12,3 +12,5 @@ Następnie utworzono folder o takiej samej nazwie oraz podfolder Lab1. Wykorzyst
 'mkdir Lab1'
 W tak przygotowanych folderach utworzono plik sprawozdanie.txt, który następnie dodano do repozytorium poleceniem 'git add sprawozdanie.txt'. 
 Wykonano commita poleceniem 'git commit -m "komentarz"', po czym dodano jeszcze graf z polecenia 2 i również wykonano commita.
+
+Zadanie 5. W przygotowanym pliku tekstowym umieszczono krótki opis wykonywanych zadań.
