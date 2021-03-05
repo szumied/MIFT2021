@@ -11,3 +11,5 @@
    Zmiany w konkretnym pliku można dodać zamieniając kropkę na naazwę pliku.
    Dodałem plik z grafem i scommitowałem analogicznie jak z plikiem sprawozdania.
  
+5. Rozpocząłem modyfikowanie sprawozdania. Każdy nowy punkt od razu dodawałem, commitowałem i pushowałem ciągiem komend add . | commit -m | push
+
