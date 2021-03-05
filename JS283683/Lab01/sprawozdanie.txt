@@ -8,3 +8,4 @@
 5. Napisano wstępną wersję opisu, który jest właśnie czytany (w programie Vim, btw, bardzo sprytny program).
 5.1. `git push --set-upstream origin JS283683` + update pliku sprawozdanie.txt
 6. Dodanie wykonanych zrzutów ekranu do repozytorium. Commit i push na remote'a.
+7. `git pull origin master; git checkout master; git merge JS283683` i push na remote'a. Update pliku sprawozdanie.txt
