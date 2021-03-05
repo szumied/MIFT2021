@@ -19,3 +19,13 @@ git branch AH306444 -utworzenie brancha
 git checkout AH306444 -przełączenie się na niego
 git add - dodanie sprawozdania i grafu do plików "śledzonych"
 git commit -m - wykonanie commita z opisem jako argumentem
+
+5.Edycja sprawozdania i wykonanie commita i push brancha na remot'a.
+
+git push --set-upstream origin AH306444
+git push
+
+6 Dodanie zrzutow ekranu
+git add
+git commit -m
+git push
