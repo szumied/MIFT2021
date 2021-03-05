@@ -1,0 +1,10 @@
+zad 2:
+git clone- klonowanie repozytorium
+
+zad 4:
+git branch- utworzenie nowego brancha
+git checkout- przelaczenie sie na nowo utworzony branch
+git commit- wykonanie commita
+
+zad 5:
+
