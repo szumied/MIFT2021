@@ -1,0 +1,4 @@
+1. Zainstalowanie srodowiska GIT nie bylo u mnie konieczne, poniewaz juz wczesniej mialam zainstalowana wersje 2.25.1
+2. Sklonowalam repozytorium za pomoca polecenie git clone i narysowalam graf zaleznosci miedzy repozytorium zdalnym i lokalnym.
+3. Zapoznalam sie z instrukcja do laboratorium.
+5. Utworzylam nowy branch ktory nazwalam UP306485 za pomoca polecenia 'git branch UP306485' i przelaczylam sie na nowego brancha za pomoca polecenia 'git checkout UP306485'. Nastepnie lokalnie w repozytorium stworzylam folder o tej samej nazwie co nazwa brancha, w kt
