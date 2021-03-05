@@ -8,4 +8,9 @@
 8. Uzupełnienie pliku sprawozdanie.txt o krótki opis poszczególnych kroków
 9. Dodanie zmodyfikowanego pliku poleceniem add
 10. Wykonanie commita poleceniem git commit -m 'message'
-11. 
+11. Umieszczenie zrzutów ekranu, add i commit
+12. Wykonanie merge do głównego brancha
+13. Git checkout master
+14. Git merge AP306492
+15. Git pull origin master
+16. Git push
