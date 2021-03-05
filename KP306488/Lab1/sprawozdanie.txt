@@ -10,4 +10,4 @@
 -git add graph.png 
 -git commit -m "Dodanie grafu"
 5) Zamieszczenie zrzutów ekranu
-
+6) Dodano screeny oraz wykonano commita a następnie wykonano polecenie push
