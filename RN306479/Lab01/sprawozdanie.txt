@@ -1,4 +1,4 @@
-1. Instalacja git na maszynie za pomocą polecenia "sudo apt-get install git".
+1. Instalacja git na maszynie za pomocą polecenia "sudo apt-get install git" (zadanie pominięte, git już był zainstalowany).
 
 2. Sklonowanie repozytorium zdalnego za pomocą komendy "git clone https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021.git" oraz utworzenie grafu obrazującego relacje pomiędzy branchem lokalnym oraz zdalnym.
 
