@@ -27,4 +27,5 @@
 		
 6.	Dodałem zrzuty ekranu zadniań i pushnąłem je na brancha tak jak wcześniej (add, commit, 			push), następnie zmieniłem ich nazwę i powtórzyłem operację.
 
-7.	
+7.	Przeskoczyłem na mastera za pomocą git merge PB306426, zmergowałem brancha do mastera. 
+	Następnie próbowałem zrobić pusha jednak wcześniej musiałem zupdatować mojego bracha 	przy pomocy git pull. Na koniec dokonałem pusha bez problemów.
