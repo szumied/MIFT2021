@@ -1,0 +1,24 @@
+DevOps 10.03.2021
+
+1. Przełączenie się na master brancha "git checkout master". Zaciągnięcie nowych instrukcji "git pull"
+
+1.1, 1.2 Generowanie nowego klucza za pomocą "ssh-keygen -t ed25519 -C "agnieszka7867@wp.pl""
+
+1.3 Dodawanie klucza do agenta kluczy:
+    - wystartowanie agenta "eval "$(ssh-agent -s)""
+    - dodanie klucza "ssh-add ~/.ssh/id_ed25519"
+
+1.4 Rejestracja nowego klucza
+    - kopiowanie klucza
+    - dodawanie go na github
+
+1.5 Poinformowanie gita o zmianie sposobu logowania
+    - "git remote -v" 
+    - zmienia połącznia na SSH "git remote set-url origin git@github.com:InzynieriaOprogramowaniaAGH/MIFT2021.git" 
+    - "git remote -v".
+
+2. 
+
+
+
+
