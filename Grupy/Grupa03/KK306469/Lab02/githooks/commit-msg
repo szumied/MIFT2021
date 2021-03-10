@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "Nope" 	#wyświetlenie w terminalu tekstu "Nope"
+exit 1; 
