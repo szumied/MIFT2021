@@ -1,0 +1,2 @@
+git remote -v - wyswietlenie polaczenia z repo 
+git remote set-url - zmaina remotea repozytorium
