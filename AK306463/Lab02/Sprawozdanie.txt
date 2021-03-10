@@ -17,7 +17,17 @@ DevOps 10.03.2021
     - zmienia połącznia na SSH "git remote set-url origin git@github.com:InzynieriaOprogramowaniaAGH/MIFT2021.git" 
     - "git remote -v".
 
-2. 
+2. Dodawanie taga: 
+    - przejście na swojego brancha "git checkout AK306463"
+    - dodanie taga "git tag -a AK306463_Lab02 -m "mam nadzieje ze dziala 10/10""
+    - "git add ."
+    - "git commit"
+    - "git push"
+    - "git push origin AK306463 --follow-tags"
+
+3. Uporządkowanie branchy 
+
+
 
 
 
