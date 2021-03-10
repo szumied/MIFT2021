@@ -1,12 +1,11 @@
 Temat:
 Klucze SSH i połączenie SSH. Łączenie i usuwanie zmian w kodzie. Manipulowanie organizacją repozytorium GIT.
 
+Uwaga: korzystamy z tego samego repo co w zeszłym tygodniu, czyli git@github.com:InzynieriaOprogramowaniaAGH/MIFT2021.git
 Uwaga: po wykonaniu każdego numerowanego polecenia, wykonaj zrzut ekranu z efektem twojej pracy - będzie to potrzebne później.
-
+Uwaga: w czasie wykonanywania zadania pisz plik "sprawozdanie.txt", zawierający treść instrukcji którymi się posłużyłeś do wykonania zadania.
 Uwaga: Zwróć uwagę by w komentarzu do commita zawrzeć czytelną informację w ramach którego ćwiczenia laboratoryjnego i którego zdania to robisz.
-
 Uwaga: Upewnij się że jesteś na swoim branchu stworzonym na poprzednich zajęciach. (Jeżeli go usnąłeś, to stwórz go jeszcze raz i przełącz się na niego).
-
 Uwaga: Na mastera wrzucamy zmiany tylko przez pull requesta! https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021/pulls
 
 1. Klucz SSH i połączenie SSH zamiast HTTPS.
@@ -43,7 +42,7 @@ Przenieś w repozytorium swój folder (np.:KM123456), tak by był dostępny pod 
 Chcemy teraz stworzyć konfigurację branchy (!), która będzie wyglądała tak (pamiętaj podminieć swoje inicjały+nr idndeksu w miejsce "KM123456" i stworzyć folder dla właściwej sobie grupy laboratoryjnej!):
 * master (już istnieje; branch długożyjący; tutaj już nie robimy więcej push'a; dołączamy tylko "branche grupowe" przez pull requesta)
 * Grupa01 (już istnieje; branch długożyjący; to jest branch grupowy; do tego brancha będziesz push'ował zmiany ze swojego brancha)
-* Grupa01/KM123456_Lab02 (takiego brancha musisz zrobić oddzielając go od swojego grupowego brancha; to jest branch krótko żyjący; usuniesz go kiedy wykonasz swoje ćwiczenie i zrobisz merga do brancha grupowego; takiego brancha będziesz tworzył dla każdego laboratorium osobno)
+* Grupa01-KM123456_Lab02 (takiego brancha musisz zrobić oddzielając go od swojego grupowego brancha; to jest branch krótko żyjący; usuniesz go kiedy wykonasz swoje ćwiczenie i zrobisz merga do brancha grupowego; takiego brancha będziesz tworzył dla każdego laboratorium osobno)
 
 
 4. Napisz Git hook'a - skrypt weryfikujący, że każdy Twój commit message zaczyna się od "twoje inicjały + nr indexu". 
