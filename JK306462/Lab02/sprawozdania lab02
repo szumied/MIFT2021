@@ -1,2 +1,5 @@
 git remote -v - wyswietlenie polaczenia z repo 
 git remote set-url - zmaina remotea repozytorium
+git tag -a nazwa+tagu -m "wiadomosc tagu" - nadanie tagu na najnowszy commit
+git push origin jk306462 --follow-tags - nadanie tagu wraz z pushem do remotea
+
