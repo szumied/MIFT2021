@@ -1,0 +1,11 @@
+1.1 Przy uzyciu ssh-keygen ed25519 -C "mojmail" wygenerowano nowy klucz ssh
+
+1.2 Przy generowaniu klucza podano hasło
+
+1.3 Dodano klucz ssh do agenta ssh przy pomocy eval "$(ssh-agent -s)" a nastepnie ssh-add ~/.ssh/id_ed25519
+
+1.4 Na stronie git dodano klucz SSH
+
+1.5Przy pomocy git remote oraz set-url origin zmieniono sposób logowania
+
+2. Dodatno Tag oraz wrzucono tą zmianę na github
