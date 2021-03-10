@@ -26,6 +26,8 @@ DevOps 10.03.2021
     - "git push origin AK306463 --follow-tags"
 
 3. Uporządkowanie branchy 
+    - przełączenie się na brancha Grupa03 "git checkout Grupa03"
+    - stworzenie nowego brancha "git checkout -b 
 
 
 
