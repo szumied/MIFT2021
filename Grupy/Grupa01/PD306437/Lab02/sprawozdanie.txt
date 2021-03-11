@@ -39,8 +39,9 @@ tresc hook'a:
                              
 #!/bin/sh
 
-NAME = "PD306437"
-echo "$NAME"': '$(cat "$1") > "$1"
+echo 'PD306437: '$(cat "$1") > "$1"
+
+
 
 
 
