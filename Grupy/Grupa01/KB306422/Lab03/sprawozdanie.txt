@@ -17,3 +17,11 @@ Dodanie git hooka napisanego na poprzednich zajęciach i dodanie praw
 	-sudo systemctl enable docker 
 	-docker --version //sprawdzenie wersji
 4)Zalogowanie się do istniejącego konta na Docker HUB
+5)Dodanie i napisanie Dockerfile
+FROM ubuntu:latest
+RUN apt-get -y update
+RUN apt-get -y upgrade
+RUN apt-get install -y build-essential
+RUN apt-get -y install git
+
+
