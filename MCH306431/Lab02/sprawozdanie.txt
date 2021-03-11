@@ -1,1 +1,4 @@
 Laboratorium nr. 2 SPRAWOZDANIE
+
+Zadanie 1:
+wygenerowanie klucza ssh, wpisanie go do pliku, oraz wprowadzenie passphrase.
