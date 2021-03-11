@@ -19,5 +19,29 @@ git tag -a PD306437_Lab02 -m "Paweł Duda, Lab02 wszystko działa, 10/10 proszę
 wrzucenie zmian:
 git push --follow-tags
 
+Zad 3
+dodanie nowej struktury:
+git add .
 
+usunięcie starych folderow:
+git rm PD306437 -r
 
+uporządkowanie branchy:
+git merge origin/Grupa01
+git checkout Grupa01
+git pull
+git merge PD306437
+git push
+git checkout -b Grupa01-PD306437_Lab02
+
+Zad 4
+tresc hook'a:
+                             
+#!/bin/sh
+
+echo 'PD306437: '$(cat "$1") > "$1"
+
+Zad 5
+dołączenie zmian do brancha grupowego:
+git merge Grupa01-PD306437_Lab02
+git branch -d Grupa01-PD306437_Lab02
