@@ -1,0 +1,33 @@
+tworzenie SHH
+$ ssh-keygen -t ed25519 -C "wiktorligeza@gmail.com"
+
+zapisywanie shh w wybranym miejscu 
+Enter file in which to save the key (/c/Users/wikto/.ssh/id_ed25519): /c/Users/wikto/.ssh/id_ed25519
+
+
+tworzenie hasła(klucza prywatnego):
+Enter passphrase (empty for no passphrase): *********
+
+rozpoczynanie agenta shh (w tle)
+$ eval `ssh-agent -s`
+
+następnie pojawia się pid agenta
+Agent pid 209
+
+
+dodanie hasła do agenta 
+$ ssh-add ~/.ssh/id_ed25519
+
+
+następnie należy dodać klucz ssh do gita (na stronie)
+polecenie: clip < ~/.ssh/id_ed25519.pub -> kopiuje ssh do schowka następnie należy go wkleić w odpowiednim miejscu na stronie
+
+wyświetlenie połączenia (powinno być po https):
+$ git remote -v
+
+następnie należy zmienić połączenie SSH na url origin git@github.com:InzynieriaOprogramowaniaAGH/MIFT2021.git:
+poleceniem: git remote set-url origin git@github.com:InzynieriaOprogramowaniaAGH/MIFT2021.git
+
+oraz ponowne sprawdzenie poprzez: $ git remote -v
+
+
