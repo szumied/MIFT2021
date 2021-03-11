@@ -1,0 +1,14 @@
+Lab02, Baran Klaudia IS
+
+Sprawozdanie nr 2
+
+1) Zmiana sposobu logowania z HTTPS na użycie klucza SSH
+-wygenerowanie nowego klucza, zapisanie hasła
+	-ssh-keygen -t ed25519 -C "email@example.com"
+-dodanie klucza do ssh-agent
+	-eval "$(ssh-agent -s)"
+	-ssh-add ~/.ssh/id_ed25519
+-zarejestrowanie klucza po stronie serwera
+-sprawdzenie poleceniem 'git remote -v',czy pokazuje protokół git@
+
+
