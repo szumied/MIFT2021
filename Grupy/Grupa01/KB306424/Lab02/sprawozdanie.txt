@@ -1,3 +1,8 @@
-Tworzenie klucza ssh za pomoca polecenia ssh-keygen -t ed25519 -c "e-mail"
+Tworzenie klucza ssh za pomoca polecenia ssh-keygen -t ed25519 -c "e-mail" -f nazwa_klucza
 Podanie hasla do klucza ssh, czyli passphrase.
 Utworzenie agenta ssh do obslugi klucza ssh za pomoca polecenia eval "$(ssh-agent -s)"
+Zarejestrowanie klucza po stronie serwera za pomoca polecenia ssh-add ~/.ssh/nazwa_klucza
+Skopiowanie klucza do schowka xclip -selection clipboard < key.pub i dodanie na konto GitHub
+Wyswietlenie polaczenia z remotem za pomoca polecenia git remote -v
+Zmiana polaczenia na ssh za pomoca polecenia git remote set-url origin link
+
