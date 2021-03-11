@@ -16,7 +16,7 @@ git checkout -b Grupa02-KK306458_Lab02 - utworzenie nowego bracha dla lab02
 git merge KK306458 - zmergowanie poprzednich zmian do nowego brancha
 
 4
-
+Utworzenie skryptu 
 5
 
 
