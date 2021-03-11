@@ -1,0 +1,8 @@
+1. 
+	Stworzono klucz z pomocą poradnika z linku w instrukcji.
+	Zarejestrowano klucz po stronie serwera
+	Zastosowano komendę:
+		git remote set-url origin git@github.com:InzynieriaOprogramowaniaAGH/MIFT2021.git
+	do zmiany sposobu logowania
+	
+	
