@@ -1,0 +1,11 @@
+1. Wygenerowano klucz SSH i połaczono po SSH zamiast HTTPS
+
+2. Nadano tag do aktualnego commita 
+
+3. Uporządkowano branche i foldery.
+
+
+
+5. Nasetepnie dolaczono zmiany
+
+Zrzuty ekranu w folderze.
