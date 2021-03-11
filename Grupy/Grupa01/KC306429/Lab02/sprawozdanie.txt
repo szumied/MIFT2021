@@ -30,3 +30,9 @@ fi
 echo 'OK'
 exit 0;
 
+Zad5
+dołączenie zmian do brancha grupowego 
+git merge Grupa-KC306429_Lab02
+
+Zamkniecie brancha osobistego
+git branch -d Grupa01-KC306429_Lab02
