@@ -45,3 +45,5 @@ w razie gdyby wiadomosc nie zawierala mich inicjalow i nr indeksu, skrypt uniemo
 nadalam uprawnienia: chmod 755 commit-msg
 
 zadanie 5
+git add dla plikow ktore chce zcommitowac z lab02 do brancha grupowego
+
