@@ -24,5 +24,10 @@ git checkout -b Grupa01-SC306435_Lab02
 dotarło do mnie, że to grupa05 a nie 01, zmieniłem nazwę brancha:
 git branch -m Grupa05-SC306435_Lab02
 
+Przeniosłem pliki zgodnie z planem organizacji
+oraz  git push --set-upstream origin Grupa05-SC306435_Lab02
+
+W folderze .git/hooks edytowałem commit-msg.sample oraz usunąłem .sample z nazwy. 
+
 
 
