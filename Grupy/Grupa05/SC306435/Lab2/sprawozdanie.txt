@@ -21,4 +21,8 @@ git tag -a SC306435_Lab02 -m "Szymon Czekaj, jak dotad dziala 10/10 plz"
 stworzyłem+przełaczyłem się na nowy branch:
 git checkout -b Grupa01-SC306435_Lab02
 
+dotarło do mnie, że to grupa05 a nie 01, zmieniłem nazwę brancha:
+git branch -m Grupa05-SC306435_Lab02
+
+
 
