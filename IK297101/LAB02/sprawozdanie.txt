@@ -13,6 +13,13 @@ git remote -v
 git remote set-url origin git@github.com:InzynieriaOprogramowaniaAGH/MIFT2021.git
 
 
+git tag -a IK297101_Lab02 -m "Added directory for Lab 2  and testing Tagging for task 2"
 
 
+git commit -m "First commit for Lab 02 with task 1 and 2 complete"
+
+git push --set-upstream origin IK297101
+
+
+git push --follow-tags
 
