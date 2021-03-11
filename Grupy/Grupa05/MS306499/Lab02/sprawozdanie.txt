@@ -28,4 +28,4 @@ oraz stworzyłem nowy branch i dodałem do niego zmiany z poprzedniego brancha
 
 git merge MS306499
 
-4.
+4. Rozpocząłem tworzyć skrypt hooks
