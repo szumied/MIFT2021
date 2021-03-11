@@ -22,3 +22,5 @@ if ! grep -iqE "$string" "$1"; then
 	exit 1
 fi
 echo "Correct message"
+5. Zrobiono pusha z brancha osobistego do brancha grupowego, nastpnie zamknieto branch osobisty:
+usuniecie brancha: git branch -d Grupa05-MS306497_Lab02
