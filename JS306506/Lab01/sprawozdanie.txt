@@ -17,3 +17,11 @@ Wykonałam commita dla pliku sprawozdanie.txt oraz graf.png.
 Zad.5: Uzupełniam plik sprawozdanie.txt o krótki opis wykonanych czynności.
 Wykonałam commita (git commit -m) oraz pusha (git push).
 
+Zad.6: Dodałam zrzuty ekranu dla poszczególnych zadań. Wykonałam commita oraz pusha.
+	Pliki od razu były nazwane zadanie1, zadanie2, więc nie było konieczności zmiany nazwy.
+
+Zad.7: Wykonałam merge mojego brancha JS306506 do brancha master:
+	git checkout master
+	git merge JS306506
+	git pull
+	git push
