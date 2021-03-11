@@ -31,4 +31,3 @@ if ! grep "$nazwa" "$1"
 fi
 
 10. Dolaczenie zmian na Git'a
-
