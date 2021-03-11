@@ -19,4 +19,3 @@ git merge KK306458 - zmergowanie poprzednich zmian do nowego brancha
 Utworzenie skryptu 
 5
 
-
