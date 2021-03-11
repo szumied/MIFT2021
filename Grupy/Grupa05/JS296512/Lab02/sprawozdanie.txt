@@ -18,3 +18,12 @@ Wyświetliło połączenie po SSH
 2. TAG.
 git tag -a JS296512_Lab02 -m "Jan Smerecki, Lab 02, komentarz
 
+3. Uporządkowanie branch'y i folderów.
+git mv JS296512/ Grupy/Grupa05/
+
+Oddzielenie nowego brancha od Grupa05:
+git checkout Grupa05
+git checkout -b Grupa05-JS296512_Lab02
+
+Merge na nowym branchu zmian ze starego:
+git merge JS296512
