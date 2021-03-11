@@ -11,3 +11,13 @@ xclip -selection clipboard < ~/.ssh/id_rsa.pub
 
 poinformowanie gita o zmianie sposobu logowania:
 git remote set-url origin git@github.com:InzynieriaOprogramowaniaAGH/MIFT2021.git
+
+Zad 2
+nowy taga:
+git tag -a PD306437_Lab02 -m "Paweł Duda, Lab02 wszystko działa, 10/10 proszę"
+
+wrzucenie zmian:
+git push --follow-tags
+
+
+
