@@ -15,3 +15,11 @@ I nastepnie przypisałem klucz ssh do konta
 Na końcu użyłem klucza ssh do połączenia z repozytorium
 
 
+2. Dodałem commit z odpowiednim tagiem
+
+git remote set-url origin git@github.com:InzynieriaOprogramowaniaAGH/MIFT2021.git
+
+git tag -a MS306499_Lab02_1 -m "MS306499_Lab02_1"
+
+
+3. 
