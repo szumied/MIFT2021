@@ -10,4 +10,6 @@ if ! grep -iqE "$string" "$1"; then
 fi
 echo "Commit message includes pattern!"
 
-git commit --allow-empty -m "komentarz"
+aby hook dzialal trzeba zmienic uprawnienia czyli "chmod +x nazwaHooka"
+
+git commit --allow-empty -m "komentarz" - dodanie pustego commita
