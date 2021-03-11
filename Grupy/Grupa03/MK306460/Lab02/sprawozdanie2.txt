@@ -36,4 +36,12 @@ git checkout Grupa03
 na branchu grupowym utworzylam branch osobisty
 git checkout -b Grupa03-MK306460-Lab02
 i zmergowalam najnowszy branch z branchem MK306460
+git merge MK30640
 
+zadanie 4
+weszlam w główny folder repozytorium, nastepnie weszłam w foldery .git/hooks
+utworzylam plik commit-msg, napisalam skrypt umozliwiajacy sprawdzenie wiadomosci commita
+w razie gdyby wiadomosc nie zawierala mich inicjalow i nr indeksu, skrypt uniemozliwia wykonanie commita
+nadalam uprawnienia: chmod 755 commit-msg
+
+zadanie 5
