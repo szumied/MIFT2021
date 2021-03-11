@@ -1,0 +1,26 @@
+Michał Zając - sprawozdanie
+
+Wykorzystane polecenia: 
+
+ssh-keygen -t ed25519 -C "your_email@example.com" - wygenerowanie nowego klucza ssh
+
+ssh-add ~/.ssh/id_ed25519 - dodanie ssh
+
+clip < ~/.ssh/id_ed25519.pub - skopiowanie klucza ssh do schowka
+
+git remote -v - wyświetlenie informacji o sposobie połączenia
+
+git checkout -b Grupa08-MZ306649_Lab02 - utworznie nowego brancha
+
+Przebieg laboratorium:
+1.Zaktualizowano lokalne repozytorium poleceniem git pull.
+2.Zmieniono sposób połączenia z HTTP na SSH
+	-wygenerowano nowy klucz SSH
+	-zarejsetrowano klucz SSH po stronie serwera
+	-zmieniono sposób logowania
+3.Nadano tag na commita poleceniem git tag -a MZ306649
+4.Uporządkowano strukturę folderów
+	-utworzono foldery Grupy/Grupa08
+	-do utworzonego folderu przeniesiono swój folder
+5.Utworzono konfigurację branchy
+	-od brancha Grupa08 utworzono nowego brancha Grupa08-MZ306649_Lab02
