@@ -21,7 +21,15 @@ Zad.3: Uporządkowałam stworzone wcześniej foldery tak, aby możliwe było pog
 	* git checkout -b Grupa06-JS306506_Lab02
 
 Zad.4: Stworzyłam git hook'a o nazwie commit-msg weryfikującego czy commit zaczyna się od inicjałów oraz
-	 numeru indeksu i umieściłam go w folderze .git/hooks.
+	 numeru indeksu i umieściłam go w folderze .git/hooks:
+	#!/bin/bash
+	msg="$1"
+	if ! grep -qE "JS306506" "$msg";then
+		cat "$msg"
+		echo "twoj commit musi zaczynac sie od twoich inicjalow i numeru indeksu"
+		exit 1
+	fi
 
-Zad.5:   
+Zad.5: Dodałam wszystkie zmiany i wykonałam push'a. Następnie stworzyłam nowego pull requesta poprzez link
+	udostępniony w instrukcji.   
 	
