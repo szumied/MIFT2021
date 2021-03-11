@@ -1,0 +1,9 @@
+1. utworzono klucz SSH według instrukcji z linka
+2. Dodano agenta ssh według instrukcji
+3. Zarejestrowano klucz po stronie serwera w github
+4. zmieniono lokalnie sposób logowania
+5. utworzono commita ktory zawiera ten plik oraz wykonane już screeny
+6. utworzono tag przy pomocy komendy "git tag -a .... -m '....'"
+7. Wrzucono te zmiany na mojego brancha komenda git push -follow-tags
+8. Dodano również na remote/origin przy pomocy komendy 'git push origin SL306472 --tags'
+9. Przełączono na branch Grupa03
