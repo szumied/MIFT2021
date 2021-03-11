@@ -27,3 +27,8 @@ git checkout -b Grupa05-JS296512_Lab02
 
 Merge na nowym branchu zmian ze starego:
 git merge JS296512
+
+4. Napisz Git hook'a.
+W katalogu .git utworzyłem plik commit-msg i napisałem skrypt weryfikujący commity.
+Usunąłem commit-msg.samlpe i nadałem commit-msg możliwość uruchomienia (chmod +x)
+Sprawdziłem działanie. Było ok!
