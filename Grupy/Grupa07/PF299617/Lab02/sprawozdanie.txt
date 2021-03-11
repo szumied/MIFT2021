@@ -1,0 +1,16 @@
+Sprawozdanie Lab2
+
+1. Wygenerowanie klucza ssh.
+   $ ssh-keygen -t ed25519 -C "your_email@example.com".
+   Wybranie œcie¿ki do zapisu.
+   Wpisanie has³a.
+   Dodanie klucza do ssh-agent $ eval `ssh-agent -s`.
+   Dodanie ssh $ ssh-add ~/.ssh/id_ed25519 .
+   Zarejestrowanie klucza po stronie serwera.
+   Zmiana po³¹czenia na ssh $ git remote set-url origin git@github.com:InzynieriaOprogramowaniaAGH/MIFT2021.git
+
+2. Nadanie tag'u.
+   $ git tag -a PF299617 "Piotr Fedirko, lab02"
+   $ git push --follow-tags
+
+3.
