@@ -1,3 +1,25 @@
-Tworzenie klucza ssh za pomoca polecenia ssh-keygen -t ed25519 -c "e-mail"
+Tworzenie klucza ssh za pomoca polecenia "ssh-keygen -t ed25519 -C "e-mail" -f nazwa_klucza"
 Podanie hasla do klucza ssh, czyli passphrase.
-Utworzenie agenta ssh do obslugi klucza ssh za pomoca polecenia eval "$(ssh-agent -s)"
+Utworzenie agenta ssh do obslugi klucza ssh za pomoca polecenia "eval "$(ssh-agent -s)""
+Zarejestrowanie klucza po stronie serwera za pomoca polecenia "ssh-add ~/.ssh/nazwa_klucza"
+Skopiowanie klucza do schowka "xclip -selection clipboard < key.pub" i dodanie na konto GitHub
+Wyswietlenie polaczenia z remotem za pomoca polecenia "git remote -v"
+Zmiana polaczenia na ssh za pomoca polecenia "git remote set-url origin link"
+Nadanie tagu na commita za pomoca polecenia "git tag -a KB306424_Lab02 -m "komentarz""
+Wykonanie push'a za pomoca polecenia "git push origin KB306424 --follow-tags"
+Utworzenie sciezki i uporzadkowanie folderow w sposob "Grupy/Grupa01/KB306424/Lab02"
+Mergowanie brancha z numerem indeksu do brancha Grupa01 "git merge KB306424" na branchu Grupa01
+Usuniecie branchy wykonano za pomoca polecenia "git branch -d nazwa_brancha"
+
+Tresc utworzonego git hooke'a:
+#!/bin/bash
+string='KB306424*'
+message="Commit has been aborted"
+if ! grep -iqE "$string" "$1"; then
+	echo "$message"
+	exit 1
+fi
+echo "Commit message includes pattern!"
+
+Nalezalo nadac hooke'owi uprawnienia za pomoca polecenia "chmod +x nazwa_hooke'a"
+
