@@ -15,7 +15,17 @@ git checkout Grupa02 - przelaczenie sie na grupowego brancha
 git checkout -b Grupa02-KK306458_Lab02 - utworzenie nowego bracha dla lab02
 git merge KK306458 - zmergowanie poprzednich zmian do nowego brancha
 
-4
-Utworzenie skryptu 
-5
+4.
+Utworzenie skryptu sprawdzajacego czy wiadomosc w commicie zaczyna sie od KK306458, commit zostanie utworzony dopiero przy poprawnej formie wiadomosci. Skypt nazywa sie commit-msg i wymaga nadania uprawnienia do uruchomienia
 
+Zawartosc githooka
+
+if ! grep '^KK306458' $1; then
+echo "Wrong commit mess"
+exit 1;
+fi
+
+echo "Success"
+
+5.
+git push - wrzucenie zmian z brancha Grupa02-KK306458_Lab02
