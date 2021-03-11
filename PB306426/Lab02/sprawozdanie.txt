@@ -5,4 +5,6 @@
 		git remote set-url origin git@github.com:InzynieriaOprogramowaniaAGH/MIFT2021.git
 	do zmiany sposobu logowania
 	
-	
+2.
+	Nadano tag to aktualengo commita
+	git tag -a lab2_z1 -m 'PB306426 Lab_2 Zadanie 1'
