@@ -1,0 +1,1 @@
+ 1 - 1.5.3 generowanie_klucza.png, "klucz po stronie gh.png", "polacznie po ssh.png", ssh--agent.png, "wszystkie klucze.png"  
