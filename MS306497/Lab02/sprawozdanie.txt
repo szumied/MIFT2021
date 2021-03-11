@@ -1,0 +1,7 @@
+1.1 wygenerowano klucz SSH: ssh-keygen -t ed25519 -C "mserwaczak@gmail.com"
+1.3: Uruchomiono agenta SSH do obsugi klucza SSH: eval `ssh-agent -s`
+ssh-add ~/.ssh/id_ed25519
+1.4 Zarejestrowano klucz po stronie serwera
+1.5.1 Wywietlono poczenie po https: git remote -v
+1.5.2 Zmieniono polaczenie na SSH: git remote set-url origin git@github.com:InzynieriaOprogramowaniaAGH/MIFT2021.git
+1.5.3 Wywietlono polaczenie po ssh: git remote -v
