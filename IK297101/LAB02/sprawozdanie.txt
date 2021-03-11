@@ -1,0 +1,18 @@
+sh-keygen -t ed25519 -C "kijek.igor@gmail.com"
+
+
+eval "$(ssh-agent -s)"
+
+
+
+ssh-add ~/.ssh/id_ed25519
+
+git remote -v
+
+
+git remote set-url origin git@github.com:InzynieriaOprogramowaniaAGH/MIFT2021.git
+
+
+
+
+
