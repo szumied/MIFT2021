@@ -30,6 +30,11 @@ Zad.4: Stworzyłam git hook'a o nazwie commit-msg weryfikującego czy commit zac
 		exit 1
 	fi
 
-Zad.5: Dodałam wszystkie zmiany i wykonałam push'a. Następnie stworzyłam nowego pull requesta poprzez link
-	udostępniony w instrukcji.   
+Zad.5: Dodałam wszystkie zmiany i wykonałam push'a:
+	* git push origin Grupa06-JS306506_Lab02
+	Zmieniłam branch'a na Grupa06 i zmergowałam:
+	* git merge Grupa06-JS306506_Lab02
+	Usunęłam osobisty branch:
+	* git branch -d Grupa06-JS306506_Lab02	
+ 	Następnie stworzyłam nowego pull requesta poprzez link udostępniony w instrukcji.   
 	
