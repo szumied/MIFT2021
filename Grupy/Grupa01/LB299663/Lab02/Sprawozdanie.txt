@@ -1,0 +1,11 @@
+Zadanie 1:
+a) Utworzenie klucza SSH: ssh-keygen -t ed25519 -C "ukaszbielak@gmail.com"
+b) Uruchomienie agenta SSH: eval "$(ssh-agent -s)"
+c) Dodanie klucza na stronie.
+d) Zmiana protokołu: git remote set-url origin git@github.com:InzynieriaOprogramowaniaAGH/MIFT2021.git
+e) Sprawdzenie poprawności dokonanych zmian: git remote -v
+
+Zadanie 2:
+a) Zacommitowano zmiany: git commit -m "test"
+b) Dodano tag: git tag -a KM123456_Lab01 -m "Kazimierz Michalik, Lab 01 wszystko działa, 10/10 proszę"
+c) git push --follow-tags
