@@ -22,4 +22,10 @@ git remote set-url origin git@github.com:InzynieriaOprogramowaniaAGH/MIFT2021.gi
 git tag -a MS306499_Lab02_1 -m "MS306499_Lab02_1"
 
 
-3. Przeniosłem swój folder do nowej likalizacji
+3. Przeniosłem swój folder do nowej lokalizacji
+
+oraz stworzyłem nowy branch i dodałem do niego zmiany z poprzedniego brancha
+
+git merge MS306499
+
+4.
