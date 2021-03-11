@@ -22,7 +22,12 @@ a) Utworzono git hooka: touch pre-commit w .git/hooks
 b) Treść:
 #!/bin/sh
 
-echo 'LB299663: '$(cat "$1") > "$1"
+if ! grep 'LB299663' "$1"; then 
+	echo 'Blad'
+	exit 1;	
+fi	
+echo 'OK'
+exit 0;
 
 Zadanie 5:
 a)
