@@ -18,7 +18,7 @@ d) Zmiana ścieżek folderów.
 e) Commit i push
 
 Zadanie 4:
-a) Utworzono git hooka: touch pre-commit w .git/hooks
+a) Utworzono git hooka: touch msg-commit w .git/hooks
 b) Treść:
 #!/bin/sh
 
