@@ -11,4 +11,8 @@ Sprawozdanie nr 2
 -zarejestrowanie klucza po stronie serwera
 -sprawdzenie poleceniem 'git remote -v',czy pokazuje protokół git@
 
+2) Wykonanie commita, dodanie taga oraz push
+	-git tag -a KB306422_Lab02 -m "tekst"
+	-git push origin KB306422 --follow-tags
+
 
