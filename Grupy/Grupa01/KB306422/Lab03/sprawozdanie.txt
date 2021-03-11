@@ -2,3 +2,8 @@ Metodyki DevOps
 Sprawozdanie lab3
 1)Utworzenie nowego brancha osobistego od grupowego
 	-git checkout -b Grupa01-KB306422_Lab03
+2)Utworzenie katalogu w Lab02
+	- mkdir hooks
+Dodanie git hooka napisanego na poprzednich zajęciach i dodanie praw
+	-touch pre-commit
+	-chmod +x pre-commit
