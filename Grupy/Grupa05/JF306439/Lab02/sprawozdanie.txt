@@ -21,13 +21,12 @@
 
 #!/bin/sh
 
-nazwa = 'JF306439'
-
-if ! grep "$nazwa" "$1"
-	then echo 'Zla nazwa commita - powinna zaczynac sie od JF306439'
-	exit 1;
-	else echo 'OK'
-	exit 0;
-fi
+if ! grep 'JF306439' "$1"; then 
+	echo 'Zla nazwa commita - powinna zaczynac sie od JF306439'
+	exit 1;	
+fi	
+echo 'OK'
+exit 0;
 
 10. Dolaczenie zmian na Git'a
+
