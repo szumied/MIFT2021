@@ -41,14 +41,7 @@ tresc hook'a:
 
 echo 'PD306437: '$(cat "$1") > "$1"
 
-
-
-
-
-
-
-
-
-
-
-
+Zad 5
+dołączenie zmian do brancha grupowego:
+git merge Grupa01-PD306437_Lab02
+git branch -d Grupa01-PD306437_Lab02
