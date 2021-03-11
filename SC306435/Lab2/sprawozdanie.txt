@@ -18,3 +18,7 @@ git remote -v
 dodałem tag:
 git tag -a SC306435_Lab02 -m "Szymon Czekaj, jak dotad dziala 10/10 plz"
 
+stworzyłem+przełaczyłem się na nowy branch:
+git checkout -b Grupa01-SC306435_Lab02
+
+
