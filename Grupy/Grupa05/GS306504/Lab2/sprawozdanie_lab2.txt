@@ -4,7 +4,7 @@
 
 3. Uporządkowano branche i foldery.
 
-4. Następnie utworzono hooka
+4. Następnie sprobowano utworzyć hooka, ale nie dziala do konca.
 
 #!/bin/bash
 
