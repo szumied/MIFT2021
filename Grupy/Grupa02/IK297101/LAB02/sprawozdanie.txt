@@ -30,4 +30,4 @@ git branch -r
 git push --set-upstream origin Grupa02-IK297101_Lab02
 
 TEST1222
-
+3
