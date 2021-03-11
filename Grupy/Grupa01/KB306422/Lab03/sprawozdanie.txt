@@ -16,3 +16,4 @@ Dodanie git hooka napisanego na poprzednich zajęciach i dodanie praw
 	-sudo systemctl start docker//wystartowanie
 	-sudo systemctl enable docker 
 	-docker --version //sprawdzenie wersji
+4)Zalogowanie się do istniejącego konta na Docker HUB
