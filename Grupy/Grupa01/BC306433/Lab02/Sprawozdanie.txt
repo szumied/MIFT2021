@@ -26,3 +26,7 @@ cat "$msg"
 echo "twoj commit musi zaczynac sie od twoich inicjalow i numeru indeksu"
 exit 1
 fi
+
+5. Dodałem wszystkie zmiany i wykonałem push'a: git push origin Grupa01-BC306433_Lab02, następnie zmieniłem branch'a na Grupa01 i zrobiłem merga:
+git merge Grupa01-BC306433_Lab02. Usunąłem osobisty branch: git branch -d Grupa06-JS306506_Lab02	
+Następnie stworzyłem nowego pull requesta poprzez link znajdujący się w instrukcji.
