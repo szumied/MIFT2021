@@ -25,3 +25,7 @@ git push --follow-tags
 
 mv IK297101/ Grupy/Grupa02
 
+git branch -r
+
+git push --set-upstream origin Grupa02-IK297101_Lab02
+
