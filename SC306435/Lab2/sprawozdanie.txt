@@ -1,0 +1,20 @@
+Najpierw utworzyłem klucz poleceniem:
+ssh-keygen -t ed25519 -C "scaaz370@gmail.com"
+
+następnie włączyłem agenta ssh:
+eval `ssh-agent -s`
+
+oraz dodałem klucz ssh:
+ssh-add ~/gitkey/key
+
+Dodałem klucz ssh na stronie githuba
+
+ustawiłem połączenie na SSH:
+git remote set-url origin git@github.com:InzynieriaOprogramowaniaAGH/MIFT2021.git
+
+oraz sprawdziłem, czy polaczenie jest po ssh:
+git remote -v
+
+dodałem tag:
+git tag -a SC306435_Lab02 -m "Szymon Czekaj, jak dotad dziala 10/10 plz"
+
