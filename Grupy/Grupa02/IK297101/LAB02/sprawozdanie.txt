@@ -28,6 +28,6 @@ mv IK297101/ Grupy/Grupa02
 git branch -r
 
 git push --set-upstream origin Grupa02-IK297101_Lab02
-
+3
 TEST1222
 33
