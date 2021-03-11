@@ -5,3 +5,5 @@ ssh-add ~/.ssh/id_ed25519
 1.5.1 Wywietlono poczenie po https: git remote -v
 1.5.2 Zmieniono polaczenie na SSH: git remote set-url origin git@github.com:InzynieriaOprogramowaniaAGH/MIFT2021.git
 1.5.3 Wywietlono polaczenie po ssh: git remote -v
+2. Nadano tag na aktualnego commita: git tag -a MS306497_Lab02 -m "Michal Serwaczak, Lab 02, dziala"
+2.1 wrzucono zmiane na swojego brancha, a nastepnie remote/origin: git push --follow-tags
