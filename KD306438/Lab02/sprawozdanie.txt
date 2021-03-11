@@ -12,3 +12,7 @@
 	-sprawdzenie w konsoli obecnego rodzaju połączenia - komenda 'git remote -v', której wynik wskazał na połącznie po https.
 	-zmiana połącznie na SSH poleceniem 'git remote set-url origin git@github.com:InzynieriaOprogramowaniaAGH/MIFT2021.git'
 	-sprawdzenie poprawności zmiany połączenia - 'git remote -v'. Wyświetlone zostało połącznie po ssh - protokół git@.
+
+2. Nadanie tagu KD306438_Lab02 na commita wraz z odpowiednim komentarzem za pomocą komendy 'git tag -a KD306438_Lab02 -m "Karina Dyrda, Lab 02 oby wszystko smigalo"
+   Sprawdzenie poprawności utworzonego taga poleceniami 'git tag' oraz 'git show'. 
+   Wrzucenie zmiany na swojego brancha, a następnie origin instrukcją git push --follow-tags origin KD306438.
