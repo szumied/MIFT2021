@@ -1,0 +1,3 @@
+Tworzenie klucza ssh za pomoca polecenia ssh-keygen -t ed25519 -c "e-mail"
+Podanie hasla do klucza ssh, czyli passphrase.
+Utworzenie agenta ssh do obslugi klucza ssh za pomoca polecenia eval "$(ssh-agent -s)"
