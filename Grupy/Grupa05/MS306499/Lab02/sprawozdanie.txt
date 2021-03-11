@@ -28,4 +28,16 @@ oraz stworzyłem nowy branch i dodałem do niego zmiany z poprzedniego brancha
 
 git merge MS306499
 
-4. Rozpocząłem tworzyć skrypt hooks   
+4. Rozpocząłem tworzyć skrypt hooks commit-msg
+
+działa on w taki sposób:
+
+word="MS306499"
+isPresent=$(grep ^"$word" $1)
+
+if [[ -z $isPresent ]]
+  then echo "Commit message KO, $word is not at the beggining "; exit 1;
+  else echo "Commit message OK"; exit 0;
+fi
+
+5. Zrobiłem pusha na brancha grupowego
