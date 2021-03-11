@@ -7,4 +7,5 @@
 	
 2.
 	Nadano tag to aktualengo commita
-	git tag -a lab2_z1 -m 'PB306426 Lab_2 Zadanie 1'
+	git tag -a PB306426_lab02 -m 'Patryk Błoniarz laboratorium nr 2'
+
