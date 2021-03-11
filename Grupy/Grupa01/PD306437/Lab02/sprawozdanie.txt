@@ -34,3 +34,20 @@ git merge PD306437
 git push
 git checkout -b Grupa01-PD306437_Lab02
 
+Zad 4
+tresc hook'a:
+                             
+#!/bin/sh
+
+NAME = "PD306437"
+echo "$NAME"': '$(cat "$1") > "$1"
+
+
+
+
+
+
+
+
+
+
