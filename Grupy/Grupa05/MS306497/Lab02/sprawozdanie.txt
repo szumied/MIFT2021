@@ -7,3 +7,9 @@ ssh-add ~/.ssh/id_ed25519
 1.5.3 Wywietlono polaczenie po ssh: git remote -v
 2. Nadano tag na aktualnego commita: git tag -a MS306497_Lab02 -m "Michal Serwaczak, Lab 02, dziala"
 2.1 wrzucono zmiane na swojego brancha, a nastepnie remote/origin: git push --follow-tags
+3 Uporzadkowano branche i foldery: 
+uporzadkowannie folderow: git mv MS306497/ Grupy/Grupa05
+Stworzono konfiguracje branchy: 
+git checkout Grupa05
+git checkout -b Grupa05-MS306497_Lab02
+git merge MS306497
