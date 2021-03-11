@@ -1,0 +1,4 @@
+Metodyki DevOps
+Sprawozdanie lab3
+1)Utworzenie nowego brancha osobistego od grupowego
+	-git checkout -b Grupa01-KB306422_Lab03
