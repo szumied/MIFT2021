@@ -15,4 +15,10 @@ Sprawozdanie nr 2
 	-git tag -a KB306422_Lab02 -m "tekst"
 	-git push origin KB306422 --follow-tags
 
+3) Przeniesienie katalogów, stworzenie nowego brancha od Grupa01 i dodanie zmian z poprzedniego
+	-git checkout -b Grupa01-KB306422_Lab02
+	-git merge KB306422
 
+Dodanie PNG i uzupelnienie sprawozdania
+
+4) 
