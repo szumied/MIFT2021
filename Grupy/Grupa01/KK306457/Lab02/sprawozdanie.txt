@@ -1,6 +1,19 @@
+ssh-keygen -t ed25519 -C "email" -f nazwaPliku	- generowanie klucza ssh
+eval "$(ssh-agent -s)"		- utworzenie agenta ssh do obslugi klucza ssh
+ssh-add ~/.ssh/nazwaPliku	- zarejestrowanie klucza po stronie serwera
+skopiowanie klucza i dodanie do konta github 
+
+Wyswietlenie polaczenia z remotem 	git remote -v
+Zmiana sposobu laczenia na ssh 	git remote set-url origin link
+
+Nadanie tagu commitowi 	git tag -a nazwa -m "tresc"
+wykonanie pusha z tagiem 	git push origin nazwaBrancha --follow-tags
+
+Utworzenie sciezek na branchu Grupa01 i zmergowanie do niego KK306457
+
 git branch -d nazwaBrancha - usuwanie brancha 
 
-tresc hooka
+tresc hooka o nazwie commit-msg:
 #!/bin/bash
 string='JK306462*'
 message="Commit has been aborted"
