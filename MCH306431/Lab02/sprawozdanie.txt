@@ -8,3 +8,4 @@ Przejście na logowanie się po ssh oraz sprawdzenie tego za pomocą git remote 
 
 Zadanie 2:
 Dodanie tag'a do commita
+- usunięcia taga oraz dodanie go do commita o odpowiedniej nazwie.
