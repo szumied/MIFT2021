@@ -16,5 +16,12 @@ Zad.2: Stowrzyłam folder Lab02, a w nim plik sprawozdanie.txt. Dodałam zrzuty 
 	Zmiany wrzuciłam na swojego brancha za pomocą komendy git push, a następnie na remote/orgin używając:
 	* git push --follow-tags
 
-Zad.3: 
+Zad.3: Uporządkowałam stworzone wcześniej foldery tak, aby możliwe było pogrupowanie w grupy laboratoryjne.
+	Stworzyłam nowego brancha:
+	* git checkout -b Grupa06-JS306506_Lab02
+
+Zad.4: Stworzyłam git hook'a o nazwie commit-msg weryfikującego czy commit zaczyna się od inicjałów oraz
+	 numeru indeksu i umieściłam go w folderze .git/hooks.
+
+Zad.5:   
 	
