@@ -24,7 +24,19 @@ $ git checkout -b <nowy-branch>
 4. Stworzono Git Hook'a, sprawdzającego czy commit message rozpoczyna się od KG306533:
 
 
+#!/bin/bash
 
+MSG="$1"
+
+if ! grep -qE "^KG306533" "$MSG";then
+    cat "$MSG"
+    echo "Your commit message must begin with 'KG306533'"
+    exit 1
+fi
+
+Przetestowano działanie - co pokazują zrzuty ekranu.
+
+5. Ostatnie kroki to push z brancha związanego z laboratorium do brancha grupowego, oraz wykonanie pull requesta.
 
 
 
