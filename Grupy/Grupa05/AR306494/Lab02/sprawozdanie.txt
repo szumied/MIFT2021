@@ -11,4 +11,17 @@ Temat: Klucze SSH i połączenie SSH. Łączenie i usuwanie zmian w kodzie. Mani
 
 3. Uporządkowanie branch'y i folderów. Przeniosłam pliki do nowej lokalizacji git mv AR306494/ Grupy/Grupa05. Zmieniłam branch git checkout -b Grupa05-AR306494_Lab02 oraz zmergowałam stary branch z nowym git merge AR306494.
 
+4. Napisałam Git hook'a commit.msg. 
 
+#!/bin/bash
+
+commit_comment="AR306494"
+wrong_commit="Wrong commit!"
+
+if ! grep -iqE "$commit_comment" "$1" ; then
+	echo "$wrong_commit"
+	exit 1
+fi
+echo "Correct commit comment"
+
+5. Zrobiłam pusha ze swojego brancha do brancha grupowego. Usunięto branch osobisty poleceniem git branch -d Grupa-05-AR306494_Lab02.
