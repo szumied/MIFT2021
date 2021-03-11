@@ -26,4 +26,4 @@ c)utworzenie nowego brancha: git checkout -b Grupa01-GC306428_Lab02
 
 Zadanie 4
 
-a)
+a)Napisanie skryptu weryfikujcy, czy commit message zaczyna sie od 'GC306428'
