@@ -2,3 +2,5 @@ Laboratorium nr. 2 SPRAWOZDANIE
 
 Zadanie 1:
 wygenerowanie klucza ssh, wpisanie go do pliku, oraz wprowadzenie passphrase.
+Dodanie agenta do obsługi pliku klucza SSH
+Dodanie do opcji na github.com nowego klucza SHH 
