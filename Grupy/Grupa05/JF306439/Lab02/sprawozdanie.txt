@@ -30,6 +30,6 @@ if ! grep "$nazwa" "$1"
 	exit 0;
 fi
 
-10. Dolaczenie zmian na Git'a
+10. Dolaczenie zmian na Git'a.
 
 
