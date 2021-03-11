@@ -21,4 +21,18 @@ Sprawozdanie nr 2
 
 Dodanie PNG i uzupelnienie sprawozdania
 
-4) 
+4)Napisanie commit-msg w katalogu .git/hooks 
+skrypt w bashu
+#!/bin/bash
+string="KB306422*"
+message="Zly commit,dodaj nazwe zgodnie z wytycznymi"
+if ! grep -iqE "$string" "$1"; then
+	echo "$message"
+	exit 1
+fi
+Nadanie uprawnień chmod +x nazwa
+
+5) Dodanie zmian i wykonanie git push origin Grupa01-KB306422_Lab02
+oraz zmiana brancha na Grupa01 i wykonanie git merge Grupa01-KB306422_Lab02
+Usunięcie brancha osobistego git branch -d Grupa01-KB306422_Lab02
+Stworzenie nowego pull request. 
