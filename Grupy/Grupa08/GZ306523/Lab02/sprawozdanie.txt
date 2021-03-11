@@ -25,4 +25,12 @@
 9. Stworzenie hook
 
 
-10. Push wszystkiego
+10. Merge branchy
+
+
+
+
+10. Push wszystkiego 
+
+
+11. Usunięcie brancha Grupa08-GZ306523_Lab02
