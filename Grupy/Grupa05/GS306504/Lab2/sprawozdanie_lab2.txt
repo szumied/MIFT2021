@@ -18,4 +18,4 @@ fi
 
 5. Następnie dolaczono zmiany, merge do Grupa05, a potem pull request do mastera
 
-Zrzuty ekranu w folderze.
+Zrzuty ekranu w folderze..
