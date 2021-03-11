@@ -1,0 +1,17 @@
+1. wygenerowałem klucz ssh do łączenia się z repozytorium ssh
+
+ssh-keygen -t ed25519 -C "mstabryla@op.pl"
+
+Uruchomiłem ssh-agent
+
+eval `ssh-agent -s`
+
+I dodałem klucz do agenta
+
+ssh-add ~/.ssh/id_ed25519
+
+I nastepnie przypisałem klucz ssh do konta
+
+Na końcu użyłem klucza ssh do połączenia z repozytorium
+
+
