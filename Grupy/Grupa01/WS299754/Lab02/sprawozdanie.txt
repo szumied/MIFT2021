@@ -14,9 +14,17 @@
 	github.com: Setting -> SSH and GPG keys -> New SSH key
 - Zmiana sposobu logowania:
 	git remote set-url origin git@github.com:InzynieriaOprogramowaniaAGH/MIFT2021.git
-	2. - Dodanie taga:
-		git tag -a WS299754_Lab02 -m "tag testowy"
+2. - Dodanie taga:
+	git tag -a WS299754_Lab02 -m "tag testowy"
 - Dodanie taga do remote'a:
-		git push --set-upstream origin WS299754
-		git push --follow-tags
-		
+	git push --set-upstream origin WS299754
+	git push --follow-tags
+3. - Nowa konfiguracja folderów:
+	mkdir -p Grupy/Grupa01
+	mv WS299754/ Grupy/Grupa01/
+- Nowa konfiguracja branchy:
+	git checkout master
+	git branch Grupa01
+	git checkout Grupa01
+	git pull origin Grupa01
+	git push origin Grupa01-WS299754_Lab02 
