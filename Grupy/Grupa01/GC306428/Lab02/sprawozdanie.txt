@@ -22,8 +22,25 @@ Zadanie 3
 
 a)zmienienie struktury folderow
 b)zamaina konfiguracji branchy
-c)utworzenie nowego brancha: git checkout -b Grupa01-GC306428_Lab02
+c)utworzenie nowego brancha z brancha grupowego: git checkout -b Grupa01-GC306428_Lab02
 
 Zadanie 4
 
-a)Napisanie skryptu weryfikujcy, czy commit message zaczyna sie od 'GC306428'
+a)Napisanie skryptu weryfikujacego, czy commit message zaczyna sie od 'GC306428'
+#!/bin/bash
+
+INPUT="$1"
+MSG=`head -n1 $INPUT`
+CORRECT="GC306428"
+if ! [[ "$MSG" =~ $CORRECT ]]; then
+        echo "$MSG"
+        echo "Your commit message must begins with:'GC306428'"
+        exit 1
+fi
+
+b)nadanie utworzonemu hook'owi potrzebnych uprawnien: chmod 755 commit-msg
+
+Zadanie 5
+
+a)dolaczenie zmian do brancha grupy: git merge Grupa01-GC306428_Lab02
+b)usuniecie osobistego brancha: git branch -d Grupa01-GC306428_Lab02
