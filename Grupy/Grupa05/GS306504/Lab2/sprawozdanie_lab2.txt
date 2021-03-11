@@ -16,7 +16,6 @@ if [[ -z $isPresent ]]
   else echo "Commit message OK"; exit 0;
 fi
 
-
-5. Nasetepnie dolaczono zmiany
+5. Następnie dolaczono zmiany, pull do Grupa05, a potem pull request do mastera
 
 Zrzuty ekranu w folderze.
