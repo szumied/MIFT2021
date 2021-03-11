@@ -17,3 +17,4 @@ stworzenie roboczego brancha i przełączenie się na niego
 
 Zadanie4: 
 Dodanie skryptu w git hooks, który sprawdza czy nazwa commita rozpoczyna się od inicjałów oraz numeru indeksu.
+Przetestowanie działania git hooka - jeśli commit nie rozpoczyna się inicjałami+indexem, wyskakuje odpowedni komunikat
