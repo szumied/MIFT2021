@@ -1,0 +1,29 @@
+1.
+s	sh-keygen -t ed25519 -C "wanatwiktor08@gmail.com"
+2.
+	eval "$(ssh-agent -s)"
+3.
+	ssh-add 'C:\Users\Wiktor\.ssh\id_ed25519'
+5.
+git remote set-url origin git@github.com:InzynieriaOprogramowaniaAGH/MIFT2021.git
+
+4. klucz zostal skopiowany przez 
+	clip < id_ed25519.pub
+1.5
+git remote -v
+git remote set-url origin git@github.com:InzynieriaOprogramowaniaAGH/MIFT2021.git
+git remote -v 
+
+
+2.
+	Dodany tag 
+git tag -a WW306512_Lab02 -m "Wiktor Wanat , 10/10 prosze"
+	wrzucony 
+git push --follow-tags
+
+3.
+Nowy branch :
+git checkout -b Grupa08-WW306512_Lab02
+
+
+
