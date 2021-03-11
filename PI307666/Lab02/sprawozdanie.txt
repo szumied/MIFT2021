@@ -1,0 +1,2 @@
+1. Zmieniono sposób logowania do repozytorium przy użyciu protokołu SSH - git remote set-url origin git@github.com:InzynieriaOprogramowaniaAGH/MIFT2021.git".
+
