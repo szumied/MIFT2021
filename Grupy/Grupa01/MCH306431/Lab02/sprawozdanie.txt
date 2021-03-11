@@ -12,3 +12,5 @@ Dodanie tag'a do commita
 
 Zadanie 3:
 zmiana struktury katalogowej
+Stworzenie odpowiednich branchy podanych w poleceniu, popbranie zmian ze zdalnego repozytorium na brancha Grupa01,
+stworzenie roboczego brancha i przełączenie się na niego
