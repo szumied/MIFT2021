@@ -13,3 +13,12 @@ Stworzono konfiguracje branchy:
 git checkout Grupa05
 git checkout -b Grupa05-MS306497_Lab02
 git merge MS306497
+4. Napisano Git hook'a weryfikujacego czy commit message rozpoczyna sie od MS306497:
+#!/bin/bash
+
+string="MS306497"
+if ! grep -iqE "$string" "$1"; then
+	echo "Wrong message"
+	exit 1
+fi
+echo "Correct message"
