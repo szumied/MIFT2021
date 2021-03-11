@@ -46,4 +46,7 @@ nadalam uprawnienia: chmod 755 commit-msg
 
 zadanie 5
 git add dla plikow ktore chce zcommitowac z lab02 do brancha grupowego
+zmergowalam Branch Grupa03-MK306460-Lab02 z Grupa03, wrzucilam na branchy grupowy swoje pliki
+git push --set-upstream origin Grupa03
+
 
