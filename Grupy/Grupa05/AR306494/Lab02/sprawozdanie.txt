@@ -9,4 +9,6 @@ Temat: Klucze SSH i połączenie SSH. Łączenie i usuwanie zmian w kodzie. Mani
 
 2. Zrobiłam commita i nadałam na niego tag o nazwie "AR306494 Lab02" z komentarzem, za pomocą polecenia git tag -a AR306494_Lab02 -m "Aleksandra Rataj, Lab 02, dodaje taga". Wrzuciłam zmianę na swojego brancha poleceniem git push --set-upstream origin AR306494, a następnie na remote/origin za pomocą git push --follow-tags.
 
-3. Uporządkowanie branch'y i folderów.
+3. Uporządkowanie branch'y i folderów. Przeniosłam pliki do nowej lokalizacji git mv AR306494/ Grupy/Grupa05. Zmieniłam branch git checkout -b Grupa05-AR306494_Lab02 oraz zmergowałam stary branch z nowym git merge AR306494.
+
+
