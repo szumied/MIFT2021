@@ -18,3 +18,17 @@ d) Zmiana ścieżek folderów.
 e) Commit i push
 
 Zadanie 4:
+a) Utworzono git hooka: touch pre-commit w .git/hooks
+b) Treść:
+#!/bin/sh
+
+if ! grep 'LB299663' "$1"; then 
+	echo 'Blad, podaj swoj indeks'
+	exit 1;	
+fi	
+echo 'OK'
+exit 0;
+
+Zadanie 5:
+a) Zpushowano zmiany i zamknięto branch osobisty.
+b) Wykonano pull request do mastera.
