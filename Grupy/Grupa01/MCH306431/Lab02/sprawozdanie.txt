@@ -14,3 +14,6 @@ Zadanie 3:
 zmiana struktury katalogowej
 Stworzenie odpowiednich branchy podanych w poleceniu, popbranie zmian ze zdalnego repozytorium na brancha Grupa01,
 stworzenie roboczego brancha i przełączenie się na niego
+
+Zadanie4: 
+Dodanie skryptu w git hooks, który sprawdza czy nazwa commita rozpoczyna się od inicjałów oraz numeru indeksu.
