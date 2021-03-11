@@ -1,0 +1,31 @@
+1
+   Zmiana brancha
+    git checkout EK306459
+
+1.1
+   Generowanie klucza SSH
+    ssh-keygen -t ed25519 -C "emil_kobylecki@onet.eu"
+   Klucz zapisałem w domyślnym folderze i podałem passphrase
+
+1.3
+   Uruchomienie agenta SSH
+    eval "$(ssh-agent -s)"
+
+   Dodanie klucza do agenta SSH
+    ssh-add /home/emil/.shh/id_ed25519
+
+1.4
+   
+
+1.5
+   Zmiana połączenia na SSH
+    git remote set-url origin git@github.com:InzynieriaOprogramowaniaAGH/MIFT2021.git
+
+   Sprawdzenie stanu połączenia
+    git remote -v
+
+2
+   Dodanie tagu i komentarza do commita
+    git tag -a EK306459_02 -m "Nadalem commitowi tag chyba"
+2.1
+   
