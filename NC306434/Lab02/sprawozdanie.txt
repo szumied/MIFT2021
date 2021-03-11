@@ -1,0 +1,12 @@
+1. Wygenerowalam nowy klucz SSH za pomoca polecenia ssh-keygen -t ed25519 -C "natalia.czachor@onet.pl" .
+
+Uruchomilam agenta SSH do obslugi klucza SSH oraz dodalam klucz do niego, za pomoca polecen eval "$(ssh-agent -s)" oraz ssh-add ~/.ssh/id_ed25519 .
+
+Zarejestrowanlam klucz po stronie serwera. Zainstalowalam xclip poleceniem udo apt-get install xclip oraz skopiowalam klucz xclip -selection clipboard < ~/.ssh/id_ed25519.pub.
+
+Poinformowalam Git'a o zmianie sposobu logowania.
+git remote -v  wyświetla połącznie po https.
+git remote set-url origin git@github.com:InzynieriaOprogramowaniaAGH/MIFT2021.git  zmienia połącznie na SSH.
+git remote -v  powinien wyświetlić połącznie po ssh (protokół git@).
+
+
