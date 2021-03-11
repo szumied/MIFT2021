@@ -32,3 +32,10 @@ git merge JS296512
 W katalogu .git utworzyłem plik commit-msg i napisałem skrypt weryfikujący commity.
 Usunąłem commit-msg.samlpe i nadałem commit-msg możliwość uruchomienia (chmod +x)
 Sprawdziłem działanie. Było ok!
+
+5. Dołącz swoje zmiany.
+Zrobiłem push ze swojego brancha do brancha grupowego.
+
+Następnie zamknięto branch osobity:
+git branch -d Grupa05-JS296512_Lab02
+
