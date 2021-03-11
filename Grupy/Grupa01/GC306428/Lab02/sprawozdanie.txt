@@ -1,0 +1,29 @@
+Zadanie 1
+
+a)wygenerowanie nowego klucza ssh:
+ssh-keygen -t ed25519 -C "grzesiekc188@gmail.com"
+
+b)dodanie klucza do agenta:
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+
+c)zarejestrowanie klucza po stronie serwera
+
+d)poinformowanie gita o zmianie sposobu logowania:
+git remote set-url origin git@github.com:InzynieriaOprogramowaniaAGH/MIFT2021.git
+
+e)sprawdzenie dzialania z uzyciem git remote -v
+
+Zadanie 2
+
+a)dodanie nowego tagu: git tag -a GC306428_Lab01 -m "Grzegorz Cebula, Lab01 done"
+
+Zadanie 3
+
+a)zmienienie struktury folderow
+b)zamaina konfiguracji branchy
+c)utworzenie nowego brancha: git checkout -b Grupa01-GC306428_Lab02
+
+Zadanie 4
+
+a)
