@@ -15,3 +15,18 @@ Zad3
 3.2)Zmiana konfiguracji folderów a następnie commit i push wprowadzonych zmian
 3.3)Zmiana brancha na Grupa01 "git checkout Grupa01" i merge z branchem krótko żyjącym "git merge Grupa01-KC306429_Lab02"
 3.4)aktualizacja lokalnego repozytorium "git pull" a nastepnie push utworzonych zmian na branchu Grupa01 "git push".
+
+
+Zad4
+4)Stworzenie nowego git hook'a za pomocą "touch commit-msg" w .git/hooks
+4.1)Otworzenie stworzonego pliku i wklejenie następującego kodu
+
+#!/bin/sh
+
+if ! grep 'KC306429' "$1"; then
+        echo 'Error'
+        exit 1;
+fi
+echo 'OK'
+exit 0;
+
