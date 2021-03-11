@@ -1,0 +1,8 @@
+1. Instalacja git (zmiana środowiska z Windows na Linux) sudo apt-get install git
+2. Generowanie klucza SSH: ssh-keygen -t ed25519 -C "adres@mailowy.com"
+3. Uruchomienie agenta ssh: eval `ssh-agent -s`
+4. I dodanie klucza: ssh-add ~/.ssh/id_ed25519
+5. Wyświetlenie połączeń z repo: git remote -v
+6. Zmiana połączenia na SSH: git remote set-url origin git@github.com:<user/repo>
+7. Dodanie tag'u do aktualnego commita: git tag -a <nazwaTagu> -m <wiadomoscTagu>
+8. 
