@@ -1,0 +1,8 @@
+Zadanie 1:
+a) Utworzenie klucza SSH: ssh-keygen -t ed25519 -C "ukaszbielak@gmail.com"
+b) Uruchomienie agenta SSH: eval "$(ssh-agent -s)"
+c) Dodanie klucza na stronie.
+d) Zmiana protokołu: git remote set-url origin git@github.com:InzynieriaOprogramowaniaAGH/MIFT2021.git
+e) Sprawdzenie poprawności dokonanych zmian: git remote -v
+
+
