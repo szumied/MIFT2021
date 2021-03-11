@@ -10,3 +10,5 @@ git remote set-url origin git@github.com:InzynieriaOprogramowaniaAGH/MIFT2021.gi
 git remote -v  powinien wyświetlić połącznie po ssh (protokół git@).
 
 2. Wykonalam commita i nadalam tag o nazwie "NC306434_Lab02" poleceniem: git tag -a NC306434_Lab02 -m "Natalia Czachor, Lab02, tag". Dodaam zmiene na brancha poleceniem git push --set-upstream origin NC306434, a pozniej na remote/origin git push --follow-tags
+
+3. Przenioslam katalogi do nowej lokalizacji za pomoca polecenia git mv NC306434/ Grupy/Grupa01. Dodalam nowego brancha git checkout -b Grupa01-NC306434_Lab02. Wykonalam merga: git merge NC306434.
