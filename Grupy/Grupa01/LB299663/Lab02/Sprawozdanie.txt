@@ -18,3 +18,11 @@ d) Zmiana ścieżek folderów.
 e) Commit i push
 
 Zadanie 4:
+a) Utworzono git hooka: touch pre-commit w .git/hooks
+b) Treść:
+#!/bin/sh
+
+echo 'LB299663: '$(cat "$1") > "$1"
+
+Zadanie 5:
+a)
