@@ -7,5 +7,7 @@
 	
 2.
 	Nadano tag to aktualengo commita
-	git tag -a PB306426_lab02 -m 'Patryk Błoniarz laboratorium nr 2'
+		git tag -a PB306426_lab02 -m 'Patryk Błoniarz laboratorium nr 2'
+	Push z tagiem
+		git push --follow-tags origin PB306426
 
