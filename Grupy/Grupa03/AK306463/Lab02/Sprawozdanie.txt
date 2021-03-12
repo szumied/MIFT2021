@@ -33,12 +33,21 @@ DevOps 10.03.2021
     - stworzenie nowego brancha "git checkout -b Grupa03-AK306463_Lab02"
 
 4. Napisnie prostego skryptu do sprawdzania wiadomości commitowych
-    - w folderze .git/hooks stworzenie nowego pliku commit-msg wraz ze skryptem
+    - w folderze .git/hooks stworzenie nowego pliku commit-msg wraz ze skryptem:
+     "  #!/bin/bash
+        w=`cat $1 | grep "AK306463"`
+        if [ -n "$w" ]
+        then
+	        echo "Commit msg correct"
+        else
+	        echo "Error in commit msg- add your signature"
+            exit 1
+        fi "
     - nadanie odpowiednich atrybutow pliku "chmod 755 commit-msg"
 
 5. Dołączenie swoich zmian do brancha grupowego
     - zpushowanie zmian z brancha osobistego do brancha grupowego "git push origin Grupa03-AK306463_Lab02"
-    - zmiana brancha na brancha grupowego "git merge Grupa03-AK306463_Lab02"
+    - zmiana brancha na brancha grupowego, zrobienie merge "git merge Grupa03-AK306463_Lab02"
     - usunięcie niepotrzebnego brancha "git branch -d Grupa03-AK306463_Lab02"
     - dodanie pull requesta
 
