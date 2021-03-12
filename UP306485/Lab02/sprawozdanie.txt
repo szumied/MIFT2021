@@ -1,0 +1,4 @@
+1.Wygenerowalam klusz ssh za pomoca polecenia ssh-keygen -t ed25519 -C urszula.piatek1999@gmail.com.
+  Nastpnie dodalam klucz ssh do agenta za pomoca polecenen: eval "ssh-agent -s" oraz ssh-add ~/.ssh/id_ed25519
+  Kolejnym etapem bylo zarejestrowanie klucza po stronie serwera. Skopiowany poleceniem xclip -selection clipboard < ~/.ssh/id_ed25519.pub klucz dodalam w ustawieniach mojego konta gita. Ostatnia czescia pierwszego etapu byla zmiana polaczenia ssh z polaczenia http za pomoca git remote set-url origin git@github.com:InzynieriaOprogramowaniaAGH/MIFT2021.git
+2.
