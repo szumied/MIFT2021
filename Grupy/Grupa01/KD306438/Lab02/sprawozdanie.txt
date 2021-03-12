@@ -16,3 +16,10 @@
 2. Nadanie tagu KD306438_Lab02 na commita wraz z odpowiednim komentarzem za pomocą komendy 'git tag -a KD306438_Lab02 -m "Karina Dyrda, Lab 02 oby wszystko smigalo"
    Sprawdzenie poprawności utworzonego taga poleceniami 'git tag' oraz 'git show'. 
    Wrzucenie zmiany na swojego brancha, a następnie origin instrukcją git push --follow-tags origin KD306438.
+
+3. Uporządkowanie branch'y i folderów: pogrupowanie w grupy laboroatoryjne.
+	-utworzenie w folderze głównym folderów Grupy/Grupa01 za pomoca polecenia mkdir 
+	-przeniesienie swojego folderu KD306438 do folderu Grupa01
+	-utworzenie nowego, krótkożyjącego brancha komendą 'git checkout -b Grupa01-KD306438_Lab02'
+	-sprawdzenie poprawności zrealizowanych kroków instrukcją 'git status'
+
