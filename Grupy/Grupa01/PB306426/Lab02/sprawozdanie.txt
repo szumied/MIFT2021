@@ -11,3 +11,9 @@
 	Push z tagiem
 		git push --follow-tags origin PB306426
 
+3.	
+	Przeniesiono folder do w nowe miejsce (Grupy/Grupa01) zwykłe ctrl+x, ctrl+v
+	Stworzono nowego bracha 
+		git checkout -b Grupa01-PB306426_Lab02
+	Zrobiono commit i push na nowego brancha	
+	
