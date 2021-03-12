@@ -22,9 +22,19 @@
 3. - Nowa konfiguracja folderów:
 	mkdir -p Grupy/Grupa01
 	mv WS299754/ Grupy/Grupa01/
+	git add -A
+	git commit
 - Nowa konfiguracja branchy:
 	git checkout master
 	git branch Grupa01
 	git checkout Grupa01
 	git pull origin Grupa01
 	git push origin Grupa01-WS299754_Lab02 
+- Przejście do nowej konfiguracji:
+	git checkout Grupa01-WS299754_Lab02
+	git merge WS299754
+	git push origin Grupa01-WS299754_Lab02
+- Usunięcie starego brancha:
+	git branch -d WS299754 
+	git push origin --delete WS299754
+	
