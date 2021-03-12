@@ -34,3 +34,4 @@ Przebieg laboratorium:
     			echo "Zla tresc wiadomosci commita"
     			exit 1
 		fi
+
