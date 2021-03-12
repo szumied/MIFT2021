@@ -38,5 +38,16 @@
 	git branch -d WS299754 
 	git push origin --delete WS299754
 4. Hook do sprawdzania commit message:
-	
-	
+	cd .git/hooks
+	cp commit-msg.sample commit-msg
+Treść skryptu:                                  
+	#!/bin/sh
+
+	pattern='^(\bWS299754)'
+	msg="Commit message must start with WS299754!"
+
+	if ! grep -iqE "$pattern" "$1"; then
+     	   echo "$msg"
+     	   exit 1;
+	fi
+   	     exit 0;
