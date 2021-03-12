@@ -26,7 +26,7 @@ DevOps 10.03.2021
     - "git push origin AK306463 --follow-tags"
 
 3. Uporządkowanie branchy 
-    - rozpoczęto od uporządkowania struktury folderów na swoim prywatnym branch
+    - rozpoczęto od uporządkowania struktury folderów na swoim prywatnym branchu
         - usunięcie folderu AK306463
         - dodanie folderu Grupy/Grupa03/AK306463
     - przełączenie się na brancha Grupa03 "git checkout Grupa03"
@@ -49,7 +49,7 @@ DevOps 10.03.2021
     - zpushowanie zmian z brancha osobistego do brancha grupowego "git push origin Grupa03-AK306463_Lab02"
     - zmiana brancha na brancha grupowego, zmergowanie "git merge Grupa03-AK306463_Lab02"
     - usunięcie niepotrzebnego brancha "git branch -d Grupa03-AK306463_Lab02"
-    - dodanie pull requesta
+    - dodanie pull requesta do mastera
 
 
 
