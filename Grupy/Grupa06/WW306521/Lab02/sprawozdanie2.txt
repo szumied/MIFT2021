@@ -13,4 +13,12 @@
 	- cd Grupy/
 	- mkdir Grupa06
 	- mv WW306521 ~/Desktop/devops/MIFT2021/Grupy/Grupa06
-
+4. dodano skrypt do pliku .git/hooks/commit-msg.sample oraz zmieniono jego nazwe na commit-msg:
+	-tested_string= 'WW306521*'
+	if ! grep -iqE "$tested_string" "$1"; then
+		echo "Udalo sie scommitowac"
+		exit 1
+	fi
+		echo "niepoprawny commit"
+	- wykonano dwa commity z tagiem --allow-empty, aby sprawdzic poprawnosc dzialania skryptu. Poprawy commit
+	sie udal, gdy niepoprawny nie.
