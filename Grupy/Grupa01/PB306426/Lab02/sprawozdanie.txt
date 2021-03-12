@@ -31,4 +31,6 @@
 	
 	Przetestowano działanie wyniki na zrzutach
 	
+5.
+	Dokonano pusha na brancha grupowego, zamknieto branch osobisty a następnie dokonano 	pull requesta  
 	
