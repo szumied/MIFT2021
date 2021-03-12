@@ -1,0 +1,23 @@
+Zad 1.
+
+1. Wygenerowałam klucz SSH za pomocą komendy : ssh-keygen -t ed25519 -C "e-mail" 
+2.Dodałam klucz do agenta SSH.
+eval "$(ssh-agent -s)"
+ssh-add ścieżka_do_klucza_prywatnego
+3. Na swoim koncie na githubie dodałam klucz SSH w ustawieniach.
+4. Poinformowałam Git'a o zmianie sposobu logowania:
+git remote -v
+git remote set-url origin git@github.com:InzynieriaOprogramowaniaAGH/MIFT2021.git
+git remote -v
+
+Zad 2.
+1.Nadałam tag na aktualnego commita komendą : git tag -a AK306465_Lab02 -m "Aleksandra Krasoń, wszystko super działa"
+2.Wrzuciłam zmiany na brancha. 
+git push origin AK306465 --follow-tags
+
+Zad 3.
+1.Stworzyłam konfigurację katalogów Grupy/Grupa03/AK306465/Lab0*po czym skopiowałam odpowiednie pliki.Stworzyłam nowego brancha krótkożyjącego AK306465_Lab02 następnie zmergowałam go z poprzednim branchem.
+git checkout -b AK306465_Lab02
+git merge AK306465
+2.Folder AK306465 utworzony na poprzednich zajęciach usunęłam za pomocą komendy: git rm -r AK306465.
+3.Wrzuciłam zmiany na brancha
