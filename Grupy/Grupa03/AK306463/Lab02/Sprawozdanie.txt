@@ -35,7 +35,7 @@ DevOps 10.03.2021
 4. Napisnie prostego skryptu do sprawdzania wiadomości commitowych
     - w folderze .git/hooks stworzenie nowego pliku commit-msg wraz ze skryptem:
      "  #!/bin/bash
-        w=`cat $1 | grep "AK306463"`
+        w=`cat $1 | head -1 | grep "AK306463"`
         if [ -n "$w" ]
         then
 	        echo "Commit msg correct"
@@ -47,7 +47,7 @@ DevOps 10.03.2021
 
 5. Dołączenie swoich zmian do brancha grupowego
     - zpushowanie zmian z brancha osobistego do brancha grupowego "git push origin Grupa03-AK306463_Lab02"
-    - zmiana brancha na brancha grupowego, zmergowanie "git merge Grupa03-AK306463_Lab02"
+    - zmiana brancha na brancha grupowego, zmergowanie "git merge Grupa03-AK306463_Lab02", dodanie zamin na brancha
     - usunięcie niepotrzebnego brancha "git branch -d Grupa03-AK306463_Lab02"
     - dodanie pull requesta do mastera
 
