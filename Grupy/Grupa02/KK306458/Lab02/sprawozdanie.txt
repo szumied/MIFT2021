@@ -28,4 +28,9 @@ fi
 echo "Success"
 
 5.
-git push - wrzucenie zmian z brancha Grupa02-KK306458_Lab02
+git push --set-upstream origin Grupa02-KK306458_Lab02 - wrzucenie zmian z brancha Grupa02-KK306458_Lab02
+git checkout Grupa02
+git pull
+git merge Grupa02-KK306458_Lab02
+git push
+Wykonanie pull requesta z odpowiedniego miejsca na stronie github(Grupa02 -> master)
