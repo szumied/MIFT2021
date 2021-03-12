@@ -8,5 +8,12 @@ Klucz dodano na stronie github
 pokazanie gitowi o zmianie sposobu logowania:
 git remote set-url origin git@github.com:InzynieriaOprogramowaniaAGH/MIFT2021.git
 
-TAG:
+uzywanie tagow:
+git tag -a MP306490_lab2 -m "Mikołaj Powrózek, lab2, working"
+
+Branche i foldery:
+git mv MP306490/Grupy/Grupa04
+git checkout -b Grupa04-MP306490_lab2
+git merge MP306490
+
 
