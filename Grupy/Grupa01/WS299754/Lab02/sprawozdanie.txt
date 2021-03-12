@@ -37,4 +37,6 @@
 - Usunięcie starego brancha:
 	git branch -d WS299754 
 	git push origin --delete WS299754
+4. Hook do sprawdzania commit message:
+	
 	
