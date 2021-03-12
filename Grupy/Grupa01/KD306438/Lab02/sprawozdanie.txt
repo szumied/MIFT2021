@@ -35,5 +35,15 @@
 		echo "sukces"
 		exit 0;
 	-zapisanie pliku i usunięcie rozszerzenia .sample, aby skrypt mógł działać poprawnie
-	-sprawdzeine poprawności działania poprzez przetestowanie commitowania z błędnymi i poprawnymi message'ami
+	-sprawdzenie poprawności działania poprzez przetestowanie commitowania z błędnymi i poprawnymi message'ami
+
+5. Zmergowano swojego brancha osobistego z branchem grupowym:
+	-przełączono się na brancha grupowego poleceniem 'git checkout Grupa01'
+	-scalono swojego brancha z branchem grupowym za pomocą komnedy 'git merge Grupa01-KD306438_Lab02'
+	-'git pull origin Grupa01'
+	-spushowanie repozytorium 'git push origin Grupa01'
+	-usunięcie swojego brancha osobistego 'git branch -d Grupa01-KD306438_Lab02'
+
+
+
 
