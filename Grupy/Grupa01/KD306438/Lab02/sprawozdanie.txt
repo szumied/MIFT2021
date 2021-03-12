@@ -23,3 +23,17 @@
 	-utworzenie nowego, krótkożyjącego brancha komendą 'git checkout -b Grupa01-KD306438_Lab02'
 	-sprawdzenie poprawności zrealizowanych kroków instrukcją 'git status'
 
+4. Utworzenie Git hook'a - skryptu sprawdzającego czy każdy mój commit message zaczyna się od "KD306438"
+	-przejście do ukrytego folderu .git/hooks
+	-edycja pliku commit-msg: zastąpienie #!/bin/sh linijką #!/bin/bash
+	-dodanie następującego fragmentu odpowiadającego za sprawdzenie i wyświetlanie odpowiedniej informacji:
+		napis='KD306438*'
+		if ! grep "$napis" "$1"; then
+			echo "bledna nazwa commita"
+			exit 1;
+		fi
+		echo "sukces"
+		exit 0;
+	-zapisanie pliku i usunięcie rozszerzenia .sample, aby skrypt mógł działać poprawnie
+	-sprawdzeine poprawności działania poprzez przetestowanie commitowania z błędnymi i poprawnymi message'ami
+
