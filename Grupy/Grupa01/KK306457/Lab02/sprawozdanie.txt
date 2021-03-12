@@ -10,8 +10,8 @@ Nadanie tagu commitowi 	git tag -a nazwa -m "tresc"
 wykonanie pusha z tagiem 	git push origin nazwaBrancha --follow-tags
 
 Utworzenie sciezek na branchu Grupa01 i zmergowanie do niego KK306457
-
 git branch -d nazwaBrancha - usuwanie brancha 
+git branch Grupa01-KK306457_Lab02 - oddzielenie nowego brancha od brancha grupowego
 
 tresc hooka o nazwie commit-msg:
 #!/bin/bash
@@ -25,4 +25,6 @@ echo "Commit message includes pattern!"
 
 aby hook dzialal trzeba zmienic uprawnienia czyli "chmod +x nazwaHooka"
 
-git commit --allow-empty -m "komentarz" - dodanie pustego commita
+git commit --allow-empty -m "komentarz" - dodanie pustego commita w celach testowych
+
+mergowanie brancha oddzielonego od grupowego "git merge Grupa01-KK306457_Lab02" na branchu Grupa01
