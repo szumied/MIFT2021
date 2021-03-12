@@ -12,3 +12,11 @@ Zadanie 1
 		* Zmienienie połączenia na SSH : git remote set-url origin git@github.com:InzynieriaOprogramowaniaAGH/MIFT2021.git
 		* Wyświetlenie połączenia po SSH: git remote -v
 Zadanie 2
+	1. Dodanie plików do Staging Area
+		* git add.
+	2. Dodanie taga
+		* git tag -a KO306482_Lab02 -m "Wykonanie zadania 1"
+	3. Wrzucenie plików na lokalne repozytorium
+		* git commit
+	4. Wysłanie plików na repozytorium serwerowe
+		* git push
