@@ -20,7 +20,7 @@ git log - sprawdzenie commitów (historii)
 
 3. Zmiana struktury branchy i folderów
 
-a) zmieniono strukturę katalogów w branchu EM297029
+a) zmieniono strukturę katalogów w branchu EM297029 (ręcznie)
 b) zrobiono git checkout na Grupa04
 c) stworzono nowego brancha Grupa04-EM297029_Lab02 git checkout -b nazwa
 d) zmergowano brancha EM297029 do nowoutworzonego (tak aby zachować histroię :) 
