@@ -51,3 +51,6 @@ Treść skryptu:
      	   exit 1;
 	fi
    	     exit 0;
+5. - Usuwanie brancha:
+	git branch -d Grupa01-WS299754_Lab02 
+	git push origin --delete Grupa01-WS299754_Lab02
