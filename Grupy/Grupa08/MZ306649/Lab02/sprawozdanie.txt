@@ -24,5 +24,13 @@ Przebieg laboratorium:
 	-do utworzonego folderu przeniesiono swój folder
 5.Utworzono konfigurację branchy
 	-od brancha Grupa08 utworzono nowego brancha Grupa08-MZ306649_Lab02
-6.Utworzono git hooka sprawdzającego czy na początku wiadomości commita wystepuje ciąg znaków "MZ306649"
-	
+6.Utworzono git hooka sprawdzającego czy na początku wiadomości commita wystepuje ciąg znaków "MZ306649" 
+
+		#!/bin/sh
+
+		prefix = "MZ306649"
+
+		if ! grep -iqE "$prefix" "$1"; then
+    			echo "Zla tresc wiadomosci commita"
+    			exit 1
+		fi
