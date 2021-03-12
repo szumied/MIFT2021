@@ -24,6 +24,7 @@ git push --set-upstream origin Grupa04-PM306896_Lab02- pierwszy push
 
 zad 4:
 w katalogu /.git/hooks utworzylam plik commit-msg (zawartosc widoczna na screenie do zadania 4)
+chmod +x commit-msg- nadanie uprawnien wykonywania sie skryptu
 
 zad 5:
 git add .
