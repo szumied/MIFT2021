@@ -33,5 +33,12 @@ if ! grep -qE "AK306465" "$msg";then
         exit 1
 fi
 
+Zad 5. 
+1.Dodałam pusha dokonanych zmian - sprawdzając przy tym działanie hooka. 
+2.Zmieniłam brancha na grupowego po czym zmergowałam swojego brancha
+git merge Grupa03-AK306465_Lab02
+3.Usunęłam branch z laboratorium nr 2.
+git branch -d Grupa03-AK306465_Lab02
+4.Stworzyłam pull requesta poprzez link z instrukcji.
 
 
