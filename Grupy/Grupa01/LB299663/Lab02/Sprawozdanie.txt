@@ -9,3 +9,26 @@ Zadanie 2:
 a) Zacommitowano zmiany: git commit -m "test"
 b) Dodano tag: git tag -a KM123456_Lab01 -m "Kazimierz Michalik, Lab 01 wszystko działa, 10/10 proszę"
 c) git push --follow-tags
+
+Zadanie 3:
+a) Uporządkowanie branchy i folderów.
+b) Utworzenie brancha krótkożyjącego. git checkout -b "Lab1_krotkozyjacy"
+c) Wykonanie git merge Grupa01
+d) Zmiana ścieżek folderów.
+e) Commit i push
+
+Zadanie 4:
+a) Utworzono git hooka: touch msg-commit w .git/hooks
+b) Treść:
+#!/bin/sh
+
+if ! grep 'LB299663' "$1"; then 
+	echo 'Blad, podaj swoj indeks'
+	exit 1;	
+fi	
+echo 'OK'
+exit 0;
+
+Zadanie 5:
+a) Zpushowano zmiany i zamknięto branch osobisty.
+b) Wykonano pull request do mastera.
