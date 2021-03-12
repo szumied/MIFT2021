@@ -22,4 +22,4 @@
 	
 	Przetestowano działanie wyniki na zrzutach
 	
-	aa
+	a
