@@ -19,14 +19,7 @@
 	
 4.
 	Wejście do folderu .git/hooks i edycja pliku commit-msg
-	#!/bin/bash
-	tests= 'PB306426*'
-
-	if ! grep -iqE "$tests" "$1"; then
-		echo "Dokonano commita"
-		exit 1
-	fi
-		echo "Nie dokonano commita, wystąpił błąd"	
+	
 	Przetestowano działanie wyniki na zrzutach
 	
 	aa
