@@ -23,6 +23,6 @@ git merge az306527
 
 4.1. Odkryto ukryte foldery w repo, a nastepnie utworzono w folderze .git/hooks odpowiedni skrypt
 
-5.1. Usunięto branch lokalnie i na remocie
+5.1. Usunięto  branch lokalnie i na remocie
 git branch -d Grupa08-AZ306527_Lab02
 git push origin --delete Grupa08-AZ306527_Lab02
