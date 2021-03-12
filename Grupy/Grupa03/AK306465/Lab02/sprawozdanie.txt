@@ -16,8 +16,22 @@ Zad 2.
 git push origin AK306465 --follow-tags
 
 Zad 3.
-1.Stworzyłam konfigurację katalogów Grupy/Grupa03/AK306465/Lab0*po czym skopiowałam odpowiednie pliki.Stworzyłam nowego brancha krótkożyjącego AK306465_Lab02 następnie zmergowałam go z poprzednim branchem.
-git checkout -b AK306465_Lab02
+1.Stworzyłam konfigurację katalogów Grupy/Grupa03/AK306465/Lab0*po czym skopiowałam odpowiednie pliki.Stworzyłam nowego brancha krótkożyjącego Grupa03-AK306465_Lab02 następnie zmergowałam go z poprzednim branchem.
+git checkout -b Grupa03-AK306465_Lab02
 git merge AK306465
 2.Folder AK306465 utworzony na poprzednich zajęciach usunęłam za pomocą komendy: git rm -r AK306465.
 3.Wrzuciłam zmiany na brancha
+4.Usunęłam branch z poprzednich zajęć.
+
+Zad 4.
+Stworzyłam hooka w folderze .git/hooks, który weryfikuje czy commity zaczynają się od "AK306465".
+#!/bin/bash
+msg="$1"
+if ! grep -qE "AK306465" "$msg";then
+        cat "$msg"
+        echo "Twoj commit musi zaczynac sie od twoich inicjalow i numeru indeksu"
+        exit 1
+fi
+
+
+
