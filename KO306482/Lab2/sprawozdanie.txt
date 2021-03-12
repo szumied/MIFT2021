@@ -38,7 +38,14 @@ zadanie 4
 			exit 1
 		fi
 zadanie 5
-	1. Dodanie plików
+	1. Dodanie plików, wykonanie commita, pusha 
 		* git add .
+		* git commit
+		* git push --set-upstream origin Grupa04-KO306482_Lab02
+	2. Przejście na brancha Grupa04 i zmergowanie branchy
+		* git checkout Grupa04
+		* git merge Grupa04-KO306482_Lab02
+	3. Usunięcie brancha roboczego	
+		* git branch -d Grupa04-KO306482_Lab02
 	
 	
