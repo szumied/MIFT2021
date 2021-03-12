@@ -30,7 +30,8 @@ git merge EM297029
 4. Git hook
 
 a) w folderze .git/hooks napisano skrypt o nazwie commit-msg (treść widoczna na screenie)
-b) przy próbach commitowania w niedozwolony sposób dostawano odmowę (widoczne na screenach)
+b) nadano uprawnienia do wykonywania plikowi chmod +x commit-msg
+c) przy próbach commitowania w niedozwolony sposób dostawano odmowę (widoczne na screenach)
 
 5. zrobiono pusha na naszego "developa" Grupa04 (ze wcześniejszym pullem)
 zgłoszono pull-request
