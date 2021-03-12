@@ -1,44 +1,48 @@
-Na początku przystąpiono do wykonania instrukcji git clone alby sklonować repozytorium (zadanie nr 2). 
+Na samym początku przystąpiono do zmiany sposobu logowania do repozytorium z HTTPS na SSH. Okazało się, że posiadam już klucz SSH wraz z podpiętym działającym
+agentem SSH. Tenże klucz był już podpięty do serwera.
 
-Następnie stworzono nowy branch.
+	git remote -v -> wyświetla połącznie po https
+	git remote set-url origin https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021.git -> zmienia połączenie na SSH
+	git remote -v -> wyświetla połączenie po ssh 
 
-	git branch KM305193
-	
-Kolejno przełączono się na nowo stworzonego brancha.
+Aby upewnić się aby na pewno operacja powiodła się wykonano
 
-	git checkout KM305193
+	ssh -T git@github.com
 
-Na tymże branchu stworzyłem folder KM305193.
+Kolejnym krokiem było nadanie tagu na aktualnego commita 
 
-	mkdir KM305193
+	git tag -a KM305193_Lab02 -m "zadanie nr 2"
 
-W tym folderze stworzono plik "sprawozdanie.txt"
+Następnie wrzucono zmianę na brancha na origin 
 
-	echo "" >> sprawozdanie.txt
+	git push --atomic origin KM305193 KM305193_Lab02
 
-Dodano plik do repozytorium git'a i wykonałem commita.
+Kolejno zmieniono konfigurację folderów, w głównym katalogu ("MIFT2021") wykonano
 
-	git add sprawozdanie.txt
-	git commit -m "..."
+	mkdir Grupy
+	cd Grupy 
+	mkdir Grupa04
 
-Dodano plik z grafem i wykonano commita.
+Następnie poleceniem git mv przeniesiono dotychczasowy folder "KM305193" do podkatalogu "Grupa04"
 
-	git add pn1.png
-	git commit -m "..."
+Stworzono hierarchię gałęzi według instrukcji
 
-Użyto poleceń
+	git branch Grupa04-KM305193_Lab02
+	git fetch -> pobrało nam gałąź Grupa04, która dotyczy całej grupy laboratoryjnej
 
-	git reflog 
-	history
+Kolejnym krokiem było napisanie git hooka, skrypt, który zostaje uruchomiony po spełnieniu jakiś zależności (w naszym przypadku nienapisanie w treści commita
+inicjałów wraz z numerem indeksu jako pierwszego słowa). Co ważne po napisaniu tego skryptu trzeba było zmienić jego rozszerzenie (usunąć rozszerzenie sample)
+oraz zmienić plik na wykonywalny
 
-aby dać pełną informację na temat użytych komand, zmian branchy.
+	chmod +x commit-msg
 
-Wykonano potrzebne zrzuty ekranu oraz upakowano je w poszczególnego foldery (zadanie2, zadanie4).
+Jednym z ostatnim kroków było złączenie gałezi
 
+	git checkout Grupa04-KM305193_Lab02
+	git merge KM305193
+	git checkout Grupa04
+	git merge Grupa04-KM305193_Lab02
 
+oczywiście w trakcie łączenia oraz przełączania między gałęziami miały miejsce git pull ponieważ repozytorium zdalne było ciągle aktualizowane
 
-
-
-
-
-
+Na końcu stworzono pull requesta z brancha grupowego ("Grupa04") na mastera
