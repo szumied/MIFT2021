@@ -17,3 +17,5 @@
 		git checkout -b Grupa01-PB306426_Lab02
 	Zrobiono commit i push na nowego brancha	
 	
+4.
+	
