@@ -41,3 +41,4 @@ Przebieg laboratorium:
 	Wykorzystano hook commit-msg w folderze .git/hooks, nadano mu 		uprawnienia do wykonywania.
 7.Zrobiono push z brancha osobistego do brancha grupowego.
 8.Usunięto brancha osobistego.
+9.Zrobiono pull request z brancha grupowego do mastera.
