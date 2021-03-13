@@ -10,5 +10,5 @@ Przeszedłem na brancha grupowego za pomocą "git checkout Grupa07". Stworzyłem
 4. Utworzyłem git hooka w folderze .git/hooks (screenshot nr 4). Usunąlem rozszerzenie sample aby skrypt działał.
 
 5.Zrobiłem commit i push "git push origin Grupa07" na brancha grupowego.
-Usunąłem własny branch utworzony w punkcie 3 "git push origin --delete Grupa07-AH306665-Lab02"
+Usunąłem własny branch utworzony w punkcie 3.
 Na koniec stworzyłem nowy "Pull request" ze swojego brancha grupowego do mastera.
