@@ -24,7 +24,9 @@ Wykrycie dodanych zmian: git add .
 Utworzenie commita: git commit -m "MW306517..."
 Dostarczenie zmian na remote'a: git push origin Grupa05-MW306517_Lab02
 Wykonanie merge'a do brancha gupowego: 
-Zamknięcie osobistych branch'y:
+git checkout Grupa05
+git merge Grupa05-MW306517_Lab02
+Zamknięcie osobistego branch'y:
 git push origin --delete Grupa05-MW306517_Lab02
 
 Wykonanie pull requesta do brancha głównego. 
