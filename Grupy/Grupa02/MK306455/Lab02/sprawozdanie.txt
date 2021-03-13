@@ -22,3 +22,8 @@ Zmieniono branch na nowo utworzony branch za popmoca komendy "git checkout Grupa
 
 Zad 4
 W katalogu MIFT2021/.git/hooks utworzono plik commit-msg, bedacy krotkim skryptem. Najpierw definiujemy wyrazenie regularne oczekiwane na poczatku pliku - MK306455 oraz wiadomosc o bledzie. Nastepnie sprawdzamy za pomoca grep czy wyrazenie regularne znajduje sie na poczatku pliku w ktorym jest wiadomosc. Plik ten jest pierwszym parametrem hooka. Jezeli wyrazenie zwroci falsz, to hook wyswietla komunikat o bledzie oraz status 1. W przeciwnym razie zwraca 0 - kod powodzenia.
+Zad 5
+Zmienilem branch na Grupa02 i wywolalem komende "git merge Grupa02-MK306455_Lab02"
+Usunalem swoj branch za pomoca komendy "git branch -d Grupa02-MK306455_Lab02"
+Zaciagnalem zmiany "git pull --all"
+Dokonalem commit i push na branch Grupa02 
