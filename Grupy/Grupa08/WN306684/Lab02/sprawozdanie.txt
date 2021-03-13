@@ -1,0 +1,29 @@
+1.Wygenerowanie nowego klucza poleceniem: 'ssh-keygen -t ed25519 -C "wiktoria0017@interia.pl"'.
+
+Uruchomienie agenta ssh: 'eval 'ssh-agent -s''.
+
+Dodanie klucza do agenta: 'ssh-add ~/.ssh/id_ed25519'.
+
+Zmiana sposobu logowanie: 'git remote set-url origin git@github.com:InzynieriaOprogramowaniaAGH/MIFT2021.git'.
+
+2.Nadanie Tagu na aktualnego commita: 'git tag -a WN306684_Lab02 -m "Wiktoria Nowak' oraz 'git push --follow-tags'.
+
+3.Uporządkowanie folderów : MIFT2021\Grupy\Grupa08\WN306684\Lab02.
+
+Utworzenie brancha: 'git checkout Grupa08-WN306684_Lab02'.
+
+4.Utworzenie skryptu weryfikującego, czy commit message zaczyna się od "WN306684".
+
+!/bin/sh
+if ! grep 'WN306684' "$1"; then
+	echo 'Error'
+	exit 1;
+fi
+echo 'ok'
+exit 0;
+
+5.Push na branch grupowy: 'git push origin Grupa08-WN306684_Lab02'.
+
+Merge: 'git merge Grupa08-WN306684_Lab02'.
+
+Usunięcie krótkożyjącego brancha: 'git branch -d Grupa08-WN306684_Lab02'. 
