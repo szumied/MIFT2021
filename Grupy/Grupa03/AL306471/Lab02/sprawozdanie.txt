@@ -37,6 +37,6 @@ fi
 
 5
 Dodałem swoje pliki do brancha grupowego
-git push origin Grupa03-AL306471_Lab02 <- push plików z mojego branch'a osobistego do branch'a grupowego
+git push origin Grupa03-AL306471_Lab02 <- push plików na mojego branch'a
 git merge Grupa03-AL306471_Lab02 <- mergowanie
 Dodałem pull requesta do mastera
