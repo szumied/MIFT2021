@@ -19,7 +19,5 @@ zrobiono merge przy pomocy git merge
 
 4. Odpalono folder .git w ktorym znajdowal sie folder hooks, napisano skrypt, jego tresc jest w screenach.
 
- 
 
-
-5.Zrobiono merge i stworzono pull request
+5.Zrobiono merge przy pomocy git merge i zamknieto branch osobisty przy pomocy git branch -d "nazwa brancha" stworzono pull request przy pomocy git request-pull
