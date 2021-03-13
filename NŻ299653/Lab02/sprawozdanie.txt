@@ -22,3 +22,7 @@ I kolejno wykonałam:
 3. Uporządkowanie branchy 
 Najpierw uporządkowałam strukturę folderów na swoim prywatnym branchu
 Później stworzyłam nowego brancha "git checkout -b Grupa08-NŻ299654_Lab02"
+
+4. Napisałam prosty skrypt do sprawdzania wiadomości commitowych oraz nadałam mu odpowiednie atrybutow pliku "chmod 755 commit-msg"
+
+5. Dołączyłam swoje zmiany do brancha grupowego
