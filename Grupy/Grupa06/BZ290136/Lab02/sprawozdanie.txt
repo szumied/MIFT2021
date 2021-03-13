@@ -37,8 +37,8 @@ fi
 8. Wykonano pusha z brancha lokalnego do grupowego i zamknieto branch osobisty:
 git checkout Grupa06
 git merge Grupa06-BZ290136_Lab02  -m "BZ290136 lab02 zad 8" 
-git push https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021/pulls Grupa06:master
-git request-pull BZ290136_Lab02 https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021/pulls Grupa06:master
+git push https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021
+git request-pull BZ290136_Lab02 https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021
 
 
 
