@@ -1,0 +1,40 @@
+Zadanie 1. 
+
+Wygenerowałam klucz ssh za pomocą polecenia: ssh-keygen
+
+Za pomocą: cat /home/ewelina/.ssh/id_rsa.pub zobaczyłam swój klucz publiczny ssh 
+
+Za pomocą: git clone git@github.com:InzynieriaOprogramowaniaAGH/MIFT2021.git sklonowałam repozyttorium 
+
+Za pomocą: git remote set-url origin git@github.com:nzynieriaOprogramowaniaAGH/MIFT2021.git sprawdziłam rodzaj połączenia 
+
+Przełączyłam się na połączenie ssh
+
+Zadanie 2. 
+
+Nadałam "Tag" na aktualnego commita o nazwie ES299176_Lab02 za pomocą komendy git tag -a ES299176_Lab02 -m "Komentarz"
+
+Za pomocą: git push --follow-tags dodałam tag do repo 
+
+Zadanie 3. 
+
+Przełączyłam się na brancha Grupa05 i na nim za pomocą git checkout -b utworzyłam brancha Grupa05-ES299176_Lab02
+
+Zmergowałam wcześniej istniejącego już brancha ES299176 za pomocą git merge
+
+Za pomocą mv ES299176 Grupy/Grupa05 przeniosłam katalog do prawidłowego folderu 
+
+Zadanie 4. 
+
+W folderze ./git/hooks/ utworzyłam git hooka sprawdzającego nazwę commita - zrzut w pliku Zadanie4_1
+
+Za pomocą chmod 755 commit-msg nadałam potrzebne uprawnienia 
+
+Zadanie 5. 
+
+Za pomocą: git push origin --delete ES299176 usunięto brancha na serwerze 
+
+Za pomocą git add . dodałam zmiany do śledzenia
+
+Dodałam commita: git commit -am "ES299176 Dodanie sprawozdania i zdjec"
+
