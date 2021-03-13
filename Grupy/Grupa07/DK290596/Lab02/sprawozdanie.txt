@@ -18,3 +18,5 @@ a) stowrzenie nowego brancha Grupa07-DK290596_Lab02
 b) przeniesienie folderu z pierwszych zajęć
 c) stworzeni folderu do drugich zajęć i wrzucenie do niego screenów
 4. Napisanie Git hook'a (jest screen z jego kodem w zrzucie o nazwie zadanie4)
+5. Dodanie zmian do brancha Grupa07 i zamkniecie brancha osobistego $ git branch -d Grupa07-DK290596_Lab02
+	
