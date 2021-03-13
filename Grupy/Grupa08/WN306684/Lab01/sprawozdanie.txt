@@ -1,0 +1,15 @@
+1. Klienta git juz miałam wcześniej zainstalowanego.
+2. Utworzyłam nowy folder i użyłam polecenia 'git init' w celu zainicjowania lokalnego repozytorium. 
+Następnie dokonałam skopiowania zdalnego repozytorium przy pomocy polecenia 'git clone "adres_repozytorium"'
+oraz narysowałam graf zależności między repozytoriami #A i #B.
+3. Otwarzyłam i zapoznałam się z dokumentem na pierwsze ćwiczenia laboratoryjne.
+4. Stwórzyłam nowy branch w repozytorium lokalnym #B o nazwie "NW306684" i przełączyłam się na niego poleceniem 'git checkout -b "NW306684".
+Stowrzyłam folder poleceniem 'mkdir' o nazwie "Lab01", a także plik "sprawozdanie.txt" poleceniem 'touch'. Dodałam ten plik do repozytorium 
+git'a 'git add -A' i wykonałam commita 'git commit -m "Pierwszy commit". Kolejno dodałam plik "Graf.png" i wykonałam commita.
+5. Uzupełniłam plik "sprawozdanie.txt o opis wykonywanych czynności i wykonałam polecenie 'git push', aby przesłać zmiany do remot'a.
+6. Dodałałam zrzuty ekranu dla każdego polecenia i wykonałam commita i push brancha na remot'a. Następnie zmieniłam nazwy plików i 
+wykonałam commita i push brancha na remot'a.
+7. Wykonałam merge mojego brancha do głównego.
+
+
+
