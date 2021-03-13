@@ -21,5 +21,16 @@ mkdir -p Grupy/Grupa06
 mv -v BZ290136 Grupy/Grupa06/
 mkdir Grupy/Grupa06/BZ290136/Lab02
 
-6. Uporzadkowano sturkture branchy:
+6. Uporzadkowano sturkture branchy poprzez utowrzenie prywatnego brancha:
+git checkout -b Grupa06-BZ290136_Lab02
+
+7. Napisano githooka sprawdzajacego komentarze do dodawanych commitow. Edytowano plik commit-msg.sample w folderze .git/hooks i zmieniono jego nazwe na commit-msg. Tresc skryptu:
+
+stringToCheck='BZ290136*'
+if ! grep "$stringToCheck" "$1"; then
+	echo "Commit message has wrong start - commit is not done"
+	exit 1;
+fi
+	echo "Commit message has correct start - commit is done"
+	exit 0;
 
