@@ -2,19 +2,23 @@ Zadanie 1.
 
 Wygenerowałam klucz ssh za pomocą polecenia: ssh-keygen
 
+Ustawiłam passphraze 
+
 Za pomocą: cat /home/ewelina/.ssh/id_rsa.pub zobaczyłam swój klucz publiczny ssh 
 
-Za pomocą: git clone git@github.com:InzynieriaOprogramowaniaAGH/MIFT2021.git sklonowałam repozyttorium 
+W ustawieniach SSH na stronie GitHub wkleiłam wygenerowany klucz i ustawiłam nazwę
 
-Za pomocą: git remote set-url origin git@github.com:nzynieriaOprogramowaniaAGH/MIFT2021.git sprawdziłam rodzaj połączenia 
+Za pomocą: remote -v sprawdziłam połączenie
 
-Przełączyłam się na połączenie ssh
+Za pomocą: git remote set-url origin git@github.com:nzynieriaOprogramowaniaAGH/MIFT2021.git ustawiłam rodzaj połączenia 
+
+Udało się uzyskać połączenie ssh
 
 Zadanie 2. 
 
 Nadałam "Tag" na aktualnego commita o nazwie ES299176_Lab02 za pomocą komendy git tag -a ES299176_Lab02 -m "Komentarz"
 
-Za pomocą: git push --follow-tags dodałam tag do repo 
+Za pomocą: git push --follow-tags dodałam tag do repozytorium 
 
 Zadanie 3. 
 
@@ -37,4 +41,12 @@ Za pomocą: git push origin --delete ES299176 usunięto brancha na serwerze
 Za pomocą git add . dodałam zmiany do śledzenia
 
 Dodałam commita: git commit -am "ES299176 Dodanie sprawozdania i zdjec"
+
+Za pomocą: git push origin Grupa05-ES299176_Lab02 dodałam zmiany do repozytorium 
+
+Za pomocą: git push origin Grupa05-ES299176_Lab02:Grupa05 dodałam pusha ze zmianami w repozytorium do brancha Grupa05 
+
+Za pomocą: git push origin --delete Grupa05-ES299176_Lab02 usunęłam brancha z repozytorium 
+
+Wykonałam pull request do brancha głównego
 
