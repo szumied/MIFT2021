@@ -14,7 +14,9 @@ Utworzenie brancha: 'git checkout Grupa08-WN306684_Lab02'.
 
 4.Utworzenie skryptu weryfikującego, czy commit message zaczyna się od "WN306684".
 
-!/bin/sh
+#!/bin/sh
+
+#!/bin/bash
 if ! grep 'WN306684' "$1"; then
 	echo 'Error'
 	exit 1;
