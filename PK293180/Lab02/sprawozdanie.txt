@@ -9,3 +9,17 @@
 1.5Przy pomocy git remote oraz set-url origin zmieniono sposób logowania
 
 2. Dodatno Tag oraz wrzucono tą zmianę na github
+
+Tag dodano przy pomocy git tag -a "tag" -m "commit"
+
+
+3. Dodano i przelaczono na brach Grupa03 przy pomocy git branch a nastepnie git checkout 
+stworzono nowego brancha o nazwie Grupa03-PK293180-Lab02
+zrobiono merge przy pomocy git merge
+
+4. Odpalono folder .git w ktorym znajdowal sie folder hooks, napisano skrypt, jego tresc jest w screenach.
+
+ 
+
+
+5.Zrobiono merge i stworzono pull request
