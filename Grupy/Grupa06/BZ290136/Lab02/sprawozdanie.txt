@@ -1,0 +1,25 @@
+Najpierw przelaczono sie na swojego brancha:
+git checkout BZ290136 --
+
+1. Wygenerowano klucz SSH:
+ssh-keygen -t ed25519 -C "bartlomiejzieja@gmail.com"
+
+2. Uruchomiono agenta SSH:
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+
+3. Dodano klucz do githuba, kopiujac go poleceniem:
+xclip -selection clipboard < ~/.ssh/id_ed25519.pub
+
+4. Utworzono tag z wiadomoscia i spushowana:
+git tag -a BZ290136_Lab02 -m "Bartlomiej Zieja, everything is ok"
+git push origin BZ290136
+git push -u --follow-tags
+
+5. Stworzono zadana konfiguracje folderow:
+mkdir -p Grupy/Grupa06
+mv -v BZ290136 Grupy/Grupa06/
+mkdir Grupy/Grupa06/BZ290136/Lab02
+
+6. Uporzadkowano sturkture branchy:
+
