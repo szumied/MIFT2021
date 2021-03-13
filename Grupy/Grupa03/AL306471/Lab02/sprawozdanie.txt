@@ -29,10 +29,9 @@ Napisałem skrypt do sprawdzania poprawności wiadomości zawartych w commitach
 
 #!/bin/bash 
 
-pom = "$1"
-if grep -qE "AL306471*" "$pom";then
+if grep -qE "AL306471*" "$1"; then
 	echo "Commit message correct"
-	else "Commit message missing 'AL306471'"
+	else  echo "Commit message missing 'AL306471'"
 	exit 1
 fi
 
