@@ -12,4 +12,19 @@ git tag -a MW306517_Lab02 -m "Komentarz do taga z zadania 2"
 git push --follow-tags
 
 3. Stworzenie odpowieniej struktury folderów oraz branch'y:
+Ręczne przeniesienie folderu MW306157 do struktury folderów Grupy/Grupa05/MW306517
+Utworzenie nowego tymczasowego branch'a Grupa05-MW306517_Lab02: git checkout -b Grupa05-MW306517_Lab02
 
+4. Utworzenie githook'a porzez dodanie odpowiednich instrukcji do pliku commit-msg.sample w folderze .git/hooks oraz usunięcie rozszerzenia ".sample".
+
+Przetestowanie działania githook'a
+
+5. 
+Wykrycie dodanych zmian: git add .
+Utworzenie commita: git commit -m "MW306517..."
+Dostarczenie zmian na remote'a: git push origin Grupa05-MW306517_Lab02
+Wykonanie merge'a do brancha gupowego: 
+Zamknięcie osobistych branch'y:
+git push origin --delete Grupa05-MW306517_Lab02
+
+Wykonanie pull requesta do brancha głównego. 
