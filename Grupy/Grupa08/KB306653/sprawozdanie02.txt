@@ -4,4 +4,10 @@
 2. Nadałem tag na aktualnego commita 
    git-tag
    git push --follow-tags
-. 
+
+3. Uporządkowałem foldery i branche. 
+   git branch, git checkout
+
+4. Napisałem hooka sprawdzającego czy komentarz do commita ma odpowiednią formę.
+
+
