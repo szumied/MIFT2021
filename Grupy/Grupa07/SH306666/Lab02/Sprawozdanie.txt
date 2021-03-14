@@ -1,0 +1,4 @@
+1) Podlaczylem sie przy uzyciu SSH co bedzie widoczne na finalnych screenach
+2)Zostal stworzony tag przy uzyciu komendy git tag -a SH306666_Lab01 -m "Pozdrawiam Cieplutko"
+Nastepnie wyslalem go komenda git push origin --tags (taka podpowiedziala mi dokumentacja), ale dla pewnosci uzylem rowniez tej z instrukcji - "Everything is up to date"
+3.Utworzylem foldery i przenioslem pliki
