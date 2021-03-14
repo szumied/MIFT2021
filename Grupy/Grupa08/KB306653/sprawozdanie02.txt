@@ -9,5 +9,6 @@
    git branch, git checkout
 
 4. Napisałem hooka sprawdzającego czy komentarz do commita ma odpowiednią formę.
+   git commit
 
 
