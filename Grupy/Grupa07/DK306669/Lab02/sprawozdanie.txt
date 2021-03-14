@@ -30,3 +30,4 @@
 	
    Usuwam branch za pomoca:
    	git push origin --delete Grupa07-DK306669_Lab02
+   	
