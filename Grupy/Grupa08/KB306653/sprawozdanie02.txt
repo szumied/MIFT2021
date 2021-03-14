@@ -1,0 +1,7 @@
+1. Wygenerowałem klucz ssh i zarejestrowałem go na githubie, po czym zmieniłem sposób logowania.
+   Użyte komendy: ssh-keygen, eval, ssh-add, git remote set-url
+
+2. Nadałem tag na aktualnego commita 
+   git-tag
+   git push --follow-tags
+. 
