@@ -17,9 +17,9 @@
    	git commit -m "opis"
   Tak samo uczynilem dla pliku z grafem
 
-5.Napisalem sprawozdanie.
+5.Napisalem sprawozdanie..
 
-6.Umiescilem zrzuty ekranu w odpowiednim katalogu a takze dodalem je do repozytorium wykonuje commita i push
+6.Umiescilem zrzuty ekranu w odpowiednim katalogu a takze dodalem je do repozytorium wykonuje commita i push 
 
 7.Przejscie na branch master przy uzyciu 
 	git checkout master
