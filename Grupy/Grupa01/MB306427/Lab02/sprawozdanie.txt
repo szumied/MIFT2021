@@ -20,3 +20,7 @@ następnie sprawdziłem protokoły połączenia poleceniem  git remote -v
 
 3. Stworzyłem folder grupowy i przeniosłem do niego swój folder z Sprawozdniem oraz dodałem zrzuty ekrany z poszczególnych części zadania
   Stworzyłem nowego brancha Grupa01-Mb306427_Lab2 i merguje zmiany na brnacha grupowego.
+
+  Dodałem screeny z wykonanych zadań na potwierdzenie ich wykonania
+
+4. Dodałem scrypt do pliku commint-msg.smaple w celu weryfikacji wiadomości podczas wykonywania commita
