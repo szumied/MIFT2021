@@ -8,7 +8,7 @@
 3. Uporządkowałem foldery i branche. 
    git branch, git checkout
 
-4. Napisałem hooka sprawdzającego czy komentarz do commita ma odpowiednią formę.
+4. Napisałem hooka sprawdzającego czy komentarz do commita ma odpowiednią formę. OR DID I?????
    git commit
 
 
