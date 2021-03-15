@@ -11,4 +11,6 @@
 4. Napisałem hooka sprawdzającego czy komentarz do commita ma odpowiednią formę.
    git commit
 
-
+5. Zrobiłem merge'a swojego brancha do brancha grupowego i usunąłem branch osobisty oraz utworzyłem pull request.
+   git merge
+   git branch -d
