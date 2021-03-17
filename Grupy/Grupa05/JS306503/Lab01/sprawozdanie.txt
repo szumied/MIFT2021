@@ -1,0 +1,11 @@
+Metodyki DevOps lab01 - Sprawozdanie
+Jakub Straszak
+Data 03.03.2021
+
+1. Pobranie Klienta git
+2. Sklonow repozytorium git za pomocą komendy git clone
+i narysowanie grafu zależności
+3. Zapoznanie się z dokumentacją
+4. Utworzenie nowego brancha o nazwie JS306503
+5. Utworzenie pliku "sprawozdanie.txt"
+6. Zrobienie zrztów ekranu z przebiegu laboatorium
