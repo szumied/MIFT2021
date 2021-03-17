@@ -20,7 +20,11 @@ zadanie4:
 Skorzystałam z konta na https://hub.docker.com/, które utworzyłam rok temu podczas innych labolatoriów.
 
 zadanie5:
+Stworzyłam plik dockerfile, stworzylam obraz komendą docker build -t nazwa_obrazu .
 
 zadanie6:
+uruchomilam kontener komenda docker run -it obraz_mk bash
+ścigąnelam repozytorium: git clone ulr-do-repo
+weszlam na branch grupowy
 
 
