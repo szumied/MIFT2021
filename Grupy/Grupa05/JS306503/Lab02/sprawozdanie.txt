@@ -1,0 +1,21 @@
+Jakub Straszak lab02
+
+1. Wygenerowanie klucza SSH i połączenie SSH zamiast HTTPS
+2. Nadanie "Tagu" na aktualnego commita
+3. Uporządkowanie branchy i folderów - pogrupowanie w grupy laboratoryjne
+4. Napisanie Git hook'a:
+
+#!/bin/bash
+
+code="JS306503"
+
+if ! grep -iqE "$code" "$1"; then
+echo "Begin commit message with $code"
+exit 1;
+
+else echo "Everything is alright"
+exit 0;
+
+fi
+
+5. Dołączenie wszystkich zmian
