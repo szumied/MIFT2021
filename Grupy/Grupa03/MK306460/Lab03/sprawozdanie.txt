@@ -1,0 +1,6 @@
+Sprawozdanie lab03
+zadanie 1
+Sprawdziłam na którym branchu jestem, po czym przełączyłam się na brancha grupowego.
+Utworzyłam nowego brancha komenda git branch Grupa03-MK306460_Lab03
+
+
