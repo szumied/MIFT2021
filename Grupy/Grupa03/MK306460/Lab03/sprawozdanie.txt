@@ -1,0 +1,10 @@
+Sprawozdanie lab03
+zadanie1: 
+Sprawdziłam, na którym branchu jestem, po czym przełaczyłam się na brancha grupowego.
+Utworzyłam nowego brancha komendą: git branch Grupa03-MK306460_Lab03 i przełaczyłam się na niego: git checkout Grupa03-MK306460_Lab03.
+
+zadanie2:
+Utworzyłam potrzebne foldery oraz pod podaną ściezką w instrukcji dodałam swojego git hooka. Zawartość pliku znajduje się w zrzutach ekranu.
+Dodałam uprawnienia do pliku komendą: chmod 755 commit-msg
+
+
