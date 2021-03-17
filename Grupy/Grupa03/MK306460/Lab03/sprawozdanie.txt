@@ -7,4 +7,20 @@ zadanie2:
 Utworzyłam potrzebne foldery oraz pod podaną ściezką w instrukcji dodałam swojego git hooka. Zawartość pliku znajduje się w zrzutach ekranu.
 Dodałam uprawnienia do pliku komendą: chmod 755 commit-msg
 
+zadanie3:
+Zainstalowałam dockera na swoim PC.
+Komendy:
+sudo apt install docker.io
+sudo systemctl enable --now docker
+aby sprawdzic czy docker sie zainstalował:  sudo docker run hello world
+instalowanie docker-compose:
+sudo apt install docker-compose
+
+zadanie4:
+Skorzystałam z konta na https://hub.docker.com/, które utworzyłam rok temu podczas innych labolatoriów.
+
+zadanie5:
+
+zadanie6:
+
 
