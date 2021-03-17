@@ -1,0 +1,7 @@
+1. Stworzyłam swojego brancha na branchu grupowym
+git checkout -b Grupa03-AK306465_Lab03
+
+2. Przeniosłam git hooka z poprzednich zajęć do folderu o ścieżce MIFT2021/Grupy/Grupa03/AK306465/Lab02/hooks/
+
+
+
