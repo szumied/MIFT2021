@@ -1,6 +1,31 @@
+
 Sprawozdanie lab03
-zadanie 1
-Sprawdziłam na którym branchu jestem, po czym przełączyłam się na brancha grupowego.
-Utworzyłam nowego brancha komenda git branch Grupa03-MK306460_Lab03
+zadanie1: 
+Sprawdziłam, na którym branchu jestem, po czym przełaczyłam się na brancha grupowego.
+Utworzyłam nowego brancha komendą: git branch Grupa03-MK306460_Lab03 i przełaczyłam się na niego: git checkout Grupa03-MK306460_Lab03.
+
+zadanie2:
+Utworzyłam potrzebne foldery oraz pod podaną ściezką w instrukcji dodałam swojego git hooka. Zawartość pliku znajduje się w zrzutach ekranu.
+Dodałam uprawnienia do pliku komendą: chmod 755 commit-msg
+
+zadanie3:
+Zainstalowałam dockera na swoim PC.
+Komendy:
+sudo apt install docker.io
+sudo systemctl enable --now docker
+aby sprawdzic czy docker sie zainstalował:  sudo docker run hello world
+instalowanie docker-compose:
+sudo apt install docker-compose
+
+zadanie4:
+Skorzystałam z konta na https://hub.docker.com/, które utworzyłam rok temu podczas innych labolatoriów.
+
+zadanie5:
+Stworzyłam plik dockerfile, stworzylam obraz komendą docker build -t nazwa_obrazu .
+
+zadanie6:
+uruchomilam kontener komenda docker run -it obraz_mk bash
+ścigąnelam repozytorium: git clone ulr-do-repo
+weszlam na branch grupowy
 
 
