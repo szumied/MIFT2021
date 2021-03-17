@@ -8,4 +8,6 @@
 
 5. Uzupełniłem plik tekstowy o opis kolejnych, wykonanych przeze mnie punktów. 
 
+6. Za pomocą komendy add dodałem utworzone przeze mnie zrzuty ekranu do repozytorium. Ich nazwy były ustawione na zadanie1, zadanie2, zadanie3 itd z pomocą polecenia mv. Następnie wykonałem commit i push. 
 
+7. Z poziomu brancha "master" wykonałem polecenie git merge MK299627, aby scalić swoją gałąź do głownej. 
