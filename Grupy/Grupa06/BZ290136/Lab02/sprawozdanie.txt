@@ -39,7 +39,7 @@ git checkout Grupa06
 git merge Grupa06-BZ290136_Lab02  -m "BZ290136 lab02 zad 8" 
 git push https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021
 git request-pull BZ290136_Lab02 https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021
-
+git push --set-upstream origin Grupa06-BZ290136_Lab02
 
 
 
