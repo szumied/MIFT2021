@@ -6,5 +6,12 @@ DevOps Ciesiński Bartłomiej Lab03
 	Następnie aktywowałem dockera na swojej maszynie.
 4. Stworzyłem nowe konto na docker hub.
 5. Stworzyłem Dockerfile i dodałem go do swojego localnego repozytorium. upewniłem się, że że git zostanie doinstalowany.
-
+6. Zbudowałem obraz oraz uruchomiłem kontener:
+	* sudo docker build . -t lab03_docker
+	* sudo docker run -it lab03_docker
+	Następnie ściągnąłem repozytorium:
+	* git clone ...
+	Upewniłem się że jest mój branch:
+	* git checkout Grupa01
+	* git checkout Grupa01-BC306433_Lab3
 
