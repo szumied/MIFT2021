@@ -1,0 +1,9 @@
+1. 
+Przelaczono sie na brancha Grupa01 za pomoca polecenia "git checkout Grupa01".
+Utworzono osobistego brancha i przelaczono sie na niego za pomoca polecenia "git checkout -b Grupa01-KB306424_Lab03"
+
+2.
+Hooka utworzonego na poprzednich zajeciach umieszczono w "MIFT/Grupy/Grupa01/KB306424/Lab02/hooks".
+Do skopiowania hooka do tej sciezki wykorzystano polecenie "cp ~/MIFT2021/.git/hooks/commit-msg ." 
+
+3.
