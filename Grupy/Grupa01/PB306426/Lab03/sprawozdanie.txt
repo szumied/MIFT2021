@@ -18,3 +18,4 @@
 	Sprawdzenie czy instalacja sie powiodła 
 		sudo docker run hello-world
 
+4. Mam już konto na dockerhub
