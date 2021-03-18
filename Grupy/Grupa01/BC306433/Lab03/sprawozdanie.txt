@@ -5,5 +5,6 @@ DevOps Ciesiński Bartłomiej Lab03
 3. Nie musiałem instalować dockera, ponieważ był już wcześniej zainstalowany na tej maszynie. zdjęcie: Lab03_zad03.png
 	Następnie aktywowałem dockera na swojej maszynie.
 4. Stworzyłem nowe konto na docker hub.
-
+5. Stworzyłem Dockerfile i dodałem go do swojego localnego repozytorium. upewniłem się, że że git zostanie doinstalowany.
+6. 
 
