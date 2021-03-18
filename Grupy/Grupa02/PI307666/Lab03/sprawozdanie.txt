@@ -2,4 +2,5 @@
 2. Przeniesiono plik commit-msg z poprzedniego zadania do nowego katalogu w lab. nr. 3.
 3. Zainstalowano Docker w systemie Ubuntu.
 4. Zarejestrowano konto w serwisie https://hub.docker.com (wykorzystano wcześniej zarejestrowane)
-
+5. Stworzono plik Dockerfile wewnątrz lokalnego repozytorium i katalogu lab03 - touch Dockerfile.
+Uzupełniono Dockerfile o komedy FROM oraz RUN.
