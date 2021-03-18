@@ -1,0 +1,5 @@
+1. Branch osobisty stworzony przy uzyciu komendy git checkout -b Grupa07-SH306666_Lab03
+2.git hook skopiowany i wrzucony do nowego folderu
+3. Docker zainstalowany z instrukcji : 
+https://linuxhint.com/install_docker_linux_mint/?fbclid=IwAR1t2-rr6aOvw7OC0K06OuZvZIcUQmkjzYLxPJs3ppJv8DsQ2LJt9eOczQg
+4.Moje docker ID :sebastianhalik, zarejestrowalem sie i potwierdzilem email.
