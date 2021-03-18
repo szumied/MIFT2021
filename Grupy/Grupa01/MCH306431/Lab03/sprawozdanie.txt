@@ -1,0 +1,2 @@
+1. Stworzenie odpowiedniego brancha do pracy, utworzenie katalogu LAB03, utworzenie pliku sprawozdanie.txt
+- zmiana nazwy stworzonego wczesniej brancha z powodu pomylki przy nazewnictwie.
