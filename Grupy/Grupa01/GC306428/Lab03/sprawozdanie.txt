@@ -1,0 +1,11 @@
+Zadanie 1 - utworzylem nowego osobistego brancha od brancha grupowego
+
+git checkout -b Grupa01-GC306428_Lab03
+
+Zadanie 2 - dodalem hooka napisanego na poprzednich zajeciach do swojego folderu /hooks
+
+Zadanie 3 - zainstalowalem Docker'a
+
+Zadanie 4 - posiadalem juz konto na dockerhubie
+
+Zadanie 5 - 
