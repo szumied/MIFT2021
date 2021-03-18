@@ -1,0 +1,2 @@
+1. Stworzono brancha osobistego: git checkout -b Grupa05-MS306497_Lab03
+2. Dodano git hooka z poprzednich zajec do swojego folderu.
