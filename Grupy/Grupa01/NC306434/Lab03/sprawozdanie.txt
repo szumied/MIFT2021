@@ -11,3 +11,5 @@ sudo apt install docker.io
 sudo systemctl start docker
 sudo systemctl enable docker
 docker --version
+
+4. Zalogowalam sie na konto w Docker HUB, ktore stworzylam w poprzednim roku.
