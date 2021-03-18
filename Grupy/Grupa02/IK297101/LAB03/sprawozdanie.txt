@@ -1,0 +1,14 @@
+cp -R .git/hooks Grupy/Grupa02/IK297101/LAB02
+
+git branch Grupa02-IK297101_Lab03
+
+git checkout Grupa02-IK297101_Lab03
+
+git commit -m "IK297101 Added directory hooks"
+
+git push --ser-upstream origin Grupa02-IK297101_Lab03
+
+sudo apt-get update
+
+sudo snap install docker
+
