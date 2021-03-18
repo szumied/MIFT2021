@@ -1,0 +1,2 @@
+1. Przejście na brancha grupowego - git checkout --track origin/Grupa02
+2. 
