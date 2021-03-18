@@ -4,4 +4,6 @@ git checkout -b Grupa05-JS296512_Lab03
 
 2. Dodałem git hook, którego napisałem na poprzednich zajęciach do mojego folderu.
 
+3. Zainstalowałem Dockera na moim środowisku pracu.
+
 
