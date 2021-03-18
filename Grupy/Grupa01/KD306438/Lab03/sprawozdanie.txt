@@ -36,3 +36,10 @@
 RUN apt-get update
 RUN apt-get upgrade
 RUN apt-get install --assume-yes git
+
+6. Uruchomienie kontenera i ściągnięcie na niego naszego repo:
+	-zbudowanie obrazu poleceniem 'sudo docker build -t im1 . '
+	-uruchomienie 'sudo docker run -it im1'
+	-sklonowanie repo 'git clone https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021'
+	-sprawdzenie czy na liście znajduje się nasz branch 'git branch -a'
+	-przełączenie się na niego w celu upewnienia 'git checkout Grupa01-KD306438_Lab03'
