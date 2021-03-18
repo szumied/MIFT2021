@@ -1,2 +1,4 @@
-1. Przejście na brancha grupowego - git checkout --track origin/Grupa02
-2. 
+1. Przejście na brancha grupowego - git checkout Grupa02
+2. Stworzenie nowego brancha krótkożyjącego - git checkout -b Grupa02-SK306456_Lab03
+3. Stworzenie nowej ścieżki w której będzie przechowywany commit-msg hook mkdir -p ...
+4. Skopiowanie hooke'a - cp src dest
