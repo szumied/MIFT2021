@@ -10,3 +10,4 @@
 10. Uruchomienie kontenera - sudo docker run -d -t ubuntu
 11. Uruchomienie i przejście do powłoki kontenera - sudo docker exec -it peaceful_booth /bin/bash
 12. Sklonowanie repozytorium - git clone https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021
+13. Sprawdzenie czy w sklonowane repo zawiera mojego brancha - git branch -a | grep "SK306456"
