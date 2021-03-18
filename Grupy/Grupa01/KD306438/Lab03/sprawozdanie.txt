@@ -27,3 +27,12 @@
    	 -sprawdzenie wersji dockera poleceniem 'sudo docker -v'
 
 4. Rejestracja konta w Docker Hub nie była konieczna - została ona dokonana już wcześniej. Zalogowanie na konto w celu sprawdzenia popranowści zapamiętanych danych.
+
+5. Utworzenie pliku Dockerfile bazującego na najnowszym ubuntu wraz z doinstalowanym git'em:
+
+ FROM ubuntu:latest
+
+# instalacja gita
+RUN apt-get update \
+    apt-get upgrade \
+    apt-get install git
