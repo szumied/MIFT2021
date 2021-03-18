@@ -1,3 +1,5 @@
 Sprawozdanie Lab3
 
 1.Stworzylam brancha osobistego wg. schematu z poprzedniego tygodnia. Od brancha grupowego Grupa01 stworzylam swoj branch uzywajac polecenia: git checkout -b Grupa01-NC306434_Lab03.
+
+2.Dodalam git hooka ktorego napisalam na poprzednich zajeciach do mojego folderu MIFT2021/Grupy/Grupa01/NC306434/Lab02/hooks/pre-commit
