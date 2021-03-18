@@ -1,0 +1,10 @@
+#!/bin/sh
+
+
+#!/bin/bash
+if ! grep 'WN306684' "$1"; then
+	echo 'Error'
+	exit 1;
+fi
+echo 'ok'
+exit 0;
