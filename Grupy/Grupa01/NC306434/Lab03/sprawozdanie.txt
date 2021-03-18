@@ -13,3 +13,5 @@ sudo systemctl enable docker
 docker --version
 
 4. Zalogowalam sie na konto w Docker HUB, ktore stworzylam w poprzednim roku.
+
+5.Stworzylam plik Dockerfile, który bazował na najnowszym ubuntu (ubuntu:latest). Dodalam go do swojego brncha. 
