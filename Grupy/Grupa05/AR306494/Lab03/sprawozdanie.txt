@@ -34,6 +34,8 @@ sudo systemctl start docker //start Docker
 
 sudo systemctl enable docker //automate Docker 
 
-docker –version //check Docker version 
+docker --version //check Docker version 
 
 4. Zalogowałam się na konto w Docker HUB.
+
+5. Stworzyłam plik Dockerfile, który bazuje na najnowszym ubuntu. W Dockerfile’u upewniłam się, że git będzie zainstalowany. Skopiowałam plik do swojego brancha.
