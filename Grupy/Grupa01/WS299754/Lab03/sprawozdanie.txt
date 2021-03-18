@@ -1,0 +1,7 @@
+1. Nowy branch:
+	git checkout Grupa01
+	git branch Grupa01-WS299754_Lab03
+2. Dodawanie hooka do foldru Lab02 na remocie:
+	mkdir Grupy/Grupa01/WS299754/Lab02/hooks
+	cp .git/hooks/commit-msg Grupy/Grupa01/WS299754/Lab02/hooks/
+
