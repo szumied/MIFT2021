@@ -24,4 +24,14 @@ fi
 
 echo "Correct commit comment" 
 
+3. Zainstalowałam Dockera. Użyłam poleceń: 
 
+sudo apt-get update //system update 
+
+sudo apt install docker.io //install Docker 
+
+sudo systemctl start docker //start Docker 
+
+sudo systemctl enable docker //automate Docker 
+
+docker –version //check docker version 
