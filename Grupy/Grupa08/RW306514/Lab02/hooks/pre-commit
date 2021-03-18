@@ -1,0 +1,10 @@
+#!/bin/sh
+
+#!/bin/bash
+
+string="RW306514"
+if ! grep -iqE "$string" "$1"; then
+	echo "Failed commit!"
+	exit 1
+fi
+echo "Commited!"
