@@ -8,3 +8,5 @@ tylko tworze nowego, identycznego jak na poprzednich zajeciach. Ten plik zostaje
 - sprawdzenie instalacji za pomoca odpowiedniego polecenia: sudo docker run hello-world
 
 4. Brak potrzeby zalozenia konta na docker.hub - rejestracja juz kiedys miala miejsce
+
+5. Stworzenie pliku Dockerfile z ubuntu:latest i upewnienie sie w nim ze git jest zainstalowany
