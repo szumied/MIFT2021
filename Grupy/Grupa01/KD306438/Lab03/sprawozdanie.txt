@@ -3,4 +3,7 @@
 	-utworzenie i przełączenie się na nowego osobistego brancha 'git checkout -b Grupa01-KD306438_Lab03'
 	-spullowanie zmian 'git pull origin Grupa01'
 
-2. 
+2. Dodanie githooka napisanego na poprzednich zajęciach do nowego folderu w swoim katalogu:
+	-utworzenie w folderze Lab02 zagnieżdżonych folderów następującą instrukcją 'mkdir -p hooks/pre-commit'
+	-przejście do folderu, w którym znajduje się poprzednio utworzony githook i przeniesienie go do nowego folderu komendą 'mv commit-msg MIFT2021/Grupy/Grupa01/KD306438/Lab02/hooks/pre-commit/'
+	-sprawdzenie poprawności przeniesienia poleceniem ls wywołanym w folderze pre-commit
