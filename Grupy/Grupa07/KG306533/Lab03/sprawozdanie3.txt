@@ -15,7 +15,7 @@
 
 6.2 Uruchomienie docker run -t <ID_OBRAZU>
 
-6.3 Upewnić się, że tymczasowy branch jest w repo w Dockerze.
+6.3 Upewnić się, że tymczasowy branch jest w repo w Dockerze. Znajdował się.
 
 
 
