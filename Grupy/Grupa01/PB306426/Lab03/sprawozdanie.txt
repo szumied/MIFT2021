@@ -19,3 +19,12 @@
 		sudo docker run hello-world
 
 4. Mam już konto na dockerhub
+
+5. Przygotowano plik Dockerfile znajduje się w folderze z zrzutami ekranu i sprawozdaniem
+
+	FROM ubuntu:latest
+	RUN apt-get update 
+	RUN apt-get install -y git
+	
+
+
