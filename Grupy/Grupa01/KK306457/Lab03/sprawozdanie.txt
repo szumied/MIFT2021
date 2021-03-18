@@ -5,3 +5,7 @@
 5. Dockerfile nalezalo utworzyc na podstawie najnowszego ubuntu (FROM ubuntu:latest) 
 nastepnie pobrac aktualizacje (RUN apt-get update)
 i zainstalowac gita (RUN apt-get install -y git)
+6. Zbudowano obraz za pomoca polecenia "docker build -t devops ."
+Uruchomiono kontener za pomoca polecenia "docker run -it devops bash" i uruchomiono bash ubuntu
+Nastepnie pobrano repozytorium za pomoca git clone i przelaczono sie na branch Grupa01-KK306457_Lab03
+Z kontenera nalzezalo wyjsc poleceniem "exit"
