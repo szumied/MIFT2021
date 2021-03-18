@@ -10,4 +10,12 @@ git checkout -b Grupa05-JS296512_Lab03
 
 5. Stworzyłem plik Dockerfile, który bazował na najnowszym ubutnu oraz miał doinstalowanego git'a.
 
+6.1 Zbudowałem obraz:
+sudo docker build -t ubuntu-git .
+6.2 Uruchomiłem kontener:
+sudo docker run -it ID_OBRAZU
+6.3 Ściągnąłem na niego nasze repozytorium:
+git clone LINK
+6.4 Upewniłem się, że jest na nim mój branch:
+był!
 
