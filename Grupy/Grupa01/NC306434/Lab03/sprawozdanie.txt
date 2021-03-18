@@ -15,3 +15,8 @@ docker --version
 4. Zalogowalam sie na konto w Docker HUB, ktore stworzylam w poprzednim roku.
 
 5.Stworzylam plik Dockerfile, który bazował na najnowszym ubuntu (ubuntu:latest). Dodalam go do swojego brncha. 
+
+6.Uruchomilam kontener, ściągnelam na niego nasze repozytorium. Upewnilam się że jest tam moj branch.
+sudo docker build -t nc-docker .
+sudo docker run -it nc-docker
+git clone https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021
