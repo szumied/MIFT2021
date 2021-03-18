@@ -20,3 +20,12 @@
   	sudo apt-get update
 
  	sudo apt-get install docker-ce docker-ce-cli containerd.io
+ 	
+ 4. Posiadano konto na Dockerhub wczesniej.
+ 
+ 5. Utworzono Dockerfile:
+ 	
+ 	FROM ubuntu:latest
+	RUN apt-get update 
+	RUN apt-get install -y git
+
