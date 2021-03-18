@@ -39,3 +39,11 @@ docker --version //check Docker version
 4. Zalogowałam się na konto w Docker HUB.
 
 5. Stworzyłam plik Dockerfile, który bazuje na najnowszym ubuntu. W Dockerfile’u upewniłam się, że git będzie zainstalowany. Skopiowałam plik do swojego brancha.
+
+6. Uruchomiłam kontener i ściągnęłam na niego repozytorium. Upewniłam się, że znajduję się tam mój branch Grupa05-AR306494_Lab03.
+
+sudo docker build –t ar-docker . // build an image 
+
+sudo docker run –it 6df2188635d0 bash //run docker image
+
+git clone https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021
