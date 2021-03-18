@@ -1,0 +1,6 @@
+1. Utworzenie swojego brancha osobistego od brancha grupowego:
+	-przełączenie się na brancha grupowego poleceniem 'git checkout Grupa01'
+	-utworzenie i przełączenie się na nowego osobistego brancha 'git checkout -b Grupa01-KD306438_Lab03'
+	-spullowanie zmian 'git pull origin Grupa01'
+
+2. 
