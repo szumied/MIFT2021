@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
 # instalacja gita
-RUN apt-get update \
-    apt-get upgrade \
-    apt-get install git
+RUN apt-get update -y
+RUN apt-get upgrade -y
+RUN apt-get install --assume-yes git

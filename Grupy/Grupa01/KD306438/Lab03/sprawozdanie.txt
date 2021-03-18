@@ -33,6 +33,6 @@
  FROM ubuntu:latest
 
 # instalacja gita
-RUN apt-get update \
-    apt-get upgrade \
-    apt-get install git
+RUN apt-get update
+RUN apt-get upgrade
+RUN apt-get install --assume-yes git
