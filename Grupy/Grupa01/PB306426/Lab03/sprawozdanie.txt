@@ -26,5 +26,13 @@
 	RUN apt-get update 
 	RUN apt-get install -y git
 	
-
+6. Zbudowano obraz o nazwie devops
+	sudo docker build -f ~/MIFT2021/Grupy/Grupa01/PB306426/Lab03/Dockerfile -t devops .
+   Uruchomienie obrazu
+	sudo docker run -it devops bash
+   Sklonowanie repo
+   	git clone "https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021.git"
+   Przeskoczenie na swojego brancha
+        switch Grupa01-PB306426_Lab03
+   Wyjscie za pomocą exit
 
