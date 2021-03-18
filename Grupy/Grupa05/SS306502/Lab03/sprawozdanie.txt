@@ -1,0 +1,9 @@
+1. Stworzenie brancha na te laby - git checkout -b nazwa
+
+2. Wrzucenie hooka z poprzednich labow na repo - ctrl+c i ctrl+v
+
+3. Zainstalowanie Dockera - kilka polecen skopiowanych bez przemyslenia z oficjalnej dokumentacji
+
+4. Zalogowanie sie na stare konto - it just works
+
+5.
