@@ -26,3 +26,4 @@
    	 -sprawdzenie poprawności instalacji poprzez 'sudo docker run hello-world'
    	 -sprawdzenie wersji dockera poleceniem 'sudo docker -v'
 
+4. Rejestracja konta w Docker Hub nie była konieczna - została ona dokonana już wcześniej. Zalogowanie na konto w celu sprawdzenia popranowści zapamiętanych danych.
