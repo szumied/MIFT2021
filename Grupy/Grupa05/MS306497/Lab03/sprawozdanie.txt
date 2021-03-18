@@ -8,3 +8,4 @@ sudo systemctl enable docker
 docker --version //sprawdzenie wersji
 
 4. Odzyskano haslo w Docker HUB
+5. Stworzono Dockerfile, bazujacy na najnowszym ubuntu. Upewniono sie ze bedzie mial doinstalownego gita.
