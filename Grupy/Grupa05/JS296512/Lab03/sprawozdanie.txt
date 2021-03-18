@@ -7,3 +7,7 @@ git checkout -b Grupa05-JS296512_Lab03
 3. Zainstalowałem Dockera na moim środowisku pracu.
 
 4. Zarejestrowałem konto w Docker HUB
+
+5. Stworzyłem plik Dockerfile, który bazował na najnowszym ubutnu oraz miał doinstalowanego git'a.
+
+
