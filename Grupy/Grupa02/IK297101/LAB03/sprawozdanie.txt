@@ -11,4 +11,5 @@ git push --ser-upstream origin Grupa02-IK297101_Lab03
 sudo apt-get update
 
 sudo snap install docker
-
+ 
+ 
