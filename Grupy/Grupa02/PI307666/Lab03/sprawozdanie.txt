@@ -1,2 +1,3 @@
 1. Utworzono branch roboczy - git checkout -b Grupa02_PI307666_Lab03
 2. Przeniesiono plik commit-msg z poprzedniego zadania do nowego katalogu w lab. nr. 3.
+3. Zainstalowano Docker w systemie Ubuntu.
