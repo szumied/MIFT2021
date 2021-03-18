@@ -1,0 +1,7 @@
+Sprawozdanie zajęcia 18.03.2021 
+ 
+Temat:
+Integracja narzędzi walidacji i weryfikacja kodu z repozytorium. 
+Łączenie, dzielenie repozytoriów, sub-repozytoria.
+
+1. Stworzyłam brancha osobistego na zajęcia wg. Schematu. Z brancha Grupa05 stworzyłam swój branch poleceniem git checkout –b Grupa05-AR306494_Lab03. 
