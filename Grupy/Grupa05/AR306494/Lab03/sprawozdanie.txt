@@ -5,3 +5,23 @@ Integracja narzędzi walidacji i weryfikacja kodu z repozytorium.
 Łączenie, dzielenie repozytoriów, sub-repozytoria.
 
 1. Stworzyłam brancha osobistego na zajęcia wg. Schematu. Z brancha Grupa05 stworzyłam swój branch poleceniem git checkout –b Grupa05-AR306494_Lab03. 
+
+2. Dodałam git hooka, którego napisałam na poprzednich zajęciach. Dodałam go do swojego folderu MIFT2021/Grupy/Grupa05/AR306494/Lab03/hooks/pre-commit.  
+
+#!/bin/bash,  
+
+commit_comment="AR306494" 
+
+wrong_commit="Wrong commit!" 
+
+if ! grep -iqE "$commit_comment" "$1" ; then 
+
+echo "$wrong_commit" 
+
+exit 1 
+
+fi 
+
+echo "Correct commit comment" 
+
+
