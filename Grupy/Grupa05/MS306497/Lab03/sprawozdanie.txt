@@ -6,3 +6,5 @@ sudo apt install docker.io //instalacja dockera
 sudo systemctl start docker
 sudo systemctl enable docker
 docker --version //sprawdzenie wersji
+
+4. Odzyskano haslo w Docker HUB
