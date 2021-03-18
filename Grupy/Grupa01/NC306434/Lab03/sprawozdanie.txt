@@ -1,0 +1,3 @@
+Sprawozdanie Lab3
+
+1.Stworzylam brancha osobistego wg. schematu z poprzedniego tygodnia. Od brancha grupowego Grupa01 stworzylam swoj branch uzywajac polecenia: git checkout -b Grupa01-NC306434_Lab03.
