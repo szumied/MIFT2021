@@ -1,0 +1,20 @@
+1. będąc na branchu Grupa05 stworzyłem branch osobisty.
+	git checkout -b Grupa05-SC306435_Lab03
+
+2. Według polecenia skopiowałem hook z poprzednich zajęć do folderu Lab02
+
+3. Zainstalowałem Docker.
+
+4. Zalogowałem się na konto w DockerHUB
+
+5. Stworzyłem dockerfile o zawartości:
+
+FROM ubuntu:latest
+RUN apt-get update
+RUN apt-get install git -y
+RUN cd ~
+RUN git clone https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021
+
+Dzięki temu git ubuntu na pewno będzie aktualną wersją z zainstalowanym gitem oraz pobranym naszym repozytorium
+
+6. uruchomiłem kontener z naszym repozytorium i upewniłem się, że mój branch jest na nim.
