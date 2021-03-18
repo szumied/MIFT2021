@@ -1,0 +1,8 @@
+1. Utworzono tymczasowego brancha na obecne laboratoria "Grupa07-KG306533_Lab03"
+
+2. Dodano hooke'a z ostatnich laboratoriów do wskazanej w instrukcji lokalizacji.
+
+3. Zainstalowano Dockera i sprawdzono działanie dockerowym hello worldem.
+
+4. Zarejestrowano się na Docker Hub.
+
