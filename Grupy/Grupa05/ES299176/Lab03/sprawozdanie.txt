@@ -1,3 +1,4 @@
+
 Zadanie 1.
 Przełączyłam się na brancha grupowego zapomocą polecenia: git checkout Grupa05
 Utworzyłam brancha osobistego za pomocą polecenia: git checkout -b Grupa05-ES299176_Lab03
@@ -40,5 +41,8 @@ Zbudowałam obraz za pomocą polecenia: sudo docker build -t esz-docker .
 Sprawdziłam istniejące obrazy za pomocą: sudo docker images
 
 Uruchomiłam kontener za pomocą: sudo docker run -it esz-docker
+
+Upewniłam się, że jest tam mój branch i dodałam wszystkie aktualne pliki na githuba.
+
 
 
