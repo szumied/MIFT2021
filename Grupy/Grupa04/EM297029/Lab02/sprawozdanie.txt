@@ -33,10 +33,7 @@ a) w folderze .git/hooks napisano skrypt o nazwie commit-msg (treść widoczna n
 b) nadano uprawnienia do wykonywania plikowi chmod +x commit-msg
 c) przy próbach commitowania w niedozwolony sposób dostawano odmowę (widoczne na screenach)
 
-5. git branch -d Grupa04-EM297029_Lab02 - usuwanie brancha lokalnie
-git push origin --delete Grupa04-EM297029_Lab02 - usuwanie brancha na remote
-
-zrobiono pusha na naszego "developa" Grupa04 (ze wcześniejszym pullem)
+5. zrobiono pusha na naszego "developa" Grupa04 (ze wcześniejszym pullem)
 zgłoszono pull-request
 
 
