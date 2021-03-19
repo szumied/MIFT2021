@@ -1,0 +1,76 @@
+1.  Stwórz brancha osobistego.
+    git branch -a
+    git checkout Grupa02
+    git checkout -b Grupa02-KJ287168_Lab03
+    
+2.  Dodaj git hooka.
+    cd .git/hooks
+    vim commit-msg.sample
+    ls -la
+    chmod +x commit-msg
+        if ! grep "^KJ287168" $1; then
+            echo "Error"
+            exit 1
+        fi
+        echo "Complited"
+    cd -
+    git pull
+    git status
+    mkdir Grupy/Grupa02/KJ287168/Lab02/hooks
+    cp .git/hooks/commit-msg Grupy/Grupa02/KJ287168/Lab02/hooks/
+    git add Grupy/Grupa02/KJ287168/Lab02/hooks/
+    git commit -m "KJ287168 Poprawa folderu hooks"
+    
+3.  Zainstaluj Docker'a.
+    Program miałem już zainstalowany (zdjęcia).
+    
+4.  Zarejestruj sobie konto w Docker HUB.
+    Konto miałem już założone (zdjęcia).
+    
+5.  Stwórz plik Dockerfile.
+    mkdir Grupy/Grupa02/KJ287168/Lab03
+    cd Grupy/Grupa02/KJ287168/Lab03
+    Utworzyłem plik Dockerfile:
+        FROM ubuntu:latest
+        RUN apt-get -y update
+        RUN apt-get -y install git
+        RUN git clone https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021.git
+    docker build .
+    
+6.  Uruchom kontener.
+    cd ../..
+    git status
+    git add KJ287168/Lab03/
+    git commit
+    git commit -m "KJ287168 Dodany dockerfile"
+    git pull
+    git push --set-upstream origin Grupa02-KJ287168_Lab03
+    git checkout Grupa02
+    git merge Grupa02-KJ287168_Lab03
+    cd KJ287168/Lab03
+    docker images
+    docker ps -a
+    ...
+    docker rm unruffled_payne ubuntu epic_goldberg agitated_agnesi
+    docker rmi b8e7d25ce34f 4dd97cefde62
+    docker build .
+    docker ps -a
+    docker run -dit b8e7d25ce34f
+    docker exec -it adoring_hawking bash
+    cd MIFT2021/
+    git branch -a
+    git checkout Grupa02
+    git branch -a
+    git pull
+    git branch -a
+    (znalazłem branch)
+    exit
+    git branch -a
+    git branch -d Grupa02-KJ287168_Lab03
+    git branch -a
+    git status
+    git cd ..
+    git pull
+    git add Lab03/
+    git commit
+    git push
