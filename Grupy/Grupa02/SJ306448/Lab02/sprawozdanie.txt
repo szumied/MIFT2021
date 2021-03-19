@@ -1,0 +1,6 @@
+1.Wygenerowano nowy klucz SSH i zmieniono sposób logowania dzięki komendzie git remote set-url origin git@github.com:InzynieriaOprogramowaniaAGH/MIFT2021.git"
+2.Dodano tag dzięki "git tag -a SJ306448_Lab02 -m "Szymon Janiszewski, Lab02 działa""
+3.Zmieniono lokalizację folderu dzięki poleceniu mv ~/Desktop/MDO/MIFT2021/SJ306448/  ~/Desktop/MDO/MIFT2021/Grupy/Grupa02/SJ306448 
+4.Zmodyfikwoano plik o nazwie commit-msg.sample w celu stworzenia git hooka. Wykonano commit w celu sprawdzenia działania
+5.Przełączono się na branch Grupa02 oraz dokonano poleceń git pull oraz git merge Grupa02-SJ306448_Lab02
+Na końcu stworzono nowy pull request
