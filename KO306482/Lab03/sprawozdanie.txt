@@ -27,3 +27,7 @@ zadanie 5
 	* docker build -t 'git-image' .
 
 zadanie 6
+  Uruchomienie kontenera
+  	* docker run -t git-image bash
+  Sklonowanie repozytorium
+  	* git clone <adres repozytorium>
