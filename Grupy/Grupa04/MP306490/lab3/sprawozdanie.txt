@@ -1,0 +1,31 @@
+Stworzyłem własnego brancha Grupa04-MP306490_lab03
+git checkout -b Grupa04-MP306490_lab3
+
+Stworzyłem git hooka i dodalem go do folderu lab03/hooks/commit-first
+
+#!/bin/bash
+
+commit_comment="MP306490"
+
+wrong_commit="wrong"
+if ! grep -iqE "$commit_comment" "$1" ; then
+echo"$wrong_commit"
+exit 1
+fi 
+echo "Correct!"
+
+Zainstalowalem dockera
+sudo apt-get install docker.io
+sudo systemctl start docker 
+sudo systemctl enable docker
+
+Zalogowalem sie na swoje wczesniej zrobione konto docker hub
+
+Stowrzyłem plik dockerfile i skopiowalem do swojego brancha
+
+Uruchomiłem kontener i upewnilem sie ze zostanie tam sciagniete repozytorium
+
+sudo docker build -t docker .
+sudo docker run -it *id obrazu*
+
+
