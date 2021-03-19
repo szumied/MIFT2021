@@ -15,3 +15,5 @@ fi
 echo "Commit message includes pattern!"
 
 git commit --allow-empty -m "commit msg" - commitowanie bez zadnych zmian zawartych w staging area - uzyte w ramach testu skryptu
+git push origin --delete nazwaBrancha/nazwaTagu - usuniecie z remotea brancha/tagu
+git rm nazwaPliku - usuniecie z gita pliku, po pushu na remotea zniknie takze z niego
