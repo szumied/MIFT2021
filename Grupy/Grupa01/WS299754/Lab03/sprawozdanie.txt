@@ -4,4 +4,6 @@
 2. Dodawanie hooka do foldru Lab02 na remocie:
 	mkdir Grupy/Grupa01/WS299754/Lab02/hooks
 	cp .git/hooks/commit-msg Grupy/Grupa01/WS299754/Lab02/hooks/
-
+3.  Instalacja Dockera:
+	sudo apt install docker.io
+	sudo systemctl enable--now docker
