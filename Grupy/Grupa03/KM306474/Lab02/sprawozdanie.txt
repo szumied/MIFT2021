@@ -12,7 +12,7 @@ mv commit-msg.sh .git/hooks/commit-msg.sh
 
 
 git add sprawozdanie.txt
-
+git commit -m "KM306474 - dodanie sprawozdania"
 
 #!/usr/bin/env bash
 INPUT_FILE=$1
