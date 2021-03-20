@@ -1,12 +1,11 @@
 1. Zrobiono git pull aby uzyskać ostatnie zmiany
 
 2. Stworzono branch Grupa04-EM297029-Lab3
-git checkout -b Grupa04-EM297029-Lab3 będąc w branchu Grupa04
-git 
+git checkout -b Grupa04-EM297029-Lab3 będąc w branchu Grupa04 
 
-3. Stworzono nowy folderek na zajęcia 3: Lab03. Do Lab02 dodano tam pre-commit hooksa
+3. Stworzono nowy folderek na zajęcia 3: Lab03. Do Lab02 dodano pre-commit hooksa.
 
-4. Docker i konto zostały utworzone już wcześniej
+4. Docker i konto zostały utworzone już wcześniej.
 
 5. 
 - Stworzono plik Dockerfile, w którym poprzez instrukcję RUN zainstalowano gita.
@@ -15,5 +14,6 @@ Dzięki FROM - pobrano ostatni dostępny obraz ubuntu
 - sudo docker build -t ubuntu-git - zbudowanie obrazu o nazwie ubuntu-git na podstawie Dockerfila
 - sudo docker run -it ubuntu-git bash - uruchomiono obraz i otworzono basha
 - używając git clone sklonowano repozytorium i użyto git checkout żeby sprawdzić dostępność brancha osobistego
+- exit - zamknięto konsolę w obrazie
 
 
