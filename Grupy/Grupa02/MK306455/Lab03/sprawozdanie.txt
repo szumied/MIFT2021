@@ -1,5 +1,6 @@
 1. 
 Bedac na branchu Grupa02 utworzono branch  Grupa02-MK306455_Lab03 poleceniem "git branch Grupa02-MK306455_Lab03", a nastepnie zmieniono branch za pomoca "git checkout Grupa02-MK306455_Lab03"
 
+2. Przekopiowano plik commit-msg z katalogu MIFT2021/.git/hooks do MIFT2021/Grupy/Grupa02/MK306455/Lab02/hooks za pomoca wywolania komendy "cp commit-msg ../../Grupy/Grupa02/MK306455/Lab02/hooks" w katalogu MIFT2021/.git/hooks
 
 
