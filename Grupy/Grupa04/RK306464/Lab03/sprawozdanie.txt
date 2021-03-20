@@ -1,0 +1,5 @@
+1. Utworzyłem nowy branch Grupa04-RK306464_Lab3 poleceniem git checkout -b
+2. Dodałem git hooka do pliku z git/hooks/commit_message
+3. Zainstalowałem dockera poleceniem sudo apt install docker.io. Wcześniej upewniłem się że nie ma żadnych starszych wersji poleceniem sudo apt-get remove docker docker-engine docker.io
+4. Utworzyłem konto na docker hub.
+5. 
