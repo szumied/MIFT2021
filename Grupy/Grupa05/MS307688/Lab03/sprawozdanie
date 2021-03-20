@@ -1,0 +1,16 @@
+Sprawozdanie z lab 03 - Michał Stawarski - Grupa 05 - 307688
+
+1. Stworzenie brancha osobistego na zajęcia wg. schematu z poprzedniego tygodnia, stworzony od swojego brancha grupowego 
+
+git checkout Grupa05
+git checkout -b Grupa05-MS307688_Lab03
+
+2. Umieszczenie git hooka stworzonego na ostatnich zajeciach w folderze Grupy/Grupa05/MS307688/lab 03
+
+3. Zainstalowanie Dockera w środowisku Ubuntu
+
+4. Zalogowanie na koncie Docker HUB
+
+5. 
+
+6. 
