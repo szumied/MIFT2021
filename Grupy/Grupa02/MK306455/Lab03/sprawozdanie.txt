@@ -29,3 +29,5 @@ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o 
   
 Nastepnie sprawdzilem poprawnosc instalacji "sudo docker run hello-world"
 
+4. stworzylem konto "mkapust9" na https://hub.docker.com/
+
