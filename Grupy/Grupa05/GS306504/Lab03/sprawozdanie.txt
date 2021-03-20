@@ -1,0 +1,11 @@
+1. Utworzono brancha na te zajecia git checkout -b Grupa05-306504_Lab03 od brancha grupowego Grupa05
+
+2. Dodano git hooka do katalogu hooks w osobistym folderze. 
+
+3. Zainstalowano dockera.
+
+4. Zarejestrowano konto dockerhub.
+
+5. 
+
+Pozostałe punkty pojawią się na dniach, ponieważ wystąpił mały problem.
