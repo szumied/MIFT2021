@@ -20,3 +20,18 @@ cp commit-msg ../../Grupy/Grupa06/BZ290136/Lab03/
   
   sudo apt-get update
   
+4. Utoworzono konto na dockerhub.
+
+5. Utworzono plik Dockerfile:
+	touch Dockerfile
+	
+	z nastpujaca zawartoscia:
+	
+	FROM ubuntu:latest
+	RUN apt-get update
+	RUN apt-get install -y git
+	
+	i dodano go do swojego brancha.
+	
+
+
