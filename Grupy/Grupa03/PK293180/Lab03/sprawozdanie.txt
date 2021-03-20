@@ -8,4 +8,4 @@
 
 5. Stworzono dockerfile ktory bazuje na najnowszym ubuntu, a nastepnie dodano pozostale opcje, wyglad dockerfile mozna zobaczyc na screenach
 
-6. Uruchomiono kontener, sciagnieto repozytorium, nastepnie zmiany zostaly spushowane.
+6. Uruchomiono kontener - najpierw docker build -t laboratorium3 . przy pomocy ktorego stworzono obraz, nastepnie uzyto docker run -it laboratorium3 bash aby upewnic sie, ze wszystko zostalo sciagniete porpawnie, sciagnieto repozytorium dodajac git clone w Dockerfile, nastepnie zmiany zostaly spushowane.
