@@ -11,4 +11,7 @@ RUN apt-get -y upgrade
 RUN apt-get install -y build-essential
 RUN apt-get -y install git
 
+6. Zbudowałem obraz poleceniem docker build -t lab03(zapomniałem zrobić screena) . Następnie używając dockerowego GUI uruchomiłem kontener na podstawie tego obrazu. Następnie za pomocą gui uruchomiłem cli kontenera, w nim sklonowałem repozytorium poleceniem git clone https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021, następnie przełączyłem się na swojego brancha poleceniem git checkout Grupa04-MP306484_Lab03.
+
+
   
