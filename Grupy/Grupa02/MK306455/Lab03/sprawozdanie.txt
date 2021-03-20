@@ -38,4 +38,18 @@ FROM ubuntu:latest  // jako podstawe obrazu uzywamy najnowszej wersji ubuntu
 RUN apt-get -y update	// w kontenerze maja  byc uruchomione aktualizacje
 RUN apt-get -y install git	//instalacja gita w kontenerze
 
+6. 
+Najpierw trzeba bylo zbudowac obraz z Dockerfile. W tym celu uzyto komendy "docker build -t ubuntu-git". Dzieki temu obraz wybudowany z Dockerfile zostal nazwany ubuntu-git. Obrazu tego mozna tworzyc do instancji kontenerow.
+
+Do sprawdzenia poprawnego utworzenia obrazu uzyto "docker images"
+
+W celu uruchomienia kontenera trzeba bylo uzyc komendy "docker run -t -d ubuntu-git". Flagi -t oraz -d oznaczaja uruchomienie w trybie foreground detached. Bez ich uzycia kontener by sie wylaczyl zaraz po uruchomieniu (komenda "docker run ubuntu-git").
+
+Do sprawdzenia  poprawnego uruchomienia konteneru mozna uzyc "docker ps", ktory wyswietli wszystkie aktywne kontenery. Aby wyswietlic wszystkie konterery aktywne i nieaktywne nalezy uzyc "docker ps -a".
+
+Za pomoca komendy "docker exec -it 146f26f2c99e /bin/bash" uruchomiono bash kontenera o id 146f26f2c99e (czyli wczeniej uruchomionego konetera ubuntu-git).
+
+Wewnatrz kontenera w katalogu home utworzono katalog repo, do ktorego sklonowano repozytorium "git clone https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021.git".
+
+Aby wyjsc z kontenera nalezy uzyc "exit" 
 
