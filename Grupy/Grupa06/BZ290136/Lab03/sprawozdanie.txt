@@ -33,5 +33,13 @@ cp commit-msg ../../Grupy/Grupa06/BZ290136/Lab03/
 	
 	i dodano go do swojego brancha.
 	
+6. Uruchomienie kontenera i sciagniecie na niego naszego repo:
+	sudo docker build -t myimage .	<- zbudowanie obrazu
+	sudo docker run -it myimage		<- uruchomienie obrazu
+	git clone https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021 <- sklonowanie repo
+	git branch -a				<- sprawdzenie czy znajduje sie tam moj branch
+	
+	
+	
 
 
