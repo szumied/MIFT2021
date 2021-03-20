@@ -7,3 +7,5 @@
 4. Zarejestrowano konto dockerhub.
 
 5. 
+
+Pozostałe punkty pojawią się na dniach, ponieważ wystąpił mały problem.
