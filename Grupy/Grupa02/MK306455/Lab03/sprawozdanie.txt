@@ -31,3 +31,11 @@ Nastepnie sprawdzilem poprawnosc instalacji "sudo docker run hello-world"
 
 4. stworzylem konto "mkapust9" na https://hub.docker.com/
 
+5. W katalogu MK306455/Lab03 utworzylem Dockerfile. Jego zawartosc to:
+
+FROM ubuntu:latest  // jako podstawe obrazu uzywamy najnowszej wersji ubuntu
+
+RUN apt-get -y update	// w kontenerze maja  byc uruchomione aktualizacje
+RUN apt-get -y install git	//instalacja gita w kontenerze
+
+
