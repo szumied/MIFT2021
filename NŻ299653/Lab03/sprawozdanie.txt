@@ -1,0 +1,16 @@
+1. Utworzyłam nowego osobistego brancha  od branch grupowego za pomocą:
+- git chckout -b Grupa08-NŻ299653_Lab03
+
+2. Dodałam hooka napisanego na wcześniejszych zajęciach do folderu hooks.
+3. Zainstalowałam Docker'a
+4. Założyłam konto na Dockerhubie i zalogowałam się na nim
+5. Utworzyłam plik Dockerfile, bazujący na najnowszej wersji ubuntu i doinstalowałam git'a
+
+FROM ubuntu:latest
+
+RUN apt-get -y update
+RUN apt-get -y install git
+
+6. Zbudowałam obraz za pomocą "sudo docker -t docker ." wykorzystując Dockerfile
+Uruchomiłam kontener za pomocą "sudo docker run -it docker bash"
+I na końcu sklonowałam na niego repo za pomocą git clone "https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021/" i sprawdziłam czy istenieje na nim mój branch
