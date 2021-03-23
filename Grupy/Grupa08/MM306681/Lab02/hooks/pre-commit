@@ -1,7 +1,0 @@
-!/bin/sh
-	if ! grep "MM306681" "$1"; then
-		echo 'Bad'
-		exit 1;
-	f1
-	echo 'Good'
-	exit 0;
