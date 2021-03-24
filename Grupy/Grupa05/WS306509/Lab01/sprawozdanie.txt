@@ -18,3 +18,9 @@ Sprawozdanie z laboratorium 1. Wojciech Szeliga, gr 05.
 	git config --global user.name [nazwa]
 5. "Zpushowania" dokonalem za pomoca polecenia:
 	git push origin [branch]
+6. Dodanie zrzutow ekranu, zmienienie ich nazw a nastepnie za pomoca komend:
+	git commit
+ oraz
+ 	git push origin [branch]
+ wykonanie commita i push brancha na remot'a.
+7. 
