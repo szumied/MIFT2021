@@ -23,4 +23,11 @@ Sprawozdanie z laboratorium 1. Wojciech Szeliga, gr 05.
  oraz
  	git push origin [branch]
  wykonanie commita i push brancha na remot'a.
-7. 
+7. Aby wykonac to zadanie nalezalo uzyc kilku komend:
+ Aby przelaczyc sie na mastera:
+	git checkout master
+ Zmergowanie branchy:
+	git merge [branch]
+ 	git pull
+ 	git push
+ 
