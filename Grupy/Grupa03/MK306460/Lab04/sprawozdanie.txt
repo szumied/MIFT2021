@@ -1,0 +1,8 @@
+Sprawozdanie lab4
+utworzylam branch na dane laborki i przełączyłam się na niego
+utworzylam na hub.docker.com repozytorium
+docker tag [tga-obrazu] mkocurek7/repo-lab4
+docker login
+docker push mkocurek7/repo-lab4
+
+
