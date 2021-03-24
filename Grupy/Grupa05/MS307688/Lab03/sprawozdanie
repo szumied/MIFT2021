@@ -11,6 +11,10 @@ git checkout -b Grupa05-MS307688_Lab03
 
 4. Zalogowanie na koncie Docker HUB
 
-5. 
+5. Stworzenie pliku dockerfile, który bazuje na najnowszym ubuntu.
 
-6. 
+6. Uruchomienie kontenera oraz ściągnięcie na niego naszego repozytorium.
+	sudo docker build -t michaldocker .
+	sudo docker run -it 7dcbec9457e0
+	git clone https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021.git
+
