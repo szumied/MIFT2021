@@ -1,0 +1,20 @@
+Sprawozdanie z laboratorium 1. Wojciech Szeliga, gr 05.
+
+1. Do zainstalowania git'a uzylem polecenia:
+	apt-get install git.
+2. Do wykonania tego zadania uzylem polecenia:
+	git clone https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021.git
+ A nastepnie stworzylem i dodalem plik graf.png obrazujacy relacje miedzy repozytorium lokalnym a tym z 
+ github'a.
+3. Do otworzenia i zapoznania sie z poleceniami tego laboratorium uzylem edytora gedit.
+4. Do stworzenia nowego branch'a i natychmiastowego przelaczenia sie na niego uzylem polecenia:
+	git checkout -b [branch]
+ Nastepnie utworzylem odpowiedni folder przy pomocy "mkdir", dodalem pliki za pomoca polecenia:
+	git add [plik]
+ oraz skomitowalem za pomoca:
+	git commit [plik]
+ do czego potrzebne bylo rownie skonfigurowanie nazwy uzytkownika i adresu e-mail za pomoca:
+	git config --global user.email [e-mail]
+	git config --global user.name [nazwa]
+5. "Zpushowania" dokonalem za pomoca polecenia:
+	git push origin [branch]
