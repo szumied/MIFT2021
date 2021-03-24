@@ -5,3 +5,4 @@
 5. Stworzyłem plik Dockerfile i obraz oparty o najnowsze Ubuntu.
 6. Uruchomiłem kontener korzystając z opisanego obrazu i pobrałem do niego repozytorium z zajęć.
 7. Dokonałem merge'a branch'a osobistego z grupowym.
+8. Ponownie dokonałem merge'a ponieważ został przez kogoś cofnięty
