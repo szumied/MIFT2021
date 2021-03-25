@@ -1,0 +1,7 @@
+1. Stworzyłem nowy branch i wysłałem poprzednio stworzony obraz na docker hub
+
+2. Znalazłem aplikację komunikacyjną w systemie linux:
+
+https://github.com/wireapp/wire-desktop.
+
+3. Stworzyłem dockerfile pod obraz, który będzie miał za zadanie zbudować aplikację wire-dek

@@ -1,0 +1,29 @@
+FROM ubuntu:latest
+
+#problem ze strefą czasową
+
+ENV TZ=Europe/Warsaw
+
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+
+RUN apt-get update
+
+RUN apt-get install git -y
+
+RUN apt-get install npm -y
+
+RUN cd ~
+
+RUN git clone https://github.com/wireapp/wire-desktop.git
+
+RUN cd wire-desktop
+
+RUN npm install --global yarn
+
+RUN yarn
+
+RUN npm install -g typescript 
+
+RUN npm install
+
+RUN yarn build:linux
