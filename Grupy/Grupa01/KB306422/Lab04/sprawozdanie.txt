@@ -1,0 +1,5 @@
+1)Utworzenie nowego brancha od Grupa01 oraz opublikowanie obrazu z poprzednich zajęć na DockerHub:
+	-git checkout -b Grupa01-KB306422_Lab04
+	-sudo docker login --username=name --password=pass  //zalogowanie
+	-sudo docker tag IMAGE_ID klaaaudii12345/devops-docker-lab04 //nadanie tagu
+	-sudo docker push klaaaudii12345/devops-docker-lab04 
