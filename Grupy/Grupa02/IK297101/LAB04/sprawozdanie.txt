@@ -1,0 +1,9 @@
+
+
+sudo docker login --username=galainer
+
+sudo docker tag dev galainer/dev
+
+
+sudo docker push galainer/dev
+
