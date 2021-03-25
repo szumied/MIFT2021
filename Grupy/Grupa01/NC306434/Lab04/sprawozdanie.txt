@@ -1,0 +1,8 @@
+Sprawozdanie Lab04
+
+1.Stworzono brancha osobistego i przelaczono sie poleceniem: git checkout -b Grupa01-NC306434_Lab04. Stworzono go od brancha grupowego Grupa01.
+
+1.1 Opublikowano obraz z porzednich zajęć w serwisie Docker HUB:
+
+sudo docker tag e185a214ebf3 nataliaczachor14/devops-docker-lab
+sudo docker push nataliaczachor14/devops-docker-lab
