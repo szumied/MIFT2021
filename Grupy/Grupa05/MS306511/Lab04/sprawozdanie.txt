@@ -1,0 +1,8 @@
+1. Utworzono nowego brancha o nazwie Grupa04-MS306511-Lab04 z poprzedniego brancha (tak by zachowac dockerile)
+2. Stworzono nowe repo na Dockerhubie- nazwa devops_lab04
+3. Zalogowano sie do docker-huba na terminalu komenda: 
+    sudo docker login (wynik przyspieszonej instalacji dockera)
+4. Zbuildowano image dockerowy zgodnie z konwencja:
+    sudo docker build -t swistusmen696/devops_lab04 .
+5. Push na dockera:
+    sudo docker push swistusmen696/devops_lab04
