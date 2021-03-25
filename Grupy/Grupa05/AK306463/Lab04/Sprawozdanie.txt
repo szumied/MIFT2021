@@ -1,0 +1,13 @@
+DevOps 25.03.2021
+
+1. Stworzyłam swojego osobiestego brancha roboczego Grupa05-AK306463_Lab04 ("git checkout -b Grupa05-AK306463_Lab04"), stworzyłam folder Lab04 oraz przygotowałam plik Sprawozdanie.txt
+
+1.1. Opublikowałam obraz z poprzednich zajęć w serwisie Docker HUB:
+    - dodanie taga do obrazu "sudo docker tag a7b972e4baa2 devops_lab03/lab03:task6"
+    - stworzenie repozytorium na docker HUB "devops"
+    - "sudo docker login"
+    - sprawdzenie nazwy kontenera do wypchnięcia na docker HUB "docker ps -a"
+    - "sudo docker commit infallible_carver agusko/devops"
+    - "sudo docker push agusko/devops_lab03/lab03:task6"
+
+2. Wyszukałam aplikacje prostego komunikatora opensorce. 
