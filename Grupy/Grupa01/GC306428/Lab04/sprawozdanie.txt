@@ -1,0 +1,5 @@
+Zadanie 1
+a)utworzylem nowego branach'a poleceniem git checkout -b Grupa01-GC306428_Lab04
+b)przeslalem obraz z poprzednich zajec na serwis Docker Hub poleceniem docker push na swoje repozytorium
+
+Zadanie 2
