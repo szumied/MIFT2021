@@ -1,0 +1,4 @@
+1. Stworzono brncha osobistego: git checkout -b Grupa05-MS306497_Lab04
+1.1 Opublikowano obraz z poprzednich zajec w serwisie Docker HUB:
+sudo docker tag e0da6a227ce5 mserwaczak/devops:firsttry
+sudo docker push mserwaczak/devops:firsttry
