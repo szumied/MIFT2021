@@ -1,0 +1,3 @@
+1. Stworzono brancha i spullowano zmiany z grupowego.
+git checkout -b Grupa06-BZ290136_Lab04
+git pull origin Grupa06
