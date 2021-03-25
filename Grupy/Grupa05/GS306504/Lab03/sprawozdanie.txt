@@ -6,6 +6,10 @@
 
 4. Zarejestrowano konto dockerhub.
 
-5. 
+5. Stworzono plik Dockerfile bazujący na najnowszym ubuntu. Dodano go do brancha na te laboratoria Grupa05-GS306504_Lab3
+Dodano weryfikacje ze ma zainstalowanego gita jesli jeszcze go nie ma oraz sprawdzenie i ewnentualny update/upgrade.
 
-Pozostałe punkty pojawią się na dniach, ponieważ wystąpił mały problem.
+6. Uruchomiono dockera
+docker build -t first-docker .
+docker run -it first-docker
+git clone https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021.git
