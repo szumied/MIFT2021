@@ -1,0 +1,11 @@
+Sprawozdanie zajęcia 25.03.2021
+
+Temat: Uruchamianie i bazowa konfiguracja kontenera. cz.2.
+
+1. Stworzyłam brancha osobistego na te zajęcia wg. schematu Grupa05-AR306494_Lab04 od brancha Grupa05.
+
+1.1 Opublikowałam obraz z poprzednich zajęć w serwisie DockerHUB. 
+Użyłam poleceń:
+sudo docker tag 6df2188635d0 aleksandra1819/devops-docker-test
+sudo docker push aleksandra1819/devops-docker-test
+
