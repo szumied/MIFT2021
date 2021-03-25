@@ -1,3 +1,9 @@
 1. Stworzono brancha i spullowano zmiany z grupowego.
 git checkout -b Grupa06-BZ290136_Lab04
 git pull origin Grupa06
+
+Zalogowano sie do dockerhuba:
+sudo docker login --username=bartek997
+sudo docker images - sprawdzenie obrazow dockera
+sudo docker tag 2a9f2a56b913 bartek997/first_repo - otagowanie obrazu
+sudo docker push bartek997/first_repo - spushowanie otagowanego obrazu
