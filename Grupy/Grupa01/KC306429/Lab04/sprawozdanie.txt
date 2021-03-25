@@ -1,0 +1,4 @@
+1)Stworzenie nowego brancha git checkout -b Grupa01-KC306429_Lab04
+2)Zalogowanie sie do docker'a w konsoli następnie otagowanie obrazu 
+sudo docker tag lab03:latest karol230/lab03 a następnie pchnięcie obrazu na dockerhub'a
+sudo docker push karol230/lab03
