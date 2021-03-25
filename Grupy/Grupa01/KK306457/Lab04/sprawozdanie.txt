@@ -1,0 +1,3 @@
+1. Obraz nalezalo zbudowac z tagiem karol71927/devops lub zmienic tag obrazu ktory istnial poleceniem "docker tag"
+gdzie karol71927 to nazwa konta na docker hubie. Nastepnie nalezalo opublikowac obraz za pomoca polecenia 
+"docker push tag_obrazu"
