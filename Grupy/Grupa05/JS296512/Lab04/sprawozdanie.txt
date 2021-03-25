@@ -1,0 +1,7 @@
+1. Stworzyłem brancha osobistego na te zajęcia (Grupa05-JS296512_Lab04) od mojego brancha grupowego.
+
+1.1 Opublikowałem obraz z poprzednich zajęć w serwisie Docker HUB:
+
+docker tag IMAGE_ID nazwa_uzytkownika/nazwa_repo
+docker push nazwa_uzytkownika/nazwa_repo
+
