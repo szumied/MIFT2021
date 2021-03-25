@@ -1,0 +1,7 @@
+1. - Logowanie do Docker Hub:
+	docker login
+- Tagowanie obrazu:
+	docker tag my_ubuntu wsmieja/my_ubuntu
+- Push do Docker Hub:
+	docker push wsmieja/my_ubuntu
+
