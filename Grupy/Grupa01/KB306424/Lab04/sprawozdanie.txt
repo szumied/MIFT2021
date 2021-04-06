@@ -12,3 +12,6 @@ Znalezienie open-source'owego komunikatora DeltaChat.
 Stworzenie nowego Dockerfile o nazwie Dockerfile-build i zbudowanie obrazu odpowiedzialnego za budowanie komunikatora.
 Wykorzystano polecenie "sudo docker build -t build:latest . -f Dockerfile-build".
 
+4.
+Stworzenie nowego Dockerfile o nazwie Dockerfile-test. Korzystajac ze zbudowanego wczesniej obrazu build:latest przetestowano komunikator tworzac obraz test:latest odpowiedzialny za testowanie aplikacji.
+Wykorzystano polecenie "sudo docker build -t test:latest . -f Dockerfile-test".
