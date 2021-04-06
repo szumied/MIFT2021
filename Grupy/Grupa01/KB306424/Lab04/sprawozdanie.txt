@@ -5,3 +5,10 @@ Utworzono nowego brancha na te zajecia i przelaczono sie na niego za pomoca pole
 Zbudowanemu obrazowi z poprzednich zajec nadano tag za pomoca polecenia "sudo docker tag id_obrazu tag_obrazu" i jako tag_obrazu podano dazaiii/devops.
 Nastepnie opublikowano obraz na Docker Hubie za pomoca polecenia "sudo docker push dazaiii/devops".
 
+2.
+Znalezienie open-source'owego komunikatora DeltaChat.
+
+3.
+Stworzenie nowego Dockerfile o nazwie Dockerfile-build i zbudowanie obrazu odpowiedzialnego za budowanie komunikatora.
+Wykorzystano polecenie "sudo docker build -t build:latest . -f Dockerfile-build".
+
