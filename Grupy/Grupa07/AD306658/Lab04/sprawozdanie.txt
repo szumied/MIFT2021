@@ -1,0 +1,6 @@
+1. Stworzyłam osobistego brancha Grupa07-AD6658_Lab04
+1.1 Stworzyłam nowe repozytorium w serwisie Docker Hub i opublikowałam w nim obraz z ostanich zajęć:
+	$ sudo docker loging
+	$ sudo docker tag 9c8b2aaaa180 annadybel21/lab04
+	$ sudo docker push annadybel21/lab04
+
