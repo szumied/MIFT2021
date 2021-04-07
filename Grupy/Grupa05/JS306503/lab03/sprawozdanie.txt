@@ -1,0 +1,8 @@
+Jakub Straszak - sprawozdanie z laboratorium 3
+
+1. Utworzenie nowego brancha
+2. Dodanie git hooka z poprzednich laboratoriow
+3. Zainstalowanie dockera
+4. Utworzenie konta na Docker Hub
+5. Stworzenie Dockerfile'a
+6. Uruchomienie kontenera i sciagniecie na niego repozytorium.
