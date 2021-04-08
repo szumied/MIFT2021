@@ -1,4 +1,4 @@
-FROM alpine:3.4
+FROM node:14.16.0-buster
 
 RUN apt-get update 
 RUN apt-get install -y --no-install-recommends git
