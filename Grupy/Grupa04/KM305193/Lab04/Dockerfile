@@ -1,6 +1,7 @@
 FROM alpine:3.4
 
 RUN apt-get update 
+RUN apt-get install -y --no-install-recommends git
 
 RUN git clone https://github.com/deltachat/deltachat-desktop.git
 WORKDIR ./deltachat-desktop
