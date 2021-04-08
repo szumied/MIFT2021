@@ -3,3 +3,6 @@
 	-sudo docker login --username=name --password=pass  //zalogowanie
 	-sudo docker tag IMAGE_ID klaaaudii12345/devops-docker-lab04 //nadanie tagu
 	-sudo docker push klaaaudii12345/devops-docker-lab04 
+2)Znalezienie komunikatora node-chat-app
+3)Stworzenie nowego Dockerfile i zbudowanie obrazu "docker-build" do budowania komunikatora.
+	-sudo docker build -t docker-build .
