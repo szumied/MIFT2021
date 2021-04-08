@@ -8,22 +8,14 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 RUN apt-get update
 
-RUN apt-get install git -y
-
-RUN apt-get install npm -y
-
-RUN cd ~
-
-RUN git clone https://github.com/wireapp/
-
-RUN cd wire-desktop
+RUN apt-get -q install npm -y
 
 RUN npm install --global yarn
 
-RUN yarn
-
 RUN npm install -g typescript 
 
-RUN npm install
+RUN cd ~
 
-RUN yarn build:linux
+COPY wire-desktop ./wire-desktop
+
+RUN npm --prefix wire-desktop install 
