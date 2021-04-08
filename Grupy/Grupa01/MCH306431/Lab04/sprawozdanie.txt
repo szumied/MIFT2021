@@ -1,0 +1,6 @@
+W trakcie cwiczenia wystapila koniecznosc przeinstalowania maszyny wirtualnej
+- niestety sprwozdanie.txt oraz poczatkowe screeny zostaly utracone
+
+1. Stworzenie wlasnego brancha
+1.1 Opublikowanie obrazu z poprzednich zajec na Docker HUB
+- zostalo juz to wykonane wczesniej, takze dorzucam tylko screen z dockerHuba
