@@ -1,0 +1,4 @@
+1.Utworzono branch osobisty o nazwie Grupa01-SJ306448_Lab03
+2.Dodano git hooka z poprzednich zajęć dpo swojego folderu
+3.Zainstalowano Docker'a na swoim środowisku pracy
+4.Zalogowano się na wcześniej zarejestrowane konto w Docker HUB
