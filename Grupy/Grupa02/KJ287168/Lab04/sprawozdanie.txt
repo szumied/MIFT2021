@@ -108,3 +108,58 @@
 	
 	(zrobiłem pull request)
 		
+
+	(ponownie przystąpiłem do poprawy zadania)
+	
+	(cd .git/hooks/
+	 vim commit-msg.sample
+	 chmod +x commit-msg
+	 cd Grupy/Grupa02/KJ287168/Lab04
+	 )
+	
+	git checkout Grupa02
+	cd Grupy/Grupa02/KJ287168/Lab04
+	docker-compose up
+	docker images
+	docker ps -a
+	git checkout -b Grupa02-KJ287168_Lab04
+	...
+	cd ../deltachat-core/
+	docker build -t deltachat-core .
+	cd ../tests/
+	build -t deltachat-core-tests .
+		(pytesty ruszają, ale zwracają errory w ramach wykonywania i przez to executor przerywa pracę- komunikator to dość rozbudowana bestia, którą cięzko było ogarnąć)
+	docker images
+	cd ..
+	docker-compose up
+	git status
+	git add ..
+	git commit -m "KJ287168 Zmiany w celu naprawy pracy obrazow"
+	git checkout Grupa02
+	git pull
+	...
+	
+	
+	POPRAWIONE SKRYPTY:
+	build:
+		FROM debian:latest
+
+		RUN apt-get update && apt-get -y upgrade && \
+			 apt-get -y install git && \
+			 apt-get -y install python3-pip
+		RUN pip3 install cmake && \
+			 curl https://sh.rustup.rs -sSf | sh
+
+
+		RUN git clone https://github.com/deltachat/deltachat-core-rust.git
+
+		RUN cmake deltachat-core-rust/CMakeLists.txt && \
+			 apt-get -y install python3
+	tests:
+		FROM deltachat-core:latest
+
+		WORKDIR ./deltachat-core-rust/python
+		RUN pip3 install pytest pytest-xdist pytest-timeout pytest-rerunfailures requests && \
+			 pytest -v tests
+	
+
