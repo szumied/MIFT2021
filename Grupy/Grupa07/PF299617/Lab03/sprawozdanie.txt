@@ -4,8 +4,10 @@ Sprawozdanie Lab03
 
 2. Dodanie git hooka z ostatnich zajêæ do folderu Lab02/hooks/commit-msg .
 
-3. Zainstalowanie Docker Toolbox'a.
+3. Zainstalowanie Docker'a zgodnie z instrukcj± ze strony: https://docs.docker.com/engine/install/ubuntu/ .
 
-4. Zajerestrowanie siê do dockerhub'a. Nazwa u¿ytkownika pfedirko.
+4. Zajerestrowanie siê do Dockerhub'a. Nazwa u¿ytkownika pfedirko.
 
-5. 
+5. Stworzenie Dockerfile'a bazuj±cym na najnowszym ubuntu z doinstalowanym git'em.
+
+6. Uruchomienie kontenera i dodanie do niego repozytorium oraz sprawdzenie czy jest tam branch Grupa07-PF299617_Lab03.
