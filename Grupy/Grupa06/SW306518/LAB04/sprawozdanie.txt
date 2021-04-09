@@ -59,7 +59,8 @@ services:
    - buildd-container
 
 docker-compose up - uruchomienie projektu, wszystkich kontenerów
-git pull
+
+Niestety merge z branchem Grupa06 nie był możliwy z powodu następującego błędu: "fatal: cannot create directory at 'Grupy/Grupa06/MZ306522/Lab03/Zadanie3:4': Invalid argument". Wynika to prawodpodbnie z tego że na systemie kolegie taka konwencja nazewnicza folderów jest dopuszczalna jednak już na Windowsie nie, dlatego załączam link do tymczasowego brancha.
 
 
 
