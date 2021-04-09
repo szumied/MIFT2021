@@ -1,0 +1,1 @@
+Po wielu nieudanych próbach z kompilacją/linkowaniem różnych komuniaktorów pobranych z github'a (psi,franz,openmitsu,rocketchat,kilka pomniejszych aplikacji do IRC) pobrałem klienta korzystając z wbudowanych w Ubuntu repozytoriów.
