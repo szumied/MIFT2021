@@ -108,6 +108,7 @@
 	
 	(zrobiłem pull request)
 		
+
 	(ponownie przystąpiłem do poprawy zadania)
 	
 	(cd .git/hooks/
@@ -161,3 +162,4 @@
 		RUN pip3 install pytest pytest-xdist pytest-timeout pytest-rerunfailures requests && \
 			 pytest -v tests
 	
+

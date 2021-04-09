@@ -11,3 +11,4 @@ RUN git clone https://github.com/deltachat/deltachat-core-rust.git
 
 RUN cmake deltachat-core-rust/CMakeLists.txt && \
 	 apt-get -y install python3
+
