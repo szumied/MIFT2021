@@ -1,0 +1,65 @@
+1.
+git checkout -b Grupa06-SW306518_Lab04 - stworzenie brancha osobistego, na nim będę pracował
+
+1.1. 
+docker commit heuristic_mendeleev macovv/devops - przygotowanie obrazu do wypchania na docker hub
+docker push macovv/devops - wypchanie obrazu na docker huba macovv/devops
+
+2.
+Znalazłem komunikator napisany w pythonie deltachat
+
+3. 
+mkdir buildd - utworzenie folderu w którym będzie Dockerfile wykonujący builda
+touch Dokcerfile - stworzenie pliku Dockerfile
+zawartość Dockerfile:
+FROM deltachat/coredeps
+
+WORKDIR ./ci_scripts/docker-doxygen
+
+CMD ["docker", "build"]
+
+WORKDIR ./ci_scripts/docker-coredeps
+
+CMD ["docker", "build"]
+
+zbudowanie go:
+	docker build -t buildd .
+
+
+4.
+mkdir test - utworzenie folderu gdzie bedzie Dockerfile do testów
+stworzenie Dockerfile o następującej treści:
+FROM buildd:latest
+
+WORKDIR ./ci_scripts
+
+CMD ["bash", "run_all.sh"]
+
+zbudowanie:
+	docker build -t testt .
+
+
+5.
+touch docker-compose.yml - stworzenie docker-compose o treści:
+version: "3.9"
+services:
+ buildd-container:
+  container_name: buildd
+  image: buildd
+  build:
+   context: ./buildd
+   dockerfile: Dockerfile
+ testt-container:
+  container_name: testt
+  image: testt
+  build:
+   context: ./test
+   dockerfile: Dockerfile
+  depends_on:
+   - buildd-container
+
+docker-compose up - uruchomienie projektu, wszystkich kontenerów
+git pull
+
+
+

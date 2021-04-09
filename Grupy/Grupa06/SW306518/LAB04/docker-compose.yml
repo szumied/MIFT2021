@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+ buildd-container:
+  container_name: buildd
+  image: buildd
+  build:
+   context: ./buildd
+   dockerfile: Dockerfile
+ testt-container:
+  container_name: testt
+  image: testt
+  build:
+   context: ./test
+   dockerfile: Dockerfile
+  depends_on:
+   - buildd-container
