@@ -12,15 +12,13 @@ RUN apt-get install git -y
 
 RUN apt-get install npm -y
 
-RUN cd ~
-
-RUN git clone https://github.com/wireapp/
+RUN git clone https://github.com/wireapp/wire-desktop
 
 RUN cd wire-desktop
 
 RUN npm install --global yarn
 
-RUN yarn
+WORKDIR /wire-desktop
 
 RUN npm install -g typescript 
 

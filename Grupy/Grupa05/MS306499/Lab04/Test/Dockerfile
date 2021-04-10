@@ -14,8 +14,8 @@ RUN npm install --global yarn
 
 RUN npm install -g typescript 
 
-RUN cd ~
-
 COPY wire-desktop ./wire-desktop
 
-RUN npm --prefix wire-desktop install 
+WORKDIR /wire-desktop
+
+RUN npm install 
