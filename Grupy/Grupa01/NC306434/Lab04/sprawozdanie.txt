@@ -6,3 +6,6 @@ Sprawozdanie Lab04
 
 sudo docker tag e185a214ebf3 nataliaczachor14/devops-docker-lab
 sudo docker push nataliaczachor14/devops-docker-lab
+
+
+2. Znalazlam komunikator https://github.com/binhxn/node-chat-app.
