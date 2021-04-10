@@ -9,13 +9,15 @@ https://hub.docker.com/repository/docker/mkapust9/devops
 
 
 
-2. Najpierw znalazlem chat z repozytorium: https://github.com/igorantun/node-chat. Napisalem dla niego Dockerfile budujacy, jednakze potem zauwazylem ze nie posiada on testow (Dockerfile w katalogu "pierwsza_proba"). Potem zdecydowalem sie wybrac chat z repozytorium https://github.com/AlexTraher/Socket.io-Messenger.
+2. Najpierw znalazlem chat z repozytorium: https://github.com/igorantun/node-chat. 
+Napisalem dla niego Dockerfile budujacy, jednakze potem zauwazylem ze nie posiada on testow (Dockerfile w katalogu "pierwsza_proba"). 
+Potem zdecydowalem sie wybrac chat z repozytorium https://github.com/AlexTraher/Socket.io-Messenger.
 
 
 
 
 
-3. W katalogu "build" umiescilem Dockerfile budujacy. struktura Dockerfile to:
+3. W katalogu "build" umiescilem Dockerfile budujacy. Struktura Dockerfile to:
 
 FROM alpine:3.10	#jako srodowisko wybralem nodejs alpine, gdyz na ubuntu byl problem z instalacja nodejs
 RUN apk update	#aktualizacja
@@ -40,7 +42,7 @@ Aby uruchomic kontener uzywamy:
 
 sudo docker run -t -d messenger
 
-Aby uruchomicb bin/sh kontenera:
+Aby uruchomic bin/sh kontenera:
 
 sudo docker exec -it b070b1098052 /bin/sh
 
