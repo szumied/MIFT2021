@@ -7,3 +7,10 @@ docker push nazwa_uzytkownika/nazwa_repo
 
 2. Znalazłem komunikator na githubie:
 https://github.com/binhxn/node-chat-app
+
+3. Stworzyłem nowy obraz kontenera dockerowego i skonfigurowałem go tak, aby był w stanie wykonać operację budowania komunikatora:
+sudo docker build -t docker-build:build . -f Dockerfile.build
+sudo docker run -it -p 3000:3000 IMAGE_ID
+
+
+
