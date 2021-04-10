@@ -5,3 +5,5 @@
 docker tag IMAGE_ID nazwa_uzytkownika/nazwa_repo
 docker push nazwa_uzytkownika/nazwa_repo
 
+2. Znalazłem komunikator na githubie:
+https://github.com/binhxn/node-chat-app
