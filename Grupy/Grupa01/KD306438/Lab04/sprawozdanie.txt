@@ -1,0 +1,10 @@
+1. Utworzenie z brancha grupowego swojego brancha osobistego na te zajecia: 'git checkout -b Grupa01-KD306438_Lab04'
+
+1.1 Opublikowanie obrazu z poprzednich zajec w serwisie Docker Hub: 
+	-nadanie zbudowanemu obrazowi tagu takiego samego jak repo, do ktorego bedziemy pushowac: 'sudo docker tag a7c66ceffe6d karen2035/devops'
+	-zalogowanie sie na konto 'sudo docker login'
+	-opublikowanie obrazu 'sudo docker push karen2035/devops'
+
+
+2.
+
