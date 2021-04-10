@@ -1,8 +1,27 @@
 Sprawozdanie lab4
-utworzylam branch na dane laborki i przełączyłam się na niego
+1.  utworzylam branch na dane laborki i przełączyłam się na niego
 utworzylam na hub.docker.com repozytorium
-docker tag [tga-obrazu] mkocurek7/repo-lab4
+
+docker tag [tag-obrazu] mkocurek7/repo-lab4
 docker login
 docker push mkocurek7/repo-lab4
+
+2. znalazlam komunikator node-chat-app
+
+3. zbudowałam nowego Dockerfile. Skonfigurowałam go tak, aby wykonywał operację budowania "komunikatora" ze źródeł (kompilacja, linkowanie, zależności, etc.)
+do budowania obrazu uzylam komendy: 
+sudo docker build -t docker-build:build . -f Dockerfile-build
+aby sprawdzic dzialanie komunikatora uzylam komend:
+sudo docker run -it -p 3000:3000 ID-utworzonego-obrazu
+
+4. stworzylam kolejny dockerfile w celu zbudowania nowego obrazu i przetestowania dziala apki.
+uzylam komend: 
+sudo docker build -t docker-test:test . -f Dockerfile-test
+
+5.Stworzyłam plik docker-compose.yml. Korzystając z obrazów 3) i 4) stworzylam środowisko, które:
+- ściąga z repo najnowszą wersję "komunikatora"
+- buduje go
+skorzystałam z komendy: sudo docker-compose up
+
 
 
