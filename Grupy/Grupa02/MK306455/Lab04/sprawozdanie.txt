@@ -6,4 +6,4 @@ Link do repozytorium:
 
 https://hub.docker.com/repository/docker/mkapust9/devops
 
-
+2. Najpierw znalazlem chat z repozytorium: https://github.com/igorantun/node-chat. Napisalem dla niego Dockerfile budujacy, jednakze potem zauwazylem ze nie posiada on testow (Dockerfile w katalogu "pierwsza_proba"). Potem zdecydowalem sie wybrac chat z repozytorium https://github.com/AlexTraher/Socket.io-Messenger.
