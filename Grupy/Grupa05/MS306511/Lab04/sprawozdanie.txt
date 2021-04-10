@@ -6,3 +6,4 @@
     sudo docker build -t swistusmen696/devops_lab04 .
 5. Push na dockera:
     sudo docker push swistusmen696/devops_lab04
+6.
