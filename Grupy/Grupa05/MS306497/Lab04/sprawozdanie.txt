@@ -9,4 +9,5 @@ sudo docker push mserwaczak/devops:firsttry
 sudo docker build -t build . -f Dockerfile-build
 sudo docker run -it -p 3000:3000 IDobrazu
 
-
+4.Stworzono obraz kontenera dockerowego i skonfigurowano go tak aby byl w stanie wykonac operacje testowania komunikatora  korzystajac ze zbudowanego wczesniej programu:
+sudo docker build -t test . -f Dockerfile-test
