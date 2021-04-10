@@ -19,3 +19,7 @@ npm run dev
 4.Stworzono nowy obraz kontenera dockerowego. Skonfigurowano go tak, aby byl w stanie wykonac operacje testowania korzystajac ze zbudowanego wczesniej programu. Uzyto polecenia:
 
 sudo docker build -t docker-test:test . -f Dockerfile.test
+
+5. Zainstalowano docker-compose. Stworzono plik docker-compose.yml. Dodano go do swojego brancha. Stworzono srodowisko ktore sciaga repo z najnowsza wersja "komunikatora", buduje go, testuje czy komunikator dziala.
+
+sudo docker-compose up
