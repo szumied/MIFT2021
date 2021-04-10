@@ -9,4 +9,5 @@
 Sprawdzenie komunikatora 
 	-sudo docker run -it -p 3000:3000 dc612cd7bd9c
 	-npm run dev
-
+4)Stworzenie nowego Dockerfile i zbudowanie obrazu "docker-test" do wykonywania operacji testowania "komunikatora"
+	-sudo docker build -t docker-test:test . -f Dockerfile-test
