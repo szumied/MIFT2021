@@ -53,3 +53,29 @@ FROM messenger #opieramy sie na obrazie powstalym w wyniku budowy
 
 
 RUN npm test --prefix ./Socket.io-Messenger #uruchamiamy testy
+
+
+
+
+
+
+5. Napisano docker-compose:
+
+version: '3' #wersja docker-compose 
+services: #lista uslug
+ builder: #build agent
+  image: messenger #nazwa obrazu po zbudowaniu
+  build: ./build #budujemy z Dockerfile w katalogu build
+   
+   
+ tester: 
+  
+  image: testing #nazwa obrazu po zbudowaniu
+  build: ./test #budujemy z Dockerfile w katalogu test
+
+  depends_on:
+   - builder	#test agent jest zalezny od build agenta
+   
+   
+Plik docker-compose.yml uruchomiono komenda sudo docker-compose up.
+ 
