@@ -7,3 +7,7 @@ sudo docker push kpodwika8/kp-devops
 
 2. Znalazłem w internecie komunikator https://github.com/binhxn/node-chat-app
 
+3. Stworzyłem nowy obraz kontenera i skonfigurowałem go w taki sposób by był w stanie wykonywać operację budowania "komunikatora" 
+sudo docker build -t build-agent:build . -f Dockerfile.build
+sudo docker run -it -p 3000:3000 b9e7bff3d67d
+
