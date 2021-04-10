@@ -11,3 +11,9 @@ sudo docker run -it -p 3000:3000 IDobrazu
 
 4.Stworzono obraz kontenera dockerowego i skonfigurowano go tak aby byl w stanie wykonac operacje testowania komunikatora  korzystajac ze zbudowanego wczesniej programu:
 sudo docker build -t test . -f Dockerfile-test
+
+5. Stworzono plik docker-compose.yml. Stworzono srodowisko, ktore
+- sciaga z repo najnowsza wersje komunikatora
+- buduje go
+-testuje czy komunikator dziala:
+sudo docker-compose up
