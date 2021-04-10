@@ -6,5 +6,5 @@
 	-opublikowanie obrazu 'sudo docker push karen2035/devops'
 
 
-2.
+2. Znalezienie w internecie komunikatora opensource messeging app - Zulip
 
