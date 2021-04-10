@@ -47,4 +47,9 @@ sudo docker exec -it b070b1098052 /bin/sh
 
 
 
+4. Napisano Dockerfile testujacy i umieszczono go w katalogu test. jego struktura to:
 
+FROM messenger #opieramy sie na obrazie powstalym w wyniku budowy
+
+
+RUN npm test --prefix ./Socket.io-Messenger #uruchamiamy testy
