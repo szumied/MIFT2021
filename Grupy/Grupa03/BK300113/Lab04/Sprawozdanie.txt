@@ -1,1 +1,10 @@
-Po wielu nieudanych próbach z kompilacją/linkowaniem różnych komuniaktorów pobranych z github'a (psi,franz,openmitsu,rocketchat,kilka pomniejszych aplikacji do IRC) pobrałem klienta korzystając z wbudowanych w Ubuntu repozytoriów.
+
+ZAD 1.
+Opublikowałem obraz na Docker HUB'ie w sposób zobrazowany przez zrzuty ekranu.
+
+ZAD 2.
+Po wielu nieudanych próbach z kompilacją/linkowaniem różnych komuniaktorów pobranych z github'a (psi,franz,openmitsu,rocketchat,kilka pomniejszych aplikacji do IRC) udało mi się skompilować komuniaktor o nazwie Delta-chat.
+
+ZAD 3.
+Stworzyłem plik Dockerfile_build i zbudowałem obraz z jego wykorzystaniem.
+
