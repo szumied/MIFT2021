@@ -2,3 +2,5 @@
 1.1 Opublikowano obraz z poprzednich zajec w serwisie Docker HUB:
 sudo docker tag e0da6a227ce5 mserwaczak/devops:firsttry
 sudo docker push mserwaczak/devops:firsttry
+
+2. Znaleziono w internecie komunikator: https://github.com/binhxn/node-chat-app
