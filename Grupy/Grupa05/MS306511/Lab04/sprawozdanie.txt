@@ -6,6 +6,7 @@
     sudo docker build -t swistusmen696/devops_lab04 .
 5. Push na dockera:
     sudo docker push swistusmen696/devops_lab04
+
 6.do wykonania cwiczenia wybrano repozytorium Delta Chat
 7.Napisalem dockerfila, ktorego umiescilem w katalogu BuildAgent
 8. Zbudowano dockera za pomoca komendy:
@@ -19,3 +20,4 @@ nastepnie uzylem komendy by zaprezentowac ze obraz dostal zbudowany, wszystko zo
 12. Odpalilem docker-compose co zostalo udokumentowane na screenach
 
 W tym miejscu chcialbym rowniez nadmienic, ze oddalem poprzednie zadania o czasie, ale nie zaxznaczylem oddane na platformie Teams
+
