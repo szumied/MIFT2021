@@ -16,3 +16,6 @@ sudo docker built -t docker-build:build . -f Dockerfile.build
 sudo docker run -it 3000:3000 8a4c2a9d0662
 npm run dev
 
+4.Stworzono nowy obraz kontenera dockerowego. Skonfigurowano go tak, aby byl w stanie wykonac operacje testowania korzystajac ze zbudowanego wczesniej programu. Uzyto polecenia:
+
+sudo docker build -t docker-test:test . -f Dockerfile.test
