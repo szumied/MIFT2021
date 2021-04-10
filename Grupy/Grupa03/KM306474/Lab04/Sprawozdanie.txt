@@ -1,0 +1,17 @@
+1.Utworzono brancha do tego zadania
+ git checkout -b Grupa03-KM306474_Lab04
+ Utworzono konto na serwisie https://hub.docker.com/ i opublikowano na nim image z poprzednich zajec
+ docker login
+ docker tag 4dd97cefde62 chrismarc/306474:latest
+ docker push chrismarc/306474:latest
+
+2. Do ćwiczeń użyto komunikatora https://github.com/cosmicjs/nodejs-chat-app
+
+3. Utworzono Dockerfile-build
+sudo docker build -t docker-test:docker-build . -f Dockerfile-build
+
+4. Utworzono Dockerfile-test 
+sudo docker build -t docker_test:docker_test . -f Dockerfile-test
+
+Utworzono i użyto plik docker-compose.yml
+sudo docker-compose up
