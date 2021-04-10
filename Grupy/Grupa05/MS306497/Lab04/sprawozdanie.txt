@@ -4,3 +4,9 @@ sudo docker tag e0da6a227ce5 mserwaczak/devops:firsttry
 sudo docker push mserwaczak/devops:firsttry
 
 2. Znaleziono w internecie komunikator: https://github.com/binhxn/node-chat-app
+
+3. Stworzono nowy obraz kontenera dockerowego i skonfigurowano go tak aby byl w stanie wykonac operacje budowania komunikatora ze zrodel:
+sudo docker build -t build . -f Dockerfile-build
+sudo docker run -it -p 3000:3000 IDobrazu
+
+
