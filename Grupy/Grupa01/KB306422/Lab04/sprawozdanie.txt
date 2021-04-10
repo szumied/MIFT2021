@@ -5,4 +5,8 @@
 	-sudo docker push klaaaudii12345/devops-docker-lab04 
 2)Znalezienie komunikatora node-chat-app
 3)Stworzenie nowego Dockerfile i zbudowanie obrazu "docker-build" do budowania komunikatora.
-	-sudo docker build -t docker-build .
+	-sudo docker build -t docker-build:build . -f Dockerfile-build
+Sprawdzenie komunikatora 
+	-sudo docker run -it -p 3000:3000 dc612cd7bd9c
+	-npm run dev
+
