@@ -8,3 +8,8 @@ Po wielu nieudanych próbach z kompilacją/linkowaniem różnych komuniaktorów 
 ZAD 3.
 Stworzyłem plik Dockerfile_build i zbudowałem obraz z jego wykorzystaniem.
 
+ZAD 4. 
+Stworzyłem plik Dockerfile_test. Zbudowany obraz wykonuje testy aplkacji przy użyciu komendy "npm test". Jako ,że pierwszy utworzony Dockerfile był wadliwy działanie testów zostało wczytane z cache.
+
+ZAD 5.
+Utworzyłem plik docker-compose.yml, uruchomiłem go w terminalu.
