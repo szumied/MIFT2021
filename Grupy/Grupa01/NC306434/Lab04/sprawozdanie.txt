@@ -9,3 +9,10 @@ sudo docker push nataliaczachor14/devops-docker-lab
 
 
 2. Znalazlam komunikator https://github.com/binhxn/node-chat-app.
+
+3.Stworzono nowy obraz kontenera dockerowego. Skonfigurowano go tak, aby byl w stanie wykonac operacje budowania "komunikatora" ze zrodel. Uzyto polecenia:
+
+sudo docker built -t docker-build:build . -f Dockerfile.build
+sudo docker run -it 3000:3000 8a4c2a9d0662
+npm run dev
+
