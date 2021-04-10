@@ -11,3 +11,8 @@ sudo docker push kpodwika8/kp-devops
 sudo docker build -t build-agent:build . -f Dockerfile.build
 sudo docker run -it -p 3000:3000 b9e7bff3d67d
 
+4. Stworzyłem nowy obraz kontenera dockerowego i skonfigurowałem go aby był w stanie wykonywać operację testowania "komunikatora"
+sudo docker build -t docker-test:test . -f Dockerfile.test
+
+5. Stowrzyłem plik docker-compose.yml
+sudo docker-compose up
