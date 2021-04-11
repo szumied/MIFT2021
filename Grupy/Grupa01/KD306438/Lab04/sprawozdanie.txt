@@ -10,7 +10,6 @@
 
 3. Build agent: utworzenie nowego obrazu kontenera na podstawie Dockerfile'a realizujacego budowanie komunikatora: 
 	-Dockerfile:
-
 		FROM node:14.16.0-buster
 		# instalacja gita
 		RUN apt-get update -y
@@ -22,3 +21,12 @@
 		RUN npm install
 		CMD ["npm", "start"]
 	 -budowa 'sudo docker build -t im1 . '
+	 
+4. Test agent: utworzenie nowego obrazu kontenera na podstawie Dockerfile'a realizujacego testowanie zbudowanego wczesniej komunikatora: 
+	-Dockerfile:
+		FROM im1
+		WORKDIR ./zulip-desktop
+		RUN npm test
+	 -budowa 'sudo docker build -t im1t . -f Dockerfile_test'
+	 
+	
