@@ -18,3 +18,10 @@ Zad.4 	Stworzyłem dockerfile dla nowego kontenera do testów
 	zbudowałem obraz poleceniem:
 	* sudo docker build -t test_agent . -f Dockerfile_test
 
+zad.5 	Instalacja docker-compose z dokumentacji:
+	 * sudo curl -L "https://github.com/docker/compose/releases/download/1.29.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+	 * sudo chmod +x /usr/local/bin/docker-compose
+
+	uworzyłem plick docker-compose odpowiedzialny za sciąganie ze źródeł nowej wersji komunikatora.
+	zbudowałem i sprawdziłem czy działa poleceniem:
+	* sudo docker-compose up
