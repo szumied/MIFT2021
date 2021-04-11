@@ -1,4 +1,4 @@
-1. Utworzono brancha osobistego wg. schematu z poprzednich zajęć: Grupa01-LB299663_Lab4 - git checkout -b "Grupa01"
+1. Utworzono brancha osobistego wg. schematu z poprzednich zajęć: Grupa01-LB299663_Lab4 - git checkout -b "Grupa01-LB299663_Lab4"
 1.1 Opublikowano obraz z poprzednich zajęć w serwisie dockerhub.
 
 2. Do tej części ćwiczenia wybrałem komunikator node-chat-app (https://github.com/BuiDuyThanh/node-chat-app)
