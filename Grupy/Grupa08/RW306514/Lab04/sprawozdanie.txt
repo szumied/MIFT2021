@@ -1,0 +1,22 @@
+Sprawozdanie: Rafal Widziszewski 18.03.2021r.
+
+Wykonanie:
+
+1.Utworzenie brancha osobistego, a nastepnie opublikowania obrazu z trzecich  laboratoriow:
+
+  Nadanie obrazowi tagu: 
+   docker tag lab03:latest rwidzisz/mift2021_lab04:firstpush
+  
+  Spushowanie otagowanego repo: 
+   docker push rwidzisz/mift2021_lab04:firstpush
+  
+2.Korzystac bede z desktopowego komunikatora DeltaChat
+
+3.Napisanie Build Agenta a nastepnie zbudowanie go przez komende:
+	sudo docker build -t agent .
+	
+4.Napisanie Test Agenta i zbudowanie go:
+	sudo docker build -t test .
+
+5.Napisanie pliku docekr compose a nastepnie uruchomienie go komenda:
+	sudo docker-compose up
