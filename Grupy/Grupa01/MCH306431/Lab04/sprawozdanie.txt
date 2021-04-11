@@ -4,3 +4,11 @@ W trakcie cwiczenia wystapila koniecznosc przeinstalowania maszyny wirtualnej
 1. Stworzenie wlasnego brancha
 1.1 Opublikowanie obrazu z poprzednich zajec na Docker HUB
 - zostalo juz to wykonane wczesniej, takze dorzucam tylko screen z dockerHuba
+
+2. Wybranie komunikatora Rocket.Chat
+
+3. Napisanie Dockerfile-build do budowania kominikatora ze zrodla
+- po wielu probach zostala podjeta decyzja o zmianie komunikatora spowodowana
+wieloma bledami podczas proby zbudowania projektu.
+
+2. 
