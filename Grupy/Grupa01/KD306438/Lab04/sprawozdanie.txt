@@ -29,4 +29,24 @@
 		RUN npm test
 	 -budowa 'sudo docker build -t im1t . -f Dockerfile_test'
 	 
+5. Utworzenie pliku docker-compose.yml ściągającego z repo najnowsza wersje komunikatora, bubdujacego go oraz testtujacego go pod katem dzialania:
+	-docker-compose.yml:
+		version: '3'
+		services:
+		    build-agent:
+		      container_name: zulip_build
+		      image: im1
+		      build:
+			 context: .
+			 dockerfile: Dockerfile
+		    test-agent:
+		      container_name: zulip_test
+		      image: im1t
+		      build:
+			 context: .
+			 dockerfile: Dockerfile_test
+		      depends_on:
+		      - build-agent
+	-instalacja docker compose: 'sudo apt-get install docker-compose'
+	-uruchomienie: 'sudo docker-compose up'
 	
