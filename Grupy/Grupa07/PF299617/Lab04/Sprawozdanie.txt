@@ -16,4 +16,5 @@ Napisano dockerfile'a do testowania komunikatora ze zbudowanego wcześniej progr
 	sudo docker build . chat-test:latest
 
 Zadanie 5.
-in progress...
+Stworzono plik docker-compose.yml, który ściąga najnowszą wersje komunikatora, buduje go i testuje. Do uruchomienia użyto komendy:
+	sudo docker-compose up
