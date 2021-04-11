@@ -11,4 +11,13 @@ W trakcie cwiczenia wystapila koniecznosc przeinstalowania maszyny wirtualnej
 - po wielu probach zostala podjeta decyzja o zmianie komunikatora spowodowana
 wieloma bledami podczas proby zbudowania projektu.
 
-2. 
+2-v2 Wybranie komunikatora deltachat
+
+3-v2. Napisanie Dockerfile-buildv2 do budowania komunikatora ze zrodla
+- tym razem zbudowanie Dockerfile zostalo zakonczone sukcesem 
+
+4. Napisanie Dockerfile-test, gdzie bedzie testowana aplikacja
+- testy zakonczyly sie niepowodzeniem 
+
+
+
