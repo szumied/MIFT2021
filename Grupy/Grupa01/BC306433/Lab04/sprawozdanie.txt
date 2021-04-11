@@ -1,0 +1,7 @@
+Metodyki DevOps, Lab04, 08.03.2021
+
+Zad.1	Stworzyłem brancha osobistego od brancha Grupa01
+	 * git branch Grupa01-BC306433_Lab04
+	Opublikowałem stworzony na poprzednich zajęciach braz na dockerhub:
+	* docker tag d54eb7cb7098 ciesinskib/lab03_docker:devOps_lab4
+	* docker push ciesinskib/lab03_docker
