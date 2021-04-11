@@ -10,6 +10,11 @@ Zad.2   Komunikator, z którego korzystam w tym adaniu: https://github.com/binhx
 
 
 Zad.3   Stworzyłem dockerfile dla kontenera odpowiedzialnego za budowanie komunikatora ze źródła.
-
+	zbudowałem obraz poleceniem:
 	* sudo docker build -t build_agent . -f Dockerfile_build
 	* sudo docker run -it -p 3000:3000 build_agent
+	
+Zad.4 	Stworzyłem dockerfile dla nowego kontenera do testów
+	zbudowałem obraz poleceniem:
+	* sudo docker build -t test_agent . -f Dockerfile_test
+
