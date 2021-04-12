@@ -1,0 +1,9 @@
+1. Stworzylem brancha osobistego na te zajecia i opublikowalem obraz z poprzednich zajec w serwisie Docker Hub
+
+2. Znalazlem na githubie komunikator delta
+
+3. Utworzylem nowy plik Dockerfile, a nastepnie utworzylem obraz komenda "sudo docker build -t build:latest . -f Dockerfile"
+
+4. Utworzylem nowy plik Dockerfiletesting i utworzylem obraz komenda "sudo docker build -t test:latest . -f DockerfileTest"
+
+5. Stworzylem plik docker-compose.yml laczacy kontenery z punktu 3. i 4. i testujacego dzialanie wysylania wiadomosci pomiedzy nimi
