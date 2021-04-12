@@ -6,3 +6,5 @@ Sprawozdanie Mateusz Bonk
 
 2. Do tych zajęć wykorzystuje aplikacje (Open-Source) node-chat-app
 
+3. Stworzyłem plik DokerfileBuild który jest odpowiedziałny za stworzeni obrazu kontenera odpowiedzialnego za budowanie mojej aplikacji z punktu 2.
+
