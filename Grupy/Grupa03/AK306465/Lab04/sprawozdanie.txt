@@ -2,8 +2,8 @@
 
 2. Wybrałam aplikacje - node chat.
 
-3. Stworzyłam dockerfile z instalacją node chat. Stworzyłam obraz po czym uruchomiłam go w celu sprawdzenia działania.
+3. Stworzyłam dockerfile z instalacją aplikacji node chat. Zbudowałam obraz (node-app) po czym uruchomiłam go w celu sprawdzenia działania (lab04/Docker/Dockerfilebuild). Za pomocą polecenia cd node-chat-app/ oraz npm run dev uruchomiłam aplikacje.
 
-4. Stworzyłam drugiego dockerfile z testem aplikacji
+4. Stworzyłam drugiego dockerfile z testem aplikacji (lab04/Docker/Dockerfiletest). Zbudowałam obraz (node-test).
 
-5. Utworzyłam docker-compose i przetestowałam jego działanie.
+5. Utworzyłam docker-compose i przetestowałam jego działanie(lab04/Docker/docker-compose.yml).
