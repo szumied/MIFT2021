@@ -1,0 +1,30 @@
+Na samym poczatku przystapiono do stworzenia osobistego brancha 
+
+	git branch Grupa04-KM305193_Lab03
+	git checkout Grupa04-KM305193_Lab03
+
+Nastepnie dodano git hooka ktorego napisalem tydzien temu do folderu (wczesniej stworzonego) wedlug instrukcji
+
+	mv ./.git/hooks/commit-msg ./Grupa/Grupa04/KM305193/Lab02/hooks/pre-commit
+
+Dockera oraz konto na dockerhubie mialem juz wczesniej zalozone
+
+Nastepnie stworzono plik Dockerfile
+
+	nano Dockerfile
+	FROM ubuntu:latest
+	RUN apt-get -y update
+	RUN apt-get -y install git
+
+Stworzono obraz kontenera
+
+	sudo docker build -t km-ubuntu-git-docker
+
+Uruchomiono kontener
+
+	sudo docker run -d km-ubuntu-git-docker
+
+Oraz na samym koncu sklonowano repozytorium 
+
+	git clone adres-zdalnego-repozytorium
+

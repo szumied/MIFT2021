@@ -1,0 +1,48 @@
+Na samym początku przystąpiono do zmiany sposobu logowania do repozytorium z HTTPS na SSH. Okazało się, że posiadam już klucz SSH wraz z podpiętym działającym
+agentem SSH. Tenże klucz był już podpięty do serwera.
+
+	git remote -v -> wyświetla połącznie po https
+	git remote set-url origin https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021.git -> zmienia połączenie na SSH
+	git remote -v -> wyświetla połączenie po ssh 
+
+Aby upewnić się aby na pewno operacja powiodła się wykonano
+
+	ssh -T git@github.com
+
+Kolejnym krokiem było nadanie tagu na aktualnego commita 
+
+	git tag -a KM305193_Lab02 -m "zadanie nr 2"
+
+Następnie wrzucono zmianę na brancha na origin 
+
+	git push --atomic origin KM305193 KM305193_Lab02
+
+Kolejno zmieniono konfigurację folderów, w głównym katalogu ("MIFT2021") wykonano
+
+	mkdir Grupy
+	cd Grupy 
+	mkdir Grupa04
+
+Następnie poleceniem git mv przeniesiono dotychczasowy folder "KM305193" do podkatalogu "Grupa04"
+
+Stworzono hierarchię gałęzi według instrukcji
+
+	git branch Grupa04-KM305193_Lab02
+	git fetch -> pobrało nam gałąź Grupa04, która dotyczy całej grupy laboratoryjnej
+
+Kolejnym krokiem było napisanie git hooka, skrypt, który zostaje uruchomiony po spełnieniu jakiś zależności (w naszym przypadku nienapisanie w treści commita
+inicjałów wraz z numerem indeksu jako pierwszego słowa). Co ważne po napisaniu tego skryptu trzeba było zmienić jego rozszerzenie (usunąć rozszerzenie sample)
+oraz zmienić plik na wykonywalny
+
+	chmod +x commit-msg
+
+Jednym z ostatnim kroków było złączenie gałezi
+
+	git checkout Grupa04-KM305193_Lab02
+	git merge KM305193
+	git checkout Grupa04
+	git merge Grupa04-KM305193_Lab02
+
+oczywiście w trakcie łączenia oraz przełączania między gałęziami miały miejsce git pull ponieważ repozytorium zdalne było ciągle aktualizowane
+
+Na końcu stworzono pull requesta z brancha grupowego ("Grupa04") na mastera
