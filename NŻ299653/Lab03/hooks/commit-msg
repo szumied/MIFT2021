@@ -1,0 +1,9 @@
+i#!/bin/bash
+p='cat $1 | grep "NŻ299653"'
+if [ -n "$p" ]
+then
+        echo "Commit-msg ok"
+else
+        echo "Commit-msg error"
+        exit 1
+fi

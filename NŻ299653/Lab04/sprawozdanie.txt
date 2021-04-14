@@ -1,0 +1,14 @@
+1. Utworzyłam nowy osobisty branch na zajęcia i przełączyłam się na niego
+1.1 Opublikowałam obraz z poprzednich zajęć w serwisie Docker HUB (https://hub.docker.com/)
+	zalogowałam się do dockera - docker login -u [nazwa]
+	opublikowałam obraz - sudo docker push niecolatopepsi/devops
+2. Znalazłam w internecie komunikator (opensource messeging app) - https://github.com/deltachat/
+3. i 4. Wykonałam następujące polecenia aby stworzyć obraz kontenera dockerowego i skonfiguraować go:
+	wyświetlenie zawartości pliku - cat [nazwa]
+
+	stworzenie obrazu dockera z dockerfile - docker build -t [nazwa obrazu] -f [nazwa dockerfile]
+5. Utworzenie pliku docker-compose.yml i instalacja docker-compose
+	sudo apt install docker-compose
+	sudo docker-compose up
+
+Przepraszam za spóźnienie w oddaniu, ale musiałam od nowa postawić całą maszynę wirtyalną, bo przestała dziłać.
