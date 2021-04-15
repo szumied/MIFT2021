@@ -7,4 +7,6 @@ Wysłało repozytorium do serwisu - sudo docker push piotrizw/lab03-img.
 	2. Wybrano komunikator do realizowania dalszych poleceń - https://github.com/binhxn/node-chat-app.
 	3. Wykonano buodowanie kontenera - sudo docker build -t node-chat .
 Następnie uruchomiono zbudowany obraz kontenera - sudo docker run -p 3000:3000 -it node-chat.
-
+	4. Stworzono Dockerfile z poleceniami do testów.
+Zbudowano nowe Dockerfile o innej nazwie - sudo docker build -t node-chat-test . -f Dockerfile-test.
+Uruchomiono zbudowany kontener w celu przeprowadzenia testów - sudo docker run -p 3000:3000 -it node-chat-test.
