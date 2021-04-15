@@ -4,4 +4,7 @@ Wykonano commit kontenera z poprzednich zajęć - sudo docker commit 7edcd4d874a
 Sprawdzono czy zmiany zostały dodane - docker images.
 Zalogowano się do portalu hub.docker.com - docker login.
 Wysłało repozytorium do serwisu - sudo docker push piotrizw/lab03-img.
-	2. Wybrano komunikator do realizowania dalszych poleceń - https://github.com/binhxn/node-chat-app
+	2. Wybrano komunikator do realizowania dalszych poleceń - https://github.com/binhxn/node-chat-app.
+	3. Wykonano buodowanie kontenera - sudo docker build -t node-chat .
+Następnie uruchomiono zbudowany obraz kontenera - sudo docker run -p 3000:3000 -it node-chat.
+
