@@ -13,3 +13,5 @@ Na końcu wykonuje kompilację programu.
 
 Postępowałem podobnie jak w poprzednim punkcie, tylko wcześniej skompilowany program skopiowałem z poprzedniego kontenera.
 nastepnie uruchomiłem testy programu.
+
+5. Sotwrzyłem plik docker-compose, który tworzy kontenery obrazów oraz uruchamia je dzięki komendzie `docker-compose up`
