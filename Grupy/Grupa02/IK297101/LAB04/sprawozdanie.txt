@@ -7,3 +7,7 @@ sudo docker tag dev galainer/dev
 
 sudo docker push galainer/dev
 
+znalazłem aplikacje:          https://github.com/RocketChat/Rocket.Chat.git
+
+RUN apt-get install g++ build-essential git curl python-minimal
+RUN meteor npm start --prefix Rocket.Chat/
