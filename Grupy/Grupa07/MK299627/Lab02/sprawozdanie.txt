@@ -10,4 +10,11 @@
 
 3. Uporzadkowalem branche wedlug instrukcji poprzez utworzenie nowego brancha z brancha Grupa07:
    git checkout -b Grupa07-MK299627_Lab02
-   
+   Wykonalem na nim git merge Grupa07.
+   Po kazdych wiekszych zmianach na tymczasowym branchu wykonywalem git commit, nastepnie zmienialem brancha na Grupa07 i wykonywalem merge z branchem tymczasowym.
+
+4. Napisalem git hooke'a poprzez otwarcie folderu .git/hooks, edycje pliku pre-commit.sample, oraz usuniecie rozszerzenia .sample, aby hooke byl widoczny.
+   Napisany przeze mnie kod znajduje sie na zrzucie ekranu zad_4.
+
+5. Wykonalem merge z brancha grupowego z branchem tymczasowym, w celu zapisania zmian.
+   Usunalem tymczasowy branch osobisty za pomocą: git branch -d Grupa07-MK299627_Lab02. 
