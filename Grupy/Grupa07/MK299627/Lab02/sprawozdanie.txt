@@ -1,0 +1,13 @@
+1. Wygenerowałem klucz ssh za pomocą komendy: ssh-keygen -t ed25519 -C "moj_adres_email".
+   Wpisalem haslo. 
+   Dodalem klucz do agenta ssh: eval 'ssh-agent -s'.
+   Dodalem ssh: ssh-add ~/.ssh/id_ed25519.
+   Zarejestrowalem klucz po stronie serwera.
+   Zmienilem polaczenie na ssh za pomoca komendy: git remote set-url origin git@github.com:InzynieriaObliczeniowaAGH/MIFT2021.git
+
+2. Nadalem tag za pomoca: git tag -a MK299627_Lab02 -m "wszystko dziala"
+   Oraz git push --follow-tags
+
+3. Uporzadkowalem branche wedlug instrukcji poprzez utworzenie nowego brancha z brancha Grupa07:
+   git checkout -b Grupa07-MK299627_Lab02
+   
