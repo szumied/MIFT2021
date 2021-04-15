@@ -1,0 +1,9 @@
+0. Zapoznałem się z diagramem, który pokazuje aktualną architekturę systemu oraz rolę Jenkinsa.
+
+1. Zapoznałem sięz opisem oprogramowania jenkins 
+
+2. Pobrałem obraz programu Jenkins i stworzyłem specjalną sieć dla kontenera Jenkinsa.
+
+2_1 - uruchomiłem kontener z obrazu docker:dind
+2_2 - skompilowałem obraz z jenkinsem
+2_3 - uruchomiłem kontener 

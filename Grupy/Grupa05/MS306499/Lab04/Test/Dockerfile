@@ -1,21 +1,5 @@
-FROM ubuntu:latest
-
-#problem ze strefą czasową
-
-ENV TZ=Europe/Warsaw
-
-RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
-
-RUN apt-get update
-
-RUN apt-get -q install npm -y
-
-RUN npm install --global yarn
-
-RUN npm install -g typescript 
-
-COPY wire-desktop ./wire-desktop
+FROM lab04_build:latest
 
 WORKDIR /wire-desktop
 
-RUN npm install 
+RUN yarn test
