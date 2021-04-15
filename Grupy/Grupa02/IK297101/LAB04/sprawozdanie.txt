@@ -7,7 +7,10 @@ sudo docker tag dev galainer/dev
 
 sudo docker push galainer/dev
 
-znalazłem aplikacje:          https://github.com/RocketChat/Rocket.Chat.git
+znalazłem aplikacje:          Delta Chat Rust
+Aplikacja została zmieniona ze względu na kompatybilność z najnowszym obrazem
 
-RUN apt-get install g++ build-essential git curl python-minimal
-RUN meteor npm start --prefix Rocket.Chat/
+sudo docker build --tag build.v2 .
+
+sudo docker build --tag test .
+
