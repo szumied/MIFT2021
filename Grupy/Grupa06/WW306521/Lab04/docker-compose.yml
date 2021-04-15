@@ -2,7 +2,7 @@ version: '3.3'
 services:
  build-agent:
   container_name: build-agent-wire
-  image: wire:latest
+  image: nodechat:latest
   build:
    context: .
    dockerfile: Dockerfile-build
