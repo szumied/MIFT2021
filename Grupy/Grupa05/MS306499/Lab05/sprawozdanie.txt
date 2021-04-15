@@ -7,3 +7,5 @@
 2_1 - uruchomiłem kontener z obrazu docker:dind
 2_2 - skompilowałem obraz z jenkinsem
 2_3 - uruchomiłem kontener 
+
+3. Upubliczniłem obraz z własnym jenkinsem na Docker Hub
