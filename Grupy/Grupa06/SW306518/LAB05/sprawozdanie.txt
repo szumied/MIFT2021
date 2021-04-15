@@ -1,0 +1,8 @@
+0. Zapoznałem się z diagramem.
+1. Zapoznałem się z Jenkinsem.
+2. Stworzyłem specjalną sieć dla kontenera Jenkinsa, później uruchomiłem kontener z obrazu docker:dind, który następnie należało zbudować i uruchomić. 
+3. Później z powodu pomyłki musiałem zmienić nazwę repozytorium i wrzuciłem kontener na swojego docker huba(macovv:jenkins).
+4.
+
+
+Z racji tego że komendy w tym laboratorium były często długie i kopiowane 1:1 z dokumentacji, nie załączam ich drugi raz w sprawozdaniu, jednak są one wszystkie w screenach które seriami odpowiadają numerowi zadania.
