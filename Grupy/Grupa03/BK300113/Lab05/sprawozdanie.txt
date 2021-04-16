@@ -10,5 +10,5 @@ Komendy wykorzystane do otagowania i wrzucenia obrazu Jenkins'a na Dockerhub'a:
 
 Zadanie 4.
 Do uruchomienia kontenera z odpowiednimi parametrami stworzyłem skrypt w bash'u o nazwie "jenkins_run_script"
-Kolejnym krokiem było utworzenie i uruchomienie "Freestyle Job" wewnątrz kontenera z Jenkins'em (korzystając z graficznego interfejsu w przglądarce.
+Kolejnym krokiem było utworzenie i uruchomienie "Freestyle Job" wewnątrz kontenera z Jenkins'em (korzystając z graficznego interfejsu w przglądarce).
 
