@@ -9,3 +9,7 @@
 2_3 - uruchomiłem kontener 
 
 3. Upubliczniłem obraz z własnym jenkinsem na Docker Hub
+
+4. Skonfigurowałem Jenkinsa, dodałem do kontenera pliki potrzebne do zbudowania kontenerów.
+Następnie zainstalowałem wtyczkę do budowania docker-compose i dodałem projekt do Jenkinsa, który ma zbudować dwa obrazy z pliku docker-compose.yml
+Na końcu uruchomiłem zadanie skompilowania tego pliku.
