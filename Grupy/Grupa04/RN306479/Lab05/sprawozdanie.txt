@@ -4,9 +4,9 @@
 
 2. Pobranie kontenera Jenkins i utworzenie dla niego odpowiedniej sieci według podanej na stronie instrukcji.
 
-3. Opublikowanie obrazu na dockerhub. Utworzenie nowego repozytorium w serwisie "DockerHub" o nazwie "jenkins", dodanie taga do obrazu "sudo docker tag e93e863ef25f radoslawniestroj/jenkins", dodanie obrazu do repozytorium "sudo docker push radoslawniestroj/jenkins".
+3. Opublikowanie obrazu na dockerhub. Utworzenie nowego repozytorium w serwisie "DockerHub" o nazwie "jenkins", dodanie taga do obrazu "sudo docker tag e204b73ae923 radoslawniestroj/jenkins", dodanie obrazu do repozytorium "sudo docker push radoslawniestroj/jenkins".
 
-4. 
+4.
 
 
 sudo docker run   --name jenkins-a --rm   --detach   --network jenkins   --env DOCKER_HOST=tcp://docker:2376   --env DOCKER_CERT_PATH=/certs/client   --env DOCKER_TLS_VERIFY=1   --publish 8080:8080   --publish 50000:50000   --volume jenkins-data:/var/jenkins_home   --volume jenkins-docker-certs:/certs/client:ro   jenkins
