@@ -1,4 +1,5 @@
-docker network create jenkins
+2.
+docker network create jenkins - utworzenie nowej sieci dla kontenera z Jenkinsem
 
 docker run \
   --name jenkins-docker \
@@ -13,8 +14,9 @@ docker run \
   --publish 2376:2376 \
   docker:dind \
   --storage-driver overlay2
-  
-docker build -t myjenkins-blueocean:1.1 -f Dockerfile-Jenkins .
+Uruchomienie kontenera z dockerem z wykorzystaniem powyzszej konfiguracji
+
+docker build -t myjenkins-blueocean:1.1 -f Dockerfile-Jenkins . -zbudowanie obrazu Jenkinsa z wykorzystanie Dockefila
 
 docker run \
   --name jenkins-blueocean \
@@ -29,8 +31,17 @@ docker run \
   --volume jenkins-data:/var/jenkins_home \
   --volume jenkins-docker-certs:/certs/client:ro \
   myjenkins-blueocean:1.1 
-  
-docker tag myjenkins-blueocean:1.1 kklim/dev_ops_lab05_jenkins-blueocean-1.1
+Uruchomienie kontenera z Jenkinsem z wykorzystaniem powyzszej konfiguracji
 
-sudo docker push kklim/dev_ops_lab05_jenkins-blueocean-1.1
+3.
+docker tag myjenkins-blueocean:1.1 kklim/dev_ops_lab05_jenkins-blueocean-1.1 - otagowanie obrazu 
+
+sudo docker push kklim/dev_ops_lab05_jenkins-blueocean-1.1 -wyslanie obrazu na Dockerhuba
+
+4.
+Utworzenie nowego zadania dla Jenkinsa ktorego zadaniem jest: 
+-pobranie repozytorium z plikiem docker-compose.yml
+-zainstalowanie docker-composa
+-uruchomienie docker-compose.yml
+
 
