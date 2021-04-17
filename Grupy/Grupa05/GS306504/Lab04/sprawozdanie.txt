@@ -1,1 +1,57 @@
-Na dzień dzisiejszy jeszcze nie skończone.
+1. 
+- Stworzono nowy branch na te zajecia:
+
+git checkout -b Grupa05-GS306504_Lab04
+
+- Zalogowano do dockera:
+
+docker login -u gregwell
+
+- zbudowano obra dockerowy
+
+docker build -t gregwell/grupa05gs306504lab03:latest .
+
+- zpushowano 
+
+docker push gregwell/grupa05gs306504lab03
+
+2. Znaleziono komunikator na githubie: https://github.com/binhxn/node-chat-app
+
+3. Napisano Dockerfile-build:
+
+FROM ubuntu:latest
+ENV TZ=Europe/Warsaw
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo &TZ > /etc/timezone
+RUN apt-get -y update
+RUN apt-get install -y npm
+RUN git clone https://github.com/binhxn/node-chat-app.git
+WORKDIR node-chat-app
+RUN npm install
+
+4. Napisano Dockerfile-test
+
+FROM nodechat-build:latest
+WORKDIR node-chat
+RUN npm test
+
+
+5. Napisano docker-compose.yml (https://docs.docker.com/compose/)
+
+version: '3.3'
+services: 
+    build:
+        container_name: nodechat-build
+        image: nodechat-build: latest
+        build: 
+            context: .
+            dockerfile: Dockerfile-build
+    test: 
+        container_name: nodechat-test
+        image: nodechat-test:latest
+        build: 
+            context: .
+            dockerfile: Dockerfile-test
+        depends_on:
+            - build
+
+Stworzono środowisko które ściąga z repo najnowszą wersję komunikatora, buduje go i testuje czy działa.
