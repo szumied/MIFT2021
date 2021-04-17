@@ -1,0 +1,20 @@
+Lab05 Temat: Jenkins jako CI/CD driver - w kontenerze.
+
+0. Zapoznałam się z diagramem omawianym na zajęciach.
+
+1. Zapoznałam się z oprogramowaniem Jenkins: https://www.jenkins.io/.
+
+2. Stworzyłam kontener dockerowy z Jenkinsem posługując się instrukcją https://www.jenkins.io/doc/book/installing/docker/
+
+3. Wrzuciłam obraz swojego Jenkinsa na DockerHub'a z odpowiednim tagiem.
+docker tag [tag-obrazu] username-dockerhub/repo
+docker login
+docker push username-dockerhub/repo
+
+--------------TODO-----------------------------------------------------
+Z poziomu Jenkinsa uruchomionego w kontenerze (pkt 2) uruchom docker-compose stworzony w ramach Lab04.
+- zakładamy że Jenkins jest uruchomiony w kontenerze
+- zakładamy że po Lab04 plik docker-compose.yaml jest w naszym repozytorium 
+- zakładamy że z poziomu Jenkinsa ściągamy repo gdzie jest nasz plik docker-compose.yaml
+- zakładamy że Jenkins uruchamia plik docker-compose.yaml tworząc środowisko z Lab04
+- zwróć uwagę, że uruchomienie docker-compose wymaga.yaml oprogramowania Docker
