@@ -69,4 +69,22 @@ Zad 2. utworzylem kontener dockerowy jenkins zgodnie z podana instrukcja. Kolejn
 
 
 
- 
+
+
+
+
+Zad.3
+
+Najpierw utworzylem repozytorium na dockerhub. Nastepnie z poziomu konsoli sie zalogowalem do dockerhub za pomoca "docker login".
+Nastepnie otagowalem obraz jenkins sama nazwa jak nazwa repo na dockerhub za pomoca komendy "sudo docker tag myjenkins-blueocean:1.1 mkapust9/jenkins_lab05".
+W tym momencie moglem wypchnac swoj obraz za pomoca "docker push mkapust9/jenkins_lab05"
+
+Link do repozytorium:
+
+https://hub.docker.com/repository/docker/mkapust9/jenkins_lab05
+
+
+
+
+
+
