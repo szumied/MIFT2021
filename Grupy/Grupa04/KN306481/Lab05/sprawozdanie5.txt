@@ -25,4 +25,7 @@
 4.1 Pobranie klucza admina do jenkinsa:
 	sudo docker exec -it jenkins-blueocean bash
 	cat cd var/jenkins_home/secrets/initialAdminPassword
+	
+4.2 Zalogowanie się do Jenkinsa i stworzenie joba.
 
+4.3. Sprawdzenie poprawności działania joba.
