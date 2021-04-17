@@ -1,0 +1,5 @@
+Natalia Czachor Lab05
+
+0. Zapoznano się z diagramem omawianym na zajęciach.
+
+1. Zapoznano się z oprogramowaniem Jenkins: https://www.jenkins.io/.
