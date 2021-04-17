@@ -30,4 +30,14 @@ Utworzono repozytorium na DockerHub o nazwie lab05-jenkins
 Nadano tag oraz zrobiono push
 	-sudo docker tag ID klaaaudii12345/lab05-jenkins
 	-sudo docker push klaaaudii12345/lab05-jenkins
-
+4) Uruchomienie z poziomu kontenera Jenkinsa docker-compose'a:
+Przejście na adres localhost:8080
+Uzyskanie hasła przy pomocy
+	-sudo docker logs CONTAINER ID
+Rejestracja, konfiguracja i instalacja wtyczek
+Utworzenie projektu oraz dodanie URL repozytorium i brancha (umieszczone w PNG)
+Uzupełnienie komend w Execute shell
+	-cd Grupy/Grupa01/KB306422/Lab04
+	-pobranie docker-compose
+	-docker-compose up
+Zapisanie i uruchomienie zadania
