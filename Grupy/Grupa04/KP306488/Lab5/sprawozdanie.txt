@@ -54,7 +54,13 @@ docker run \
 	-sudo docker tag 0f8d4c31f5a9 kpodwika8/lab05
 	-sudo docker push kpodwika8/lab05
 	
-4. 
+4. Następnie z poziomu Jenkinsa uruchomiłem docker-compose stworzony w ramach Lab04:
 
+- zakładam że Jenkins jest uruchomiony w kontenerze
+- zakładam że po Lab04 plik docker-compose.yaml jest w moim repozytorium 
+- zakładam że z poziomu Jenkinsa ściągam repo gdzie jest nasz plik docker-compose.yaml
+- zakładam że Jenkins uruchamia plik docker-compose.yaml tworząc środowisko z Lab04
+- zwróć uwagę, że uruchomienie docker-compose wymaga.yaml oprogramowania Docker
+- kroki w Jenkinsie zakończyły się sukcesem
   
 
