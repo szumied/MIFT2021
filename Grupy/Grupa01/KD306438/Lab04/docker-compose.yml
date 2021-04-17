@@ -2,10 +2,12 @@ version: '3'
 services:
     build-agent:
       image: im1
-      build: Dockerfile
+      build:
+         dockerfile: Dockerfile
     test-agent:
       image: im1t
-      build: Dockerfile_test
+      build:
+         dockerfile: Dockerfile_test
       depends_on:
       - build-agent
       
