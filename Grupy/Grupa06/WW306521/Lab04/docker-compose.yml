@@ -1,4 +1,5 @@
 version: '3.3'
+
 services:  
  build-agent:
   container_name: build-agent-nodechat
@@ -7,14 +8,17 @@ services:
   tty: true
   ports:
    - 3000:3000
+
   build:
    context: .
    dockerfile: Dockerfile-build
  test-agent:
+
   container_name: test-agent-nodechat
   image: test:latest
   ports:
    - 3001:3001
+
   build:
    context: .
    dockerfile: Dockerfile-test
