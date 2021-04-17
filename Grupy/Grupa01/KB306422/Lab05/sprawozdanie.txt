@@ -25,3 +25,9 @@ Uruchomiono obraz jako kontener w Dockerze
   	myjenkins-blueocean:1.1
 Sprawdzono czy kontenery działają
 	-sudo docker ps
+3) Wrzucono obraz Jenkinsa na DockerHub'a
+Utworzono repozytorium na DockerHub o nazwie lab05-jenkins
+Nadano tag oraz zrobiono push
+	-sudo docker tag ID klaaaudii12345/lab05-jenkins
+	-sudo docker push klaaaudii12345/lab05-jenkins
+
