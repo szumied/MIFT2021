@@ -1,0 +1,4 @@
+LAB05
+
+1) Zapoznano się z oprogramowaniem Jenkins na stronie https://www.jenkins.io/
+
