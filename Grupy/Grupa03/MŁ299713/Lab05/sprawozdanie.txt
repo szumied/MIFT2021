@@ -1,4 +1,5 @@
 1. Zapoznałem się z dokumentacją Jenkinsa.
 2. Użyłem dockerfile'a znalezionego w dokumentacji do zbudowania obrazu jenkinsa.
 3. Wrzuciłem obraz na dockerhuba.
-4. tu sie poddaje
+4. tu sie poddaje bo w buildzie nie moge sobie w spokoju zainstalowac docker-compose'a bo "nie mam uprawnien"
+   a niestety chmod -R 777 /usr nie działa :(
