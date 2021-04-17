@@ -1,0 +1,4 @@
+1. Zapoznałem się z dokumentacją Jenkinsa.
+2. Użyłem dockerfile'a znalezionego w dokumentacji do zbudowania obrazu jenkinsa.
+3. Wrzuciłem obraz na dockerhuba.
+4. tu sie poddaje
