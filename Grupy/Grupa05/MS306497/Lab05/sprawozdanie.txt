@@ -54,3 +54,10 @@ RUN jenkins-plugin-cli --plugins "blueocean:1.24.5 docker-workflow:1.26"
 3. Wrzucono obraz swojego Jenkinsa na DockerHub'a
 sudo docker tag 03786fce472e mserwaczak/lab05
 sudo docker push mserwaczak/lab05
+
+4. Z poziomu Jenkinsa uruchomionego w kontenerze uruchomiono docker-compose stworzony na Lab04
+- Jenkins uruchomiony w kontenerze
+- po Lab04 docker-compose.yml jest w repozytorium
+- Z poziomu Jenkinsa sciagnieto repo gdzie jest plik docker-compose.yml
+- Jenkins uruchamia plik docker-compose.yml tworzac srodowisko z Lab04
+
