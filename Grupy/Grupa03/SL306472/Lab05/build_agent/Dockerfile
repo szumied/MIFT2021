@@ -1,4 +1,4 @@
-FROM ubuntu_git_image:latest
+FROM enzolorenzo/mift2021:ubuntu_git_image
 
 RUN apt-get update
 
