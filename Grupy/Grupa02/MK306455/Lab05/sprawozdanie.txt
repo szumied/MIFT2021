@@ -87,4 +87,18 @@ https://hub.docker.com/repository/docker/mkapust9/jenkins_lab05
 
 
 
+Zad.4
+- W konsoli uzylem polecenia "sudo docker exec -u root -it ccff50890739 bash" aby uruchomic bash kontenera jenkins z uprawnieniami root. Pobralem docker compose poleceniem: "curl -L "https://github.com/docker/compose/releases/download/1.29.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose", a nastepnie nadalem uprawnienia do wykonania: "chmod +x /usr/local/bin/docker-compose".
 
+- Otworzylem localhost:8080 w przegladarce i zdefiniowalem nowy job "devops1" klikajac New Item - > Freestyle Project. 
+
+- W sekcji Source Code Management/Repositories zaznaczylem Git - podalem link do repozytorium na github. Ponadto w sekcji Source Code Management/Branches to build ustawilem branch na Grupa02.
+
+- W sekcji Build zaznaczylem "Execute Shell". Napisalem dwie komendy:
+
+cd Grupy/Grupa02/MK306455/Lab04 #przejscie do odpowiedniego katalogu
+
+docker-compose up #uruchomienie docker-compose
+
+
+- Tak zdefiniowany job zapisalem i uruchomilem. Po kilku probach udalo sie wyeliminowac wszystkie bledy i budowa przebiegla pomyslnie. 
