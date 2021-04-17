@@ -29,3 +29,10 @@ Uruchomiono obraz: sudo docker run --name jenkins-blueocean --rm --detach \
 3. Wrzucono obraz swojego Jenkinsa na DockerHub'a:
 sudo docker tag 8669704006c3 nataliaczachor14/lab05
 sudo docker push nataliaczachor14/lab05
+
+4. Z poziomu Jenkinsa uruchomionego w kontenerze uruchomiono docker-compose stworzony w ramach Lab04:
+- założono że Jenkins jest uruchomiony w kontenerze
+- założono że po Lab04 plik docker-compose.yaml jest w naszym repozytorium 
+- założono że z poziomu Jenkinsa ściągamy repo gdzie jest nasz plik docker-compose.yaml
+- założono że Jenkins uruchamia plik docker-compose.yaml tworząc środowisko z Lab04
+- zwrócono uwagę, że uruchomienie docker-compose wymaga.yaml oprogramowania Docker
