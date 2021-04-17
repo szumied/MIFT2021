@@ -50,3 +50,7 @@ RUN jenkins-plugin-cli --plugins "blueocean:1.24.5 docker-workflow:1.26"
   --volume jenkins-data:/var/jenkins_home \
   --volume jenkins-docker-certs:/certs/client:ro \
   myjenkins-blueocean:1.1
+  
+3. Wrzucono obraz swojego Jenkinsa na DockerHub'a
+sudo docker tag 03786fce472e mserwaczak/lab05
+sudo docker push mserwaczak/lab05
