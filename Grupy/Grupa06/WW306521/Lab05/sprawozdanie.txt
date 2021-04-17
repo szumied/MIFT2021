@@ -24,4 +24,4 @@
 	
 3. 	Zpushowano obraz na Dockerhuba: sudo docker push wojciechwrobel22/myjenkinslab05:latest
 
-4.	Uruchomiono moj kontener jenkins, a nastepnie dodano job (freestyle) pobierajacy kod z githuba i na odpowiednim branchu uruchamiajacy docker-compose up na pliku docker-compose.yml
+4.	Uruchomiono moj kontener jenkins, a nastepnie dodano job (freestyle) pobierajacy kod z githuba i na odpowiednim branchu uruchamiajacy docker-compose up na pliku docker-compose.yml (przedstawiono na zdjeciach).
