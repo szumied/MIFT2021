@@ -10,4 +10,5 @@ docker push dockerhub_login/nazwa_obrazu:tag
 sudo docker exec CONTAINER_ID cat /var/jenkins_home/secrets/initialAdminPassword 
 Gdzie id konteneru znaleziono za pomoca polecenia docker ps
 
-4. Zalogowano sie i zainstalowano rekomendowane pluginy
+4. Zalogowano sie i zainstalowano rekomendowane pluginy 
+Nastepnie utworzono nowe konto i zmieniono url na localhost:8080/jenkins 
