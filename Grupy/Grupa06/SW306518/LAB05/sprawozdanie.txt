@@ -1,8 +1,46 @@
 0. Zapoznałem się z diagramem.
 1. Zapoznałem się z Jenkinsem.
 2. Stworzyłem specjalną sieć dla kontenera Jenkinsa, później uruchomiłem kontener z obrazu docker:dind, który następnie należało zbudować i uruchomić. 
+
+	docker network create jenkins - stworzenie sieci
+
+	docker run \
+  		--name jenkins-docker \
+  		--rm \
+  		--detach \
+  		--privileged \
+  		--network jenkins \
+  		--network-alias docker \
+  		--env DOCKER_TLS_CERTDIR=/certs \
+  		--volume jenkins-docker-certs:/certs/client \
+  		--volume jenkins-data:/var/jenkins_home \
+  		--publish 2376:2376 \
+  		docker:dind \
+  		--storage-driver overlay2 
+	- uruchomienie kontenera z obrazu docker:dind
+
+
+
 3. Później z powodu pomyłki musiałem zmienić nazwę repozytorium i wrzuciłem kontener na swojego docker huba(macovv:jenkins).
-4.
+4. Uruchomienie docker-compose z Jenkinsa
+
+potrzebowalem uprawnień root do isntalacji docker-compose:
+	sudo docker container run --name jenkins-blueocean \
+		  --detach --restart unless-stopped \
+		  --network jenkins \
+		  --user root \
+		  --volume jenkins-data:/var/jenkins_home \
+		  --volume /var/run/docker.sock:/var/run/docker.sock \
+		  --publish 8080:8080 --publish 50000:50000 \
+		  myjenkins-blueocean:1.1
+
+Stworzyłem odpowiedniego joba:
+
+curl -L https://github.com/docker/compose/releases/download/1.11.2/docker-compose-`uname -s`-`uname -m` > ~/docker-compose
+chmod +x ~/docker-compose
+sudo mv ~/docker-compose /usr/local/bin/docker-compose
+cd Grupy/Grupa06/SW306518/LAB05
+docker-compose up
 
 
-Z racji tego że komendy w tym laboratorium były często długie i kopiowane 1:1 z dokumentacji, nie załączam ich drugi raz w sprawozdaniu, jednak są one wszystkie w screenach które seriami odpowiadają numerowi zadania.
+Link jest nadal do brancha lokalnego ponieważ nie mogę zrobić merga z branchem grupowym, z racji iż nadal jest konflikt w nazewnictwie pomiędzy branchem moim, a tym który zmergował kolega z grupowym jakiś czas temu.
