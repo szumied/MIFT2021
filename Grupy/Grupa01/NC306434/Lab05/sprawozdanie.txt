@@ -25,3 +25,7 @@ Uruchomiono obraz: sudo docker run --name jenkins-blueocean --rm --detach \
    --volume jenkins-data:/var/jenkins_home \
    --volume jenkins-docker-certs:/certs/client:ro \
    myjenkins-blueocean:1.1
+   
+3. Wrzucono obraz swojego Jenkinsa na DockerHub'a:
+sudo docker tag 8669704006c3 nataliaczachor14/lab05
+sudo docker push nataliaczachor14/lab05
