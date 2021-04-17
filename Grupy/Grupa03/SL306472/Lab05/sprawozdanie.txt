@@ -1,0 +1,4 @@
+1. Zapoznano się z diagramem
+2. Zapoznano się z oprogramowaniem Jenkins
+3. Poprawiono obrazy z wczesniejszych zajęć tak by były one zgodne z diagramem oraz umieszczono je na platformie DockerHub
+4. 
