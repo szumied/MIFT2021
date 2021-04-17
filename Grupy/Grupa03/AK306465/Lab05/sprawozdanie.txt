@@ -19,3 +19,5 @@ RUN jenkins-plugin-cli --plugins "blueocean:1.24.5 docker-workflow:1.26"
 Następnie stworzyłam kontener.
 
 3. Dodałam do katalogu Lab05 pliki potrzebne do kolejnego zadania po czym stworzyłam projekt na jenkinsie.
+
+4. Uruchomiłam zadanie po czym sprawdziłam jego poprawność. (Wszystko działa)
