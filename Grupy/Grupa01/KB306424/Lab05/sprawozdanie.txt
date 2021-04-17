@@ -1,5 +1,5 @@
 1. 
-Zapoznalam sie z oprogramowaniem Jenkins oraz z diagramem omawianym na zajeciach.
+Zapoznalam sie z oprogramowaniem jenkins oraz z diagramem omawianym na zajeciach.
 
 
 2.
@@ -44,7 +44,7 @@ e) Uruchomiono kontener ze zbudowanego obrazu, ktory pozwalal na uruchomienie je
 f) Za pomoca localhost:8080 uruchomiono jenkinsa w przegladarce.
 
 Znaleziono ID kontenera jenkinsowego za pomoca polecenia "docker ps".
-Nastepnie za pomoca polecenia "sudo docker exec ID_kontenera cat /var/jenkins_home/secrets/initialAdminPassword" pozyskano haslo do  jenkinsa.
+Nastepnie za pomoca polecenia "sudo docker exec ID_kontenera cat /var/jenkins_home/secrets/initialAdminPassword" pozyskano haslo do jenkinsa.
 Pozniej utworzono nowe konto, zmieniono url na localhost:8080/jenkins i pobrano odpowiednie pluginy.
 
 
@@ -52,11 +52,11 @@ Pozniej utworzono nowe konto, zmieniono url na localhost:8080/jenkins i pobrano 
 Analogicznie jak poprzednie obrazy, dodano jenkinsa na Docker Hub'a.
 Nadano tag obrazowi za pomoca polecenia "docker tag nazwa_obrazu:tag dockerhub_login/nazwa_obrazu:tag".
 Zalogowano sie na konto na DockerHubie poprzez polecenie "docker login".
-Nastepnie wykonano push obrazu za pomoca polecenia "docker push dockerhublogin/nazwa_obrazu:tag".
+Nastepnie wykonano push obrazu za pomoca polecenia "docker push dockerhub_login/nazwa_obrazu:tag".
 
 
 4.
-Aby wejsc do kontenera uzyto polecenia "sudo docker exec -u root -it jenkins-blueocean bash" i zainstalowano w nim docker-compose i nadano uprawnienia do edycji.
+Aby wejsc do kontenera uzyto polecenia "sudo docker exec -u root -it jenkins-blueocean bash" i zainstalowano w nim docker-compose i nadano uprawnienia do wykonania.
 W jenkinsie utworzono nowy job i nazwano go "Docker-compose-deltachat".
 W "Source Code Management" podano link do repozytorium MIFT2021, a jako branch specifier podalam swoj branch */Grupa01-KB306424_Lab05.
 Pozniej napisano prosty skrypt shellowy, ktory zmienial folder na Lab04 w ktorym byl docker-compose oraz uruchamial go.
