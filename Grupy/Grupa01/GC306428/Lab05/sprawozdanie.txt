@@ -45,3 +45,9 @@ sudo docker push grzechotnik/lab05
 
 Zadanie 4
 
+Uruchomilem jenkinsa (w celu otrzymania hasla sprawdzilem logi kontenera z jenkinsem, w ktorych haslo jest wypisane "sudo docker logs CONTAINER")
+Zalogowalem sie na jenkinsa z pobranym haslem pod adresem localhost:8080
+Utworzylem nowego "job'a", ktory za zadanie ma przejsc do folderu, w ktorym znajduje sie docker-compose.yml, oraz uruchomienie poleceniem docker-compose up
+Job klonuje repozytorium podane w linku, i przechodzi na odpowiedniego brancha.
+Po uruchomieniu joba, analizujac wyjscie na konsoli wydaje sie, ze wszystko dziala poprawnie. Problemem w zakonczeniu sie job'a jest to, ze build-agent z lab04 uruchamia komunikator i nie zatrzymuje jego dzialania. Przez to job bedzie pracowal w nieskonczonosc.
+
