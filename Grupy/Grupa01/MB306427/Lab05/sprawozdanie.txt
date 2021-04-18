@@ -23,3 +23,6 @@ Nastepnie wykonałem drugi obraz:
 
 	Został on wykonany Na podstawie pliku DockerfileJenkins który został dodany do folderu Lab5
 
+3. Wykonałem pusha na swój profil na serwisie DockerHUB
+	sudo docker push b0niu/lab5
+	
