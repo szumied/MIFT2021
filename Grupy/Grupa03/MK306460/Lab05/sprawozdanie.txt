@@ -21,7 +21,13 @@ docker tag nazwa-obrazu:tag login-dockerhub/nazwa-obrazu:tag
 docker login
 docker push login-dockerhub/nazwa-obrazu:tag
 
-4.
+4. Wewnątrz konteneru zainstalowałam docker-compose (najpierw weszłam do konteneru a potem zainstalowalam docker-compose).
+sudo docker exec -u root -it jenkins-blueocean bash
+curl -L "https://github.com/docker/compose/releases/download/1.29.1/docker-compose-$(uname -s)-$(uname -m)" -o /bin/docker-compose
+chmod +x /mkocurek/local/bin/docker-compose
+
+Nastepnie w jenkinsie utworzyłam nowego joba-> freestyle project
+Podałam URL do repo z githuba oraz napisałam króciutki skrypt, dzięki któremu można wejsc do folderu Lab04 i uruchomic docker-compose.
 
 
 
