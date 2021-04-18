@@ -13,4 +13,4 @@
    "sudo docker build -t test:latest . -f Dockerfile-test"
 
 5. Stworzono plik docker-compose.yml. Buduje on obrazy z pkt. 3 i 4. Obraz test jest zależny od obrazu build.
-   Na końcu uruchomiono docker-compose: "sudo docker-compose up".
+   Na końcu uruchomiono docker-compose: "sudo docker-compose up"
