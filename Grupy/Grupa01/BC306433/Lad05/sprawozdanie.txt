@@ -40,3 +40,7 @@ zad.3 	Wrzuciłem obraz utworzonego w punkcie 2 Jenkinsa na DockerHub'a:
 	 * sudo docker tag 401d83c1d458 ciesinskib/lab_05
 	 * sudo docker push ciesinskib/lab_05
 
+zad.4 	Otworzyłem w Przeglądarce Jenkinsa, Skonfigurowałem projekt i uruchomiłem.
+	Projket zbudował się prawidłowo.
+
+
