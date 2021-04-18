@@ -25,4 +25,5 @@ Nastepnie wykonałem drugi obraz:
 
 3. Wykonałem pusha na swój profil na serwisie DockerHUB
 	sudo docker push b0niu/lab5
-	
+
+4. W uruchomionym kontenerze uruchamiam Jenkinsa. Utworzyłem nowego joba w którym pobieram Nasze repozytorium i wykonuje prosty skrypt który uruchamia plik docker-compose.yml z poprzednich ćwiczeń
