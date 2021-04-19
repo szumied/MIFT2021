@@ -9,6 +9,6 @@ services:
   image: test-app:latest
   build:
    context: ./
-   dockerfile: Dockerfile-Test
+   dockerfile: DockerfileTest
   depends_on:
    - build-agent
