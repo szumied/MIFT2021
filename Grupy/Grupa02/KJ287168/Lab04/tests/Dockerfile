@@ -1,7 +1,4 @@
-FROM deltachat-core:latest
+FROM deltachat-desktop:latest
 
-
-WORKDIR ./deltachat-core-rust/python
-RUN pip3 install pytest pytest-xdist pytest-timeout pytest-rerunfailures requests && \
-	 pytest -v tests
-
+WORKDIR ./deltachat-desktop
+RUN npm test
