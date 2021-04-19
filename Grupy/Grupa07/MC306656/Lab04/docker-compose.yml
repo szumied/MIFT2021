@@ -1,10 +1,16 @@
-version: '3'
+version: '3.3'
 
 services:
-  node:
-    image: messenger-test:1.0
+  build-agent:
+    image: build:latest
     build:
-      context: .
-      dockerfile: Dockerfile.test
-    ports:
-      - 80:3000
+      context: ./
+      dockerfile: Dockerfile.Build
+        
+  test-agent:
+    image: test:latest
+    build:
+      context: ./
+      dockerfile: Dockerfile.Test
+    depends_on: 
+    - build-agent
