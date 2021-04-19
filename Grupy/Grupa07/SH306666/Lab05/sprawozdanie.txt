@@ -5,8 +5,7 @@ Robiac krok po kroku instrukcje udalo sie stworzyc kontener dockerowy. Pobralem 
 komenda finalna : sudo docker push sebastianhalik/lab5:firsttry , gdzie firsttry to nazwa tagu.
 
 4.
-
-
+Utworzylem joba ogolnego, w ktorym podalem link do wspolnego repo oraz dodalem uruchomienie powloki z takimi komendami:
 
 
 cd Grupy/Grupa07/SH306666/Lab05
@@ -17,3 +16,5 @@ cd Grupy/Grupa07/SH306666/Lab05
         docker --version
         docker-compose --version
         docker-compose up
+
+Nastepnie uruchomilem joba co zakonczylo sie sukcesem.
