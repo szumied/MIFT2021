@@ -75,9 +75,22 @@
 	docker tag b456bdb59db3 krzysiek77/myjenkins-blueocean:1.1
 	docker push krzysiek77/myjenkins-blueocean:1.1
 	git status
-	git add 3_1.png 3_2.png
+	git add 3_1.png 3_2.png sprawozdanie.txt
 	git commit -m "KJ287168 Pkt. 3"
 
 4. Z poziomu Jenkinsa uruchomionego w kontenerze (pkt 2) uruchom docker-compose stworzony w ramach Lab04.
+	(w Jenkins utworzyłem projekt (job))
 	
+	https://github.com/InzynieriaOprogramowaniaAGH/MIFT2021.git
+	Grupa02-KJ287168_Lab05
+		cd Grupy/Grupa02/KJ287168/Lab04
+		ls
+		curl -L "https://github.com/docker/compose/releases/download/1.29.1/docker-compose-$(uname -s)-$(uname -m)" -o /var/jenkins_home/docker-compose
+		chmod +x /var/jenkins_home/docker-compose
+		/var/jenkins_home/docker-compose up
+	(testy powiodły się)
+	
+	git status
+	git add 4_1.png 4_2.png 4_3.png 4_4.png 4_5.png 4_6.png sprawozdanie.txt
+	git commit -m "KJ287168 Pkt. 4"
 
