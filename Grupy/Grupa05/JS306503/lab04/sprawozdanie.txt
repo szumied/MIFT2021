@@ -1,0 +1,12 @@
+Jakub Straszak - sprawozdanie z laboratorium nr 4
+
+1. Opublikowanie obrazu z poprzednich zajec w serwisie Docker Hub
+https://hub.docker.com/repository/docker/jaakub999/grupa05_js306503
+
+2. Wybranie komunikatora:
+https://github.com/binhxn/node-chat-app
+
+3. Utworzenie pliku Dockerfile-build
+4. Utworzenie pliku Dockerfile-test
+5. Utworzenie pliku docker-compose.yml
+Po wpisaniu komendy 'sudo docker-compose up' komunikator zostal pobrany, nastepnie zbudowany i przetestowany
