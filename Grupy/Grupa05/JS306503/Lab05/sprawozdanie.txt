@@ -1,0 +1,9 @@
+Jakub Straszak - sprawozdanie z laboratorium nr 5
+
+0. Zapoznaem sie z diagramem, ktory byl prezentowny na zajeciach.
+1. Zapoznalem sie z Jenkinsem.
+2. Stowrzylem kontener dockerowy postepujac zgodnie z instrukcja.
+3. Nastepnie wrzucilem obraz Jenkinsa na mojego DockerHub'a.
+https://hub.docker.com/repository/docker/jaakub999/grupa05_js306503_lab05
+
+4. Na koniec, po kilku probach, udalo mi sie uruchomic docker-compose z poziomu Jenkinsa.
