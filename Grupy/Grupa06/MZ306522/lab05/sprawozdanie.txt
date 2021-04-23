@@ -37,3 +37,8 @@ docker run \
  		 --volume jenkins-data:/var/jenkins_home \
  		 --volume jenkins-docker-certs:/certs/client:ro \
  		 myjenkins-blueocean:1.1 
+
+3. Wypchnięcie obrazu Jenkinsa na Dockerhub:
+docker image tag myjenkins-blueocean:1.1 zachi225c/lab05:latest
+docker push zachi225c/lab05
+
