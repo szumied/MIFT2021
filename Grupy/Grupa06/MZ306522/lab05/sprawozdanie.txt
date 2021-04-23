@@ -46,4 +46,10 @@ docker push zachi225c/lab05
 
 Zalogowano się do jenkinsa w przeglądarce i skonfigurowano go
 
+curl -L https://github.com/docker/compose/releases/download/1.11.2/docker-compose-`uname -s`-`uname -m` > ~/docker-compose
+chmod +x ~/docker-compose
+sudo mv ~/docker-compose /usr/local/bin/docker-compose
+cd Grupy/Grupa06/MZ306522/lab05
+docker-compose up
+
 
