@@ -42,3 +42,8 @@ docker run \
 docker image tag myjenkins-blueocean:1.1 zachi225c/lab05:latest
 docker push zachi225c/lab05
 
+4. Utworzenie joba dla Jenkinsa.
+
+Zalogowano się do jenkinsa w przeglądarce i skonfigurowano go
+
+
