@@ -1,0 +1,2 @@
+2. Podążając za instrukcją zbudowano i uruchomiono obraz Jenkinsa za pomocą Dockera.
+
